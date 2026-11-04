@@ -8,6 +8,7 @@
 2. [CLAUDE.md](./CLAUDE.md)
 3. [docs/01-当前事实与版本.md](./docs/01-当前事实与版本.md) · [02](./docs/02-用户需求与验收矩阵.md) · [04](./docs/04-已知缺陷与接手顺序.md) · [05](./docs/05-环境测试与部署.md)
 4. 进度与待办：[PROGRESS.md](./PROGRESS.md)
+5. 服务器安装（1.4.6）：[docs/INSTALL-1.4.6.md](./docs/INSTALL-1.4.6.md)
 
 ## 源码布局
 
