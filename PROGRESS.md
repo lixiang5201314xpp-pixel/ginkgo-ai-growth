@@ -1,7 +1,7 @@
 # 银杏AI获客平台进度（离线修复轮）
 
 - 记录时间：2026-11-04 11:12 Asia/Shanghai (CST, UTC+8)；**云端入仓复验** 2026-11-04 UTC（Cursor Cloud Agent）
-- Git 仓：`lixiang5201314xpp-pixel/ginkgo-ai-growth`；分支 `cursor/offline-dedup-receipt-1099`
+- Git 仓：`lixiang5201314xpp-pixel/ginkgo-ai-growth`；PR [#1](https://github.com/lixiang5201314xpp-pixel/ginkgo-ai-growth/pull/1)（`cursor/offline-dedup-receipt-1099` → `main`）
 - 仓内源码：`work/ginkgo-growth-autocollect/`（含合入后的 `growth_acquisition.py`）
 - 本地 venv 复验副本：`/workspace/yinxing-dev/ginkgo-growth-autocollect`（与仓内同步）
 - 导出只读对照：`/workspace/yinxing-handoff-utf8/银杏AI获客平台_Claude交接_20261104`（未入 git）
