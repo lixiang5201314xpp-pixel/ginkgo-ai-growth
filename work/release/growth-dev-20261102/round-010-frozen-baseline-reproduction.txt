@@ -1,0 +1,73 @@
+test_another_public_post_cannot_be_a_receipt_for_this_lead (__main__.DeliverySourceTests.test_another_public_post_cannot_be_a_receipt_for_this_lead) ... FAIL
+test_manual_contact_cannot_bypass_original_source_binding (__main__.DeliverySourceTests.test_manual_contact_cannot_bypass_original_source_binding) ... FAIL
+test_legacy_pending_wrong_source_cannot_be_confirmed (__main__.DeliverySourceTests.test_legacy_pending_wrong_source_cannot_be_confirmed) ... FAIL
+test_same_douyin_note_identity_remains_usable (__main__.DeliverySourceTests.test_same_douyin_note_identity_remains_usable) ... ok
+test_same_xhs_note_alias_and_signature_remain_usable (__main__.DeliverySourceTests.test_same_xhs_note_alias_and_signature_remain_usable) ... ok
+test_unknown_source_query_identity_cannot_be_dropped (__main__.DeliverySourceTests.test_unknown_source_query_identity_cannot_be_dropped) ... FAIL
+test_wrong_xhs_id_cannot_be_hidden_behind_the_other_route (__main__.DeliverySourceTests.test_wrong_xhs_id_cannot_be_hidden_behind_the_other_route) ... FAIL
+test_same_kuaishou_public_post_with_tracking_parameters_remains_usable (__main__.DeliverySourceTests.test_same_kuaishou_public_post_with_tracking_parameters_remains_usable) ... ok
+test_search_page_cannot_stand_in_for_a_post_receipt (__main__.DeliverySourceTests.test_search_page_cannot_stand_in_for_a_post_receipt) ... FAIL
+test_same_public_douyin_overlay_is_usable_without_a_second_send (__main__.DeliverySourceTests.test_same_public_douyin_overlay_is_usable_without_a_second_send) ... ok
+test_a_different_selected_overlay_cannot_be_used_as_evidence (__main__.DeliverySourceTests.test_a_different_selected_overlay_cannot_be_used_as_evidence) ... FAIL
+test_inbound_manual_evidence_keeps_existing_platform_validation (__main__.DeliverySourceTests.test_inbound_manual_evidence_keeps_existing_platform_validation) ... ok
+
+======================================================================
+FAIL: test_another_public_post_cannot_be_a_receipt_for_this_lead (__main__.DeliverySourceTests.test_another_public_post_cannot_be_a_receipt_for_this_lead)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Documents\Codex\2026-09-15\new-chat\work\ginkgo-growth-autocollect\test_delivery_source.py", line 14, in test_another_public_post_cannot_be_a_receipt_for_this_lead
+    self.assertEqual(result.status_code,400,result.json)
+AssertionError: 201 != 400 : {'contact_count': 0, 'item': {'account': '模拟球馆', 'actor': '本机管理员', 'checked_at': None, 'content': '模拟回复：请查看本平台课程安排。', 'created_at': '2026-11-02T04:02:12+00:00', 'evidence_url': 'https://www.douyin.com/video/7702708741762243571', 'id': 1, 'lead_id': '6b9975d94a2455cc9536', 'note': '', 'request_id': 'synthetic-request-0001', 'status': 'pending'}, 'recorded': True, 'sent': False}
+
+======================================================================
+FAIL: test_manual_contact_cannot_bypass_original_source_binding (__main__.DeliverySourceTests.test_manual_contact_cannot_bypass_original_source_binding)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Documents\Codex\2026-09-15\new-chat\work\ginkgo-growth-autocollect\test_delivery_source.py", line 23, in test_manual_contact_cannot_bypass_original_source_binding
+    self.assertEqual(result.status_code,400,result.json)
+AssertionError: 200 != 400 : {'item': {'alias': '', 'assessment': {'district': '青羊', 'eligible': True, 'explicit_demand': True, 'intent': 'training', 'local': True, 'reasons': ['原文或核对的来源上下文明示成都', '明确涉及乒乓球', '有明确询问或寻求服务的语句'], 'rejected': False, 'score': 100, 'warnings': []}, 'booking_ref': '', 'city_evidence': '', 'confirmed': 1, 'contact_count': 1, 'created_at': '2026-11-02T04:02:12+00:00', 'excerpt': '成都青羊想学乒乓球，请问哪里有基础教练？', 'fingerprint': '64508e3e02f98d9d42a2b95e7afc152bcf4a29beae2c53616225f9da1eab4d00', 'follow_at': None, 'id': '16cb1688e597077402f0', 'last_contact_at': '2026-11-02T04:02:12+00:00', 'latest_reply': '', 'person_key': '64508e3e02f98d9d42a2b95e7afc152bcf4a29beae2c53616225f9da1eab4d00', 'platform': 'douyin', 'posted_at': '2026-11-02T04:02:12+00:00', 'relation': 'public_request', 'reply_version': 0, 'source_url': 'https://www.douyin.com/video/7702708741762243570', 'stage': 'contacted', 'stopped': 0, 'updated_at': '2026-11-02T04:02:12+00:00'}, 'platform_verified': False, 'recorded': True}
+
+======================================================================
+FAIL: test_legacy_pending_wrong_source_cannot_be_confirmed (__main__.DeliverySourceTests.test_legacy_pending_wrong_source_cannot_be_confirmed)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Documents\Codex\2026-09-15\new-chat\work\ginkgo-growth-autocollect\test_delivery_source.py", line 33, in test_legacy_pending_wrong_source_cannot_be_confirmed
+    self.assertEqual(result.status_code,400,result.json)
+AssertionError: 200 != 400 : {'changed': True, 'item': {'alias': '', 'assessment': {'district': '青羊', 'eligible': True, 'explicit_demand': True, 'intent': 'training', 'local': True, 'reasons': ['原文或核对的来源上下文明示成都', '明确涉及乒乓球', '有明确询问或寻求服务的语句'], 'rejected': False, 'score': 100, 'warnings': []}, 'booking_ref': '', 'city_evidence': '', 'confirmed': 1, 'contact_count': 1, 'created_at': '2026-11-02T04:02:13+00:00', 'excerpt': '成都青羊想学乒乓球，请问哪里有基础教练？', 'fingerprint': '64508e3e02f98d9d42a2b95e7afc152bcf4a29beae2c53616225f9da1eab4d00', 'follow_at': None, 'id': 'c94df8f6cdfb6e2a7cb3', 'last_contact_at': '2026-11-02T04:02:13+00:00', 'latest_reply': '', 'person_key': '64508e3e02f98d9d42a2b95e7afc152bcf4a29beae2c53616225f9da1eab4d00', 'platform': 'douyin', 'posted_at': '2026-11-02T04:02:13+00:00', 'relation': 'public_request', 'reply_version': 0, 'source_url': 'https://www.douyin.com/video/7702708741762243570', 'stage': 'contacted', 'stopped': 0, 'updated_at': '2026-11-02T04:02:13+00:00'}, 'operator_verified': True, 'platform_verified': False, 'sent': False}
+
+======================================================================
+FAIL: test_unknown_source_query_identity_cannot_be_dropped (__main__.DeliverySourceTests.test_unknown_source_query_identity_cannot_be_dropped)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Documents\Codex\2026-09-15\new-chat\work\ginkgo-growth-autocollect\test_delivery_source.py", line 56, in test_unknown_source_query_identity_cannot_be_dropped
+    self.assertEqual(result.status_code,400,result.json)
+AssertionError: 201 != 400 : {'contact_count': 0, 'item': {'account': '模拟球馆', 'actor': '本机管理员', 'checked_at': None, 'content': '模拟回复：请查看本平台课程安排。', 'created_at': '2026-11-02T04:02:13+00:00', 'evidence_url': 'https://channels.weixin.qq.com/example?objectId=second', 'id': 1, 'lead_id': '93f4cf952f463b07a77a', 'note': '', 'request_id': 'synthetic-request-0001', 'status': 'pending'}, 'recorded': True, 'sent': False}
+
+======================================================================
+FAIL: test_wrong_xhs_id_cannot_be_hidden_behind_the_other_route (__main__.DeliverySourceTests.test_wrong_xhs_id_cannot_be_hidden_behind_the_other_route)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Documents\Codex\2026-09-15\new-chat\work\ginkgo-growth-autocollect\test_delivery_source.py", line 62, in test_wrong_xhs_id_cannot_be_hidden_behind_the_other_route
+    self.assertEqual(result.status_code,400,result.json)
+AssertionError: 201 != 400 : {'contact_count': 0, 'item': {'account': '模拟球馆', 'actor': '本机管理员', 'checked_at': None, 'content': '模拟回复：请查看本平台课程安排。', 'created_at': '2026-11-02T04:02:13+00:00', 'evidence_url': 'https://www.xiaohongshu.com/discovery/item/6ae233c7000000003501eedc', 'id': 1, 'lead_id': '1735f7f0d54b63dda264', 'note': '', 'request_id': 'synthetic-request-0001', 'status': 'pending'}, 'recorded': True, 'sent': False}
+
+======================================================================
+FAIL: test_search_page_cannot_stand_in_for_a_post_receipt (__main__.DeliverySourceTests.test_search_page_cannot_stand_in_for_a_post_receipt)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Documents\Codex\2026-09-15\new-chat\work\ginkgo-growth-autocollect\test_delivery_source.py", line 73, in test_search_page_cannot_stand_in_for_a_post_receipt
+    self.assertEqual(result.status_code,400,result.json)
+AssertionError: 201 != 400 : {'contact_count': 0, 'item': {'account': '模拟球馆', 'actor': '本机管理员', 'checked_at': None, 'content': '模拟回复：请查看本平台课程安排。', 'created_at': '2026-11-02T04:02:13+00:00', 'evidence_url': 'https://www.douyin.com/search/成都乒乓球', 'id': 1, 'lead_id': 'c021109b3c474d0d5b13', 'note': '', 'request_id': 'synthetic-request-0001', 'status': 'pending'}, 'recorded': True, 'sent': False}
+
+======================================================================
+FAIL: test_a_different_selected_overlay_cannot_be_used_as_evidence (__main__.DeliverySourceTests.test_a_different_selected_overlay_cannot_be_used_as_evidence)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Documents\Codex\2026-09-15\new-chat\work\ginkgo-growth-autocollect\test_delivery_source.py", line 86, in test_a_different_selected_overlay_cannot_be_used_as_evidence
+    self.assertEqual(result.status_code,400,result.json)
+AssertionError: 201 != 400 : {'contact_count': 0, 'item': {'account': '模拟球馆', 'actor': '本机管理员', 'checked_at': None, 'content': '模拟回复：请查看本平台课程安排。', 'created_at': '2026-11-02T04:02:14+00:00', 'evidence_url': 'https://www.douyin.com/search/成都乒乓球?modal_id=7702708741762243571', 'id': 1, 'lead_id': 'db1899e11eedeb3bb9b3', 'note': '', 'request_id': 'synthetic-request-0001', 'status': 'pending'}, 'recorded': True, 'sent': False}
+
+----------------------------------------------------------------------
+Ran 12 tests in 1.833s
+
+FAILED (failures=7)

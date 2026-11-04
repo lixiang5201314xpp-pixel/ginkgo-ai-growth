@@ -1,0 +1,21 @@
+{
+  "version": "growth-channels-1.0.0",
+  "archive": "C:\\Users\\Administrator\\Documents\\Codex\\2026-09-15\\new-chat\\work\\release\\growth-channels-20261030\\GinkgoOfficialChannels-1.0.0.zip",
+  "sha256": "8703483746bd8063feb0b5d53c52fe30e750731091e17a429a9d1dec95cf9c61",
+  "bytes": 1922599,
+  "files": 358,
+  "installed": true,
+  "platform_messages_sent": 0,
+  "server_staged": true,
+  "server_directory": "C:\\Services\\GinkgoTrainingAutoCancel\\GinkgoOfficialChannels-1.0.0",
+  "ui_verified": true,
+  "xhs_ticket": "J202610300009",
+  "awaiting": "Douyin official Webhook credentials and message testing; XHS ticket J202610300009; Kuaishou official API availability.",
+  "installation_backup": "C:\\Services\\GinkgoTrainingAutoCancel\\GinkgoOfficialChannels-1.0.0\\backups\\channels-20261030-182452",
+  "public_health_verified": true,
+  "wechat_existing_token_verified_by_owner": true,
+  "wechat_callback_verified": true,
+  "wechat_ai_enabled": true,
+  "wechat_live_reply_verified_by_owner": true,
+  "wechat_live_test_reported_at": "2026-10-30"
+}

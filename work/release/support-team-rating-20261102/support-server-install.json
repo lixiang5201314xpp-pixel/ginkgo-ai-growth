@@ -1,0 +1,21 @@
+{
+  "version": "ginkgo-support-1.1.0",
+  "success": true,
+  "backup": "C:\\Services\\GinkgoTrainingAutoCancel\\GinkgoSupport-1.1.0\\backups\\support-20261102-142104",
+  "business_data_modified": false,
+  "platform_messages_sent": 0,
+  "service": "RUNNING",
+  "installed_payload_sha256": {
+    "growth_ai.py": "26705798430fb47a2a864340d8d289dda266b90838788229919981034591fade",
+    "growth_channels.py": "3ef7007c38bbf14b3c3afb4d8f1a090311d78f961e1a173e6d635b76db1d9a8b",
+    "growth_playbook.json": "3b0305be9101115de11d951df9ae756f8530b0f76ed914e4192404e87b812081"
+  },
+  "retained_file_sha256": {
+    "match_center.py": "814c72d35e0c7fec1cdd00e8f58a4477d5e5ed1d75cb60aadad6d375df9620d4",
+    "identity.py": "1f2ad40f1912574a76bcfe2d7ef418807be7fd82de6c9ff5353e9cbadff485f4",
+    "growth_acquisition.py": "0e9fb459de9ddab2fea31327d49ae4acbab18b97f73b7a307146c5f1c52aa91c",
+    "growth_collection.py": "a47484e672d21a493f9f70aa5460932a070a92dd684e6eeda0918b243b7a1a4b",
+    "growth_external.py": "b17349c8adfdf3e7c69aceaa3dc5dd8268ef463074b8105e624d3558e014d835",
+    "growth_automation.py": "ec6b9cf45f4e0217ea2d9849a245a643d0e98ed0f98fb625d2e16d1d62fcc35b"
+  }
+}

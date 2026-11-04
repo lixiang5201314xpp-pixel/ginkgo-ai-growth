@@ -1,0 +1,13 @@
+'use strict';
+const root='/api/match-center/growth',cid=location.pathname.split('/').filter(Boolean).pop(),form=document.querySelector('#inquiryForm');
+const escapeHtml=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+fetch(root+'/public/campaign/'+encodeURIComponent(cid)).then(r=>{if(!r.ok)throw Error('咨询入口暂不可用');return r.json()}).then(d=>{form.interest.value=d.campaign.intent;const names={douyin:"抖音",kuaishou:"快手",xiaohongshu:"小红书",channels:"微信"};document.querySelector("#miniappGuide").textContent="在"+names[d.campaign.platform]+"内打开银杏奖牌小程序，进入比赛或训练：";document.querySelector("#platformNote").textContent="这是"+names[d.campaign.platform]+"用户的咨询入口。请使用该平台的银杏奖牌小程序报名，具体场次及课程以小程序实时记录为准。";document.querySelector('#publicEvents').innerHTML=d.catalog.events.slice(0,3).map(e=>`<div class="event"><strong>${escapeHtml(e.title)}</strong><p>${escapeHtml(e.time_text)} · 费用及余位以小程序实时页面为准</p></div>`).join('')}).catch(e=>{document.querySelector('#publicEvents').textContent=e.message;document.querySelector('#submitInquiry').disabled=true});
+form.onsubmit=async e=>{e.preventDefault();const b=document.querySelector('#submitInquiry'),result=document.querySelector('#inquiryResult');b.disabled=true;result.textContent='正在提交…';try{const body=Object.fromEntries(new FormData(form));body.consent=form.consent.checked;body.adult_or_guardian=form.adult_or_guardian.checked;body.campaign_id=cid;const r=await fetch(root+'/public/inquiry',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body),signal:AbortSignal.timeout(15000)}),d=await r.json();if(!r.ok)throw Error(d.error||'提交失败');form.reset();result.className='muted positive';result.textContent=d.message;b.textContent='咨询已提交'}catch(error){result.className='error';result.textContent=error.message;b.disabled=false}};
+
+let chatToken='';
+document.querySelector('#chatForm').onsubmit=async e=>{
+ e.preventDefault();const f=e.target,b=document.querySelector('#askAI'),result=document.querySelector('#chatResult');b.disabled=true;result.textContent='AI正在查看问题，通常需要几秒钟…';
+ try{const r=await fetch(root+'/public/chat',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({campaign_id:cid,question:f.question.value,consent:f.aiConsent.checked,conversation_token:chatToken}),signal:AbortSignal.timeout(40000)});const d=await r.json();if(!r.ok)throw Error(d.error||'暂时无法回复，请提交下方人工咨询');chatToken=d.conversation_token;result.className='note preserveLines';result.textContent=d.reply+'\n\n'+d.destination.guide;f.question.value='';b.textContent='继续提问';}
+ catch(error){result.className='error';result.textContent=error.message;}
+ finally{b.disabled=false;}
+};

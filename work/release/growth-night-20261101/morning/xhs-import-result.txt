@@ -1,0 +1,108 @@
+- complementary:
+  - generic: 银
+  - strong: 银杏乒乓
+  - generic: 获客工作台
+  - paragraph: WORKSPACE
+  - navigation:
+    - button "◉ 今日工作台":
+      - text: ◉
+      - generic: 今日工作台
+    - button "↗ 外部平台获客":
+      - text: ↗
+      - generic: 外部平台获客
+    - button "⌕ 补充网页搜索":
+      - text: ⌕
+      - generic: 补充网页搜索
+    - button "▤ 需求与跟进 0":
+      - text: ▤
+      - generic: 需求与跟进
+      - generic: "0"
+    - button "✧ AI 自动执行":
+      - text: ✧
+      - generic: AI 自动执行
+    - button "⚙ AI 设置":
+      - text: ⚙
+      - generic: AI 设置
+    - button "▧ 内容获客":
+      - text: ▧
+      - generic: 内容获客
+    - button "↗ 报名承接":
+      - text: ↗
+      - generic: 报名承接
+    - button "☏ 主动咨询":
+      - text: ☏
+      - generic: 主动咨询
+    - button "⇆ 渠道接入":
+      - text: ⇆
+      - generic: 渠道接入
+  - text: 成都 · 比赛与训练
+  - paragraph: 先回应需求，再邀请到店。
+  - button "退出工作台"
+- main:
+  - generic: 银杏乒乓球俱乐部 / 外部平台获客
+  - generic: 云端运行
+  - button "＋ 记录一条需求"
+  - paragraph: EXTERNAL PLATFORMS
+  - heading "去外部平台找客户。" [level=1]
+  - generic: 从抖音、快手、视频号、小红书等外部平台的公开内容与评论找人，银杏奖牌只承接报名。
+  - button "录入平台原文 →"
+  - button "抖音"
+  - button "快手"
+  - button "微信视频号"
+  - button "小红书"
+  - button "哔哩哔哩"
+  - button "百度贴吧"
+  - text: 本平台原文需求
+  - strong: "1"
+  - text: 已核实可回应
+  - strong: "0"
+  - text: 已登记联系
+  - strong: "1"
+  - text: 有凭据报名
+  - strong: "0"
+  - paragraph: 01 · 抖音站内查找
+  - heading "打开具体内容，再看评论" [level=2]
+  - paragraph: 站内搜索＋当前页评论助手。优先查看原文明示的成都训练、参赛或约球需求。
+  - strong: 成都 乒乓球 找教练
+  - link "去抖音搜索 ↗":
+    - /url: https://www.douyin.com/search/%E6%88%90%E9%83%BD%20%E4%B9%92%E4%B9%93%E7%90%83%20%E6%89%BE%E6%95%99%E7%BB%83
+  - strong: 成都 乒乓球 比赛报名
+  - link "去抖音搜索 ↗":
+    - /url: https://www.douyin.com/search/%E6%88%90%E9%83%BD%20%E4%B9%92%E4%B9%93%E7%90%83%20%E6%AF%94%E8%B5%9B%E6%8A%A5%E5%90%8D
+  - strong: 成都 零基础 学乒乓球
+  - link "去抖音搜索 ↗":
+    - /url: https://www.douyin.com/search/%E6%88%90%E9%83%BD%20%E9%9B%B6%E5%9F%BA%E7%A1%80%20%E5%AD%A6%E4%B9%92%E4%B9%93%E7%90%83
+  - strong: 成都 乒乓球 找球搭子
+  - link "去抖音搜索 ↗":
+    - /url: https://www.douyin.com/search/%E6%88%90%E9%83%BD%20%E4%B9%92%E4%B9%93%E7%90%83%20%E6%89%BE%E7%90%83%E6%90%AD%E5%AD%90
+  - paragraph: 打开这些站内搜索链接不会消耗 DeepSeek 的网页搜索次数。需要登录时，请在平台正常登录后操作。
+  - paragraph: 02 · 原文采集与 AI 整理
+  - heading "减少复制、逐条录入" [level=2]
+  - list:
+    - listitem: 安装一次“银杏外部平台获客助手”。
+    - listitem: 打开相关视频／笔记／帖子，展开评论，点助手“读取当前已展示评论”。
+    - listitem: 送到工作台，核对原文和时间；勾选后导入并自动排队准备回复。
+  - link "下载采集助手 ZIP":
+    - /url: /api/match-center/growth/assets/browser-helper.zip
+  - button "安装与使用步骤"
+  - generic: 助手每次最多读取20条已展示的明确求助；不读取私信或 Cookie，不在后台滚动抓取。站点改版未识别时，可选中一条原文读取。视频号目前使用手机检索并复制原文。
+  - paragraph: 03 · 在原平台回应，邀请到小程序
+  - heading "回复和报名分开留证" [level=2]
+  - paragraph: AI 根据已核对的需求准备回复，说明真实比赛或训练信息，并引导本平台“银杏奖牌”小程序。平台自动发评论／私信尚未接入，发送后再登记实际联系和报名凭据。
+  - button "查看外部需求与回复 →"
+  - button "准备已有需求的回复"
+  - button "补充网页搜索（1 条待核实）"
+  - button "粘贴采集批次"
+  - text: 银杏获客 1.3 · 客户与报名按实际凭据登记
+  - generic: 微信 AI 接待运行中
+- button "关闭": ×
+- paragraph: AI WORKFLOW · 执行记录
+- heading "回应具体问题" [level=2]
+- generic: 执行完成
+- paragraph: 任务完成，执行结果已保存
+- progressbar
+- heading "02 回应准备" [level=3]
+- paragraph: 分析 1 条需求 · 准备 1 条回复 · 0 条待核实 · 跳过 0 条未变化需求
+- paragraph: AI 分析不会把待核实网页或未知时间自动确认为有效客户，也不等同发送消息。
+- button "查看任务中心"
+- paragraph: 已发生的 API 调用不会因关闭窗口或取消任务而撤销；未接通的平台发送不会标记成功。

@@ -1,0 +1,47 @@
+[
+  {
+    "path": "/health",
+    "status": 200,
+    "bytes": 701,
+    "version": "batch36.8.1"
+  },
+  {
+    "path": "/growth/health",
+    "status": 200,
+    "bytes": 66,
+    "version": "ginkgo-growth-1.1.0"
+  },
+  {
+    "path": "/growth/workflow/health",
+    "status": 200,
+    "bytes": 50,
+    "version": "growth-workflow-1.2.0"
+  },
+  {
+    "path": "/growth/channels/health",
+    "status": 200,
+    "bytes": 50,
+    "version": "growth-channels-1.0.0"
+  },
+  {
+    "path": "/growth/assets/workflow.js",
+    "status": 200,
+    "bytes": 7876
+  },
+  {
+    "path": "/growth/api/workflow",
+    "status": 401
+  },
+  {
+    "path": "/growth/api/workflow/plans",
+    "status": 401
+  },
+  {
+    "path": "/growth/api/workflow/content",
+    "status": 401
+  },
+  {
+    "path": "/growth/api/workflow/content/export",
+    "status": 401
+  }
+]

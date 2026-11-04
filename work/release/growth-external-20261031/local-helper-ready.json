@@ -1,0 +1,15 @@
+{
+  "folder": "C:\\Users\\Administrator\\Desktop\\银杏外部平台获客助手-1.3.0",
+  "version": "1.3.0",
+  "files": [
+    "bridge.js",
+    "capture.js",
+    "manifest.json",
+    "popup.css",
+    "popup.html",
+    "popup.js",
+    "README.txt"
+  ],
+  "installed_in_chrome": true,
+  "confirmed_by": "Owner result and enabled-extension screenshot"
+}

@@ -1,0 +1,12 @@
+{
+  "version": "ginkgo-growth-1.0.0",
+  "success": true,
+  "backup": "C:\\Services\\GinkgoTrainingAutoCancel\\GinkgoGrowth-1.0.0\\backups\\growth-20261030-093750",
+  "business_database_modified": false,
+  "platform_messages_sent": 0,
+  "status": "RUNNING",
+  "verified_at": "2026-10-30T09:37:53.900034",
+  "installer_version": "1.0.1",
+  "url": "https://qiuchen.yinxingpingpang.com/api/match-center/growth/",
+  "auto_send": false
+}

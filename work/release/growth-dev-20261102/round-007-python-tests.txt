@@ -1,0 +1,8 @@
+.............................................................C:\Users\User\AppData\Local\KaiqiuPython312\Lib\unittest\case.py:589: ResourceWarning: unclosed file <_io.BufferedReader name='C:\\Users\\Administrator\\Documents\\Codex\\2026-09-15\\new-chat\\work\\ginkgo-growth-autocollect\\growth-web/index.html'>
+  if method() is not None:
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+.........................................................................................................................................................................................................................................................................................................................................
+----------------------------------------------------------------------
+Ran 390 tests in 68.530s
+
+OK

@@ -1,0 +1,18 @@
+{
+  "business_data_changed": false,
+  "checked_at": "2026-11-02T03:08:48.8241823+00:00",
+  "checks": [
+    {
+      "status": 200,
+      "health_status": "ok",
+      "path": "/growth/external/health",
+      "version": "growth-external-1.4.1"
+    },
+    {
+      "status": 200,
+      "health_status": "ok",
+      "path": "/growth/channels/health",
+      "version": "growth-channels-1.0.0"
+    }
+  ]
+}

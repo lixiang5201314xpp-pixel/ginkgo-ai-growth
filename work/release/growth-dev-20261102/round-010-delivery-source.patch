@@ -1,0 +1,74 @@
+--- frozen-1.4.5/growth_acquisition.py
++++ candidate/growth_acquisition.py
+@@ -127,6 +127,43 @@
+             return 'https://www.douyin.com/video/' + original[1]
+     # Keep a verifiable original URL; no server-side URL fetching or redirect following.
+     return urllib.parse.urlunsplit((p.scheme, p.netloc, p.path, p.query, ''))
++
++
++def public_original_identity(platform, url):
++    """Compare public originals, not platform membership or a guessed redirect.
++
++    Known public note/video routes have stable IDs. For opaque routes preserve
++    query identity; dropping it could confuse distinct Channels posts.
++    """
++    p = urllib.parse.urlsplit(validate_source(platform, url))
++    host, path = (p.hostname or '').lower(), p.path.rstrip('/')
++    if platform == 'douyin' and host in ('douyin.com', 'www.douyin.com'):
++        original = re.fullmatch(r'/(?:video|note)/(\d{10,25})', path)
++        if original:
++            return ('douyin', original[1])
++        # A verified public search overlay exposes its selected work in modal_id.
++        # This was observed in the normal UI; a plain search URL is not evidence.
++        modal = urllib.parse.parse_qs(p.query).get('modal_id', [])
++        if path.startswith('/search/') and len(modal) == 1 and re.fullmatch(r'\d{10,25}', modal[0]):
++            return ('douyin', modal[0])
++    if platform == 'xiaohongshu' and host in ('xiaohongshu.com', 'www.xiaohongshu.com'):
++        original = re.fullmatch(r'/(?:explore|discovery/item)/([a-f0-9]{24})', path)
++        if original:
++            return ('xiaohongshu', original[1])
++    if platform == 'kuaishou' and host == 'www.kuaishou.com':
++        original = re.fullmatch(r'/short-video/([a-zA-Z0-9]{10,30})', path)
++        if original:
++            return ('kuaishou', original[1])
++    if not path or re.match(r'^/(?:search|search_result|profile|user)(?:/|$)', path):
++        raise ValueError('发送凭据须为具体原帖，不能使用主页、个人页或搜索列表')
++    return (host, path, tuple(sorted(urllib.parse.parse_qsl(p.query, keep_blank_values=True))))
++
++
++def validate_delivery_evidence(lead, url):
++    evidence = validate_source(lead['platform'], url)
++    if lead['relation'] == 'public_request' and public_original_identity(lead['platform'], evidence) != public_original_identity(lead['platform'], lead['source_url']):
++        raise ValueError('发送凭据与这条需求的原帖不一致，请核对同一作品的公开链接')
++    return evidence
+ 
+ 
+ def classify(excerpt, city_evidence='', posted_at=None):
+@@ -607,7 +644,7 @@
+             row = c.execute('SELECT * FROM leads WHERE id=?',(lid,)).fetchone()
+             if not row:raise LookupError('线索不存在')
+             lead = store.view(row)
+-            evidence = validate_source(lead['platform'],d.get('evidence_url'))
++            evidence = validate_delivery_evidence(lead,d.get('evidence_url'))
+             prior = c.execute('SELECT * FROM delivery_attempts WHERE request_id=?',(request_id,)).fetchone()
+             if prior:
+                 if any(prior[k]!=v for k,v in [('lead_id',lid),('account',account),('content',content),('evidence_url',evidence)]):
+@@ -640,6 +677,9 @@
+             if attempt['status']==status:return jsonify(item=dict(attempt),changed=False,contact_count=lead['contact_count'],sent=False)
+             if attempt['status']=='confirmed':return jsonify(error='已核实发布的记录不能改回未发布'),409
+             if status=='confirmed':
++                # Old pending receipts also need source validation at the point
++                # they would increase the contact count. Do not rewrite history.
++                validate_delivery_evidence(lead,attempt['evidence_url'])
+                 block=store.contact_guard(lead,include_delivery=False)
+                 if block:return jsonify(error=block),409
+                 c.execute("UPDATE leads SET stage='contacted',contact_count=contact_count+1,last_contact_at=?,updated_at=? WHERE id=?",(stamp(),stamp(),lid))
+@@ -681,7 +721,7 @@
+             block = store.contact_guard(lead)
+             if block: return jsonify(error=block), 409
+             content = mask_contacts(text(d.get('content'), 800))
+-            evidence = validate_source(lead['platform'], d.get('evidence_url'))
++            evidence = validate_delivery_evidence(lead, d.get('evidence_url'))
+             if d.get('sent_in_platform') is not True or not content or len(text(d.get('account'), 60)) < 2:
+                 raise ValueError('请填写实际发送账号、内容、原文凭据，并确认已在平台发送')
+             c.execute("UPDATE leads SET stage='contacted',contact_count=contact_count+1,last_contact_at=?,updated_at=? WHERE id=?", (stamp(), stamp(), lid))

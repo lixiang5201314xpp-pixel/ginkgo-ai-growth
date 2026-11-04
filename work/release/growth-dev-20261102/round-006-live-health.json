@@ -1,0 +1,11 @@
+{
+  "checked_at": "2026-11-01T22:06:14.8705136+00:00",
+  "external": {
+    "status": "ok",
+    "version": "growth-external-1.4.1"
+  },
+  "channels": {
+    "status": "ok",
+    "version": "growth-channels-1.0.0"
+  }
+}

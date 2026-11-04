@@ -1,0 +1,5 @@
+# Minimal offline-growth test dependencies; review versions in the target environment.
+Flask>=3.0,<4
+pycryptodome>=3.20,<4
+# Optional, only for authorized SQL integration and existing deployment tooling:
+# pymssql>=2.3,<3

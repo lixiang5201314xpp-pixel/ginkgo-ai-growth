@@ -1,0 +1,14 @@
+[
+  {
+    "endpoint": "external/health",
+    "status": "ok",
+    "version": "growth-external-1.4.1",
+    "tls_validation": "Windows default"
+  },
+  {
+    "endpoint": "channels/health",
+    "status": "ok",
+    "version": "growth-channels-1.0.0",
+    "tls_validation": "Windows default"
+  }
+]

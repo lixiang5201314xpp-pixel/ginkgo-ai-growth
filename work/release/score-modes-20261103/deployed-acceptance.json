@@ -1,0 +1,81 @@
+{
+  "passed": true,
+  "checked_at": "2026-11-03T15:58:19.868038+00:00",
+  "version": "miniapp-update-1.4.0",
+  "wechat_version": "36.17.0",
+  "installed_files_verified": 11,
+  "retained_hashes_verified": 10,
+  "versions": {
+    "/score-entry/meta": "score-entry-1.0.0",
+    "/four-team/meta": "four-team-1.2.0",
+    "/batch-signup/meta": "batch-signup-1.2.0",
+    "/event-settings/meta": "event-settings-1.0.0",
+    "/team-rating/meta": "team-singles-rating-1.0.0",
+    "/organizer-grants/meta": "organizer-grants-1.1.0",
+    "/growth/channels/health": "growth-channels-1.0.1",
+    "/growth/external/health": "growth-external-1.4.1"
+  },
+  "schema_columns": [
+    {
+      "table_name": "MC_TieGames",
+      "column_name": "forfeit_a"
+    },
+    {
+      "table_name": "MC_TieGames",
+      "column_name": "forfeit_b"
+    },
+    {
+      "table_name": "MC_TieGames",
+      "column_name": "rating_eligible"
+    },
+    {
+      "table_name": "MC_RatingLog",
+      "column_name": "tie_game_id"
+    },
+    {
+      "table_name": "MC_Users",
+      "column_name": "demographics_source"
+    },
+    {
+      "table_name": "MC_Users",
+      "column_name": "manual_age"
+    },
+    {
+      "table_name": "MC_Users",
+      "column_name": "manual_age_on"
+    },
+    {
+      "table_name": "MC_Groups",
+      "column_name": "team_format_note"
+    },
+    {
+      "table_name": "MC_Entries",
+      "column_name": "on_behalf_age"
+    }
+  ],
+  "unique_index": {
+    "is_unique": true,
+    "has_filter": true,
+    "filter_definition": "([tie_game_id] IS NOT NULL AND [voided]=(0))"
+  },
+  "team_seat_unique_keys": {
+    "PK_MC_TeamPlayers": [
+      "id"
+    ],
+    "UX_MC_TeamPlayers_seat": [
+      "entry_id",
+      "seat"
+    ]
+  },
+  "preexisting_ties_opted_in": 2,
+  "team_rubber_ledger_rows": 4,
+  "frontend_matches_verified_snapshot": true,
+  "frontend_source_files_verified": 357,
+  "backend_deployed": true,
+  "frontend_uploaded": true,
+  "backup": "C:\\Services\\GinkgoTrainingAutoCancel\\GinkgoMiniapp-36.17.0\\backups\\miniapp-20261103-235504",
+  "real_customer_messages_sent": 0,
+  "real_registrations_created_by_verification": 0,
+  "frontend_upload_evidence": "frontend-upload.json",
+  "uploaded_at": "2026-11-03T16:00:09.451713+00:00"
+}

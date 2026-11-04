@@ -1,0 +1,349 @@
+{
+  "passed": true,
+  "installer_checks": 10,
+  "layouts": [
+    {
+      "baseline": "1.4.1",
+      "layout": "overlay-preflight",
+      "suite": "test_growth.py",
+      "tests": 48,
+      "passed": true
+    },
+    {
+      "baseline": "1.4.1",
+      "layout": "overlay-preflight",
+      "suite": "test_ai.py",
+      "tests": 41,
+      "passed": true
+    },
+    {
+      "baseline": "1.4.1",
+      "layout": "overlay-preflight",
+      "suite": "test_workflow.py",
+      "tests": 20,
+      "passed": true
+    },
+    {
+      "baseline": "1.4.1",
+      "layout": "overlay-preflight",
+      "suite": "test_external.py",
+      "tests": 30,
+      "passed": true
+    },
+    {
+      "baseline": "1.4.1",
+      "layout": "overlay-preflight",
+      "suite": "test_delivery.py",
+      "tests": 28,
+      "passed": true
+    },
+    {
+      "baseline": "1.4.1",
+      "layout": "overlay-preflight",
+      "suite": "test_collection.py",
+      "tests": 79,
+      "passed": true
+    },
+    {
+      "baseline": "1.4.1",
+      "layout": "overlay-preflight",
+      "suite": "test_job_intent.py",
+      "tests": 13,
+      "passed": true
+    },
+    {
+      "baseline": "1.4.1",
+      "layout": "overlay-preflight",
+      "suite": "test_practice_intent.py",
+      "tests": 10,
+      "passed": true
+    },
+    {
+      "baseline": "1.4.1",
+      "layout": "installed-runtime",
+      "suite": "test_growth.py",
+      "tests": 48,
+      "passed": true
+    },
+    {
+      "baseline": "1.4.1",
+      "layout": "installed-runtime",
+      "suite": "test_ai.py",
+      "tests": 41,
+      "passed": true
+    },
+    {
+      "baseline": "1.4.1",
+      "layout": "installed-runtime",
+      "suite": "test_workflow.py",
+      "tests": 20,
+      "passed": true
+    },
+    {
+      "baseline": "1.4.1",
+      "layout": "installed-runtime",
+      "suite": "test_external.py",
+      "tests": 30,
+      "passed": true
+    },
+    {
+      "baseline": "1.4.1",
+      "layout": "installed-runtime",
+      "suite": "test_delivery.py",
+      "tests": 28,
+      "passed": true
+    },
+    {
+      "baseline": "1.4.1",
+      "layout": "installed-runtime",
+      "suite": "test_collection.py",
+      "tests": 79,
+      "passed": true
+    },
+    {
+      "baseline": "1.4.1",
+      "layout": "installed-runtime",
+      "suite": "test_job_intent.py",
+      "tests": 13,
+      "passed": true
+    },
+    {
+      "baseline": "1.4.1",
+      "layout": "installed-runtime",
+      "suite": "test_practice_intent.py",
+      "tests": 10,
+      "passed": true
+    },
+    {
+      "baseline": "1.4.2",
+      "layout": "overlay-preflight",
+      "suite": "test_growth.py",
+      "tests": 48,
+      "passed": true
+    },
+    {
+      "baseline": "1.4.2",
+      "layout": "overlay-preflight",
+      "suite": "test_ai.py",
+      "tests": 41,
+      "passed": true
+    },
+    {
+      "baseline": "1.4.2",
+      "layout": "overlay-preflight",
+      "suite": "test_workflow.py",
+      "tests": 20,
+      "passed": true
+    },
+    {
+      "baseline": "1.4.2",
+      "layout": "overlay-preflight",
+      "suite": "test_external.py",
+      "tests": 30,
+      "passed": true
+    },
+    {
+      "baseline": "1.4.2",
+      "layout": "overlay-preflight",
+      "suite": "test_delivery.py",
+      "tests": 28,
+      "passed": true
+    },
+    {
+      "baseline": "1.4.2",
+      "layout": "overlay-preflight",
+      "suite": "test_collection.py",
+      "tests": 79,
+      "passed": true
+    },
+    {
+      "baseline": "1.4.2",
+      "layout": "overlay-preflight",
+      "suite": "test_job_intent.py",
+      "tests": 13,
+      "passed": true
+    },
+    {
+      "baseline": "1.4.2",
+      "layout": "overlay-preflight",
+      "suite": "test_practice_intent.py",
+      "tests": 10,
+      "passed": true
+    },
+    {
+      "baseline": "1.4.2",
+      "layout": "installed-runtime",
+      "suite": "test_growth.py",
+      "tests": 48,
+      "passed": true
+    },
+    {
+      "baseline": "1.4.2",
+      "layout": "installed-runtime",
+      "suite": "test_ai.py",
+      "tests": 41,
+      "passed": true
+    },
+    {
+      "baseline": "1.4.2",
+      "layout": "installed-runtime",
+      "suite": "test_workflow.py",
+      "tests": 20,
+      "passed": true
+    },
+    {
+      "baseline": "1.4.2",
+      "layout": "installed-runtime",
+      "suite": "test_external.py",
+      "tests": 30,
+      "passed": true
+    },
+    {
+      "baseline": "1.4.2",
+      "layout": "installed-runtime",
+      "suite": "test_delivery.py",
+      "tests": 28,
+      "passed": true
+    },
+    {
+      "baseline": "1.4.2",
+      "layout": "installed-runtime",
+      "suite": "test_collection.py",
+      "tests": 79,
+      "passed": true
+    },
+    {
+      "baseline": "1.4.2",
+      "layout": "installed-runtime",
+      "suite": "test_job_intent.py",
+      "tests": 13,
+      "passed": true
+    },
+    {
+      "baseline": "1.4.2",
+      "layout": "installed-runtime",
+      "suite": "test_practice_intent.py",
+      "tests": 10,
+      "passed": true
+    },
+    {
+      "baseline": "1.4.3",
+      "layout": "overlay-preflight",
+      "suite": "test_growth.py",
+      "tests": 48,
+      "passed": true
+    },
+    {
+      "baseline": "1.4.3",
+      "layout": "overlay-preflight",
+      "suite": "test_ai.py",
+      "tests": 41,
+      "passed": true
+    },
+    {
+      "baseline": "1.4.3",
+      "layout": "overlay-preflight",
+      "suite": "test_workflow.py",
+      "tests": 20,
+      "passed": true
+    },
+    {
+      "baseline": "1.4.3",
+      "layout": "overlay-preflight",
+      "suite": "test_external.py",
+      "tests": 30,
+      "passed": true
+    },
+    {
+      "baseline": "1.4.3",
+      "layout": "overlay-preflight",
+      "suite": "test_delivery.py",
+      "tests": 28,
+      "passed": true
+    },
+    {
+      "baseline": "1.4.3",
+      "layout": "overlay-preflight",
+      "suite": "test_collection.py",
+      "tests": 79,
+      "passed": true
+    },
+    {
+      "baseline": "1.4.3",
+      "layout": "overlay-preflight",
+      "suite": "test_job_intent.py",
+      "tests": 13,
+      "passed": true
+    },
+    {
+      "baseline": "1.4.3",
+      "layout": "overlay-preflight",
+      "suite": "test_practice_intent.py",
+      "tests": 10,
+      "passed": true
+    },
+    {
+      "baseline": "1.4.3",
+      "layout": "installed-runtime",
+      "suite": "test_growth.py",
+      "tests": 48,
+      "passed": true
+    },
+    {
+      "baseline": "1.4.3",
+      "layout": "installed-runtime",
+      "suite": "test_ai.py",
+      "tests": 41,
+      "passed": true
+    },
+    {
+      "baseline": "1.4.3",
+      "layout": "installed-runtime",
+      "suite": "test_workflow.py",
+      "tests": 20,
+      "passed": true
+    },
+    {
+      "baseline": "1.4.3",
+      "layout": "installed-runtime",
+      "suite": "test_external.py",
+      "tests": 30,
+      "passed": true
+    },
+    {
+      "baseline": "1.4.3",
+      "layout": "installed-runtime",
+      "suite": "test_delivery.py",
+      "tests": 28,
+      "passed": true
+    },
+    {
+      "baseline": "1.4.3",
+      "layout": "installed-runtime",
+      "suite": "test_collection.py",
+      "tests": 79,
+      "passed": true
+    },
+    {
+      "baseline": "1.4.3",
+      "layout": "installed-runtime",
+      "suite": "test_job_intent.py",
+      "tests": 13,
+      "passed": true
+    },
+    {
+      "baseline": "1.4.3",
+      "layout": "installed-runtime",
+      "suite": "test_practice_intent.py",
+      "tests": 10,
+      "passed": true
+    }
+  ],
+  "total_test_executions": 1624,
+  "helper_version": "1.4.8",
+  "live_api_calls": 0,
+  "platform_messages": 0,
+  "business_database_writes": 0,
+  "live_deployment": false,
+  "note": "Repeated suites across supported baseline/layout combinations; not unique feature count."
+}

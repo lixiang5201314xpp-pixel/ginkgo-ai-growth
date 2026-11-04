@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "tests": 26,
+  "browser": "IAB real Chromium",
+  "url": "http://127.0.0.1:8796/capture-test",
+  "evidence": "CUA rendered AX report title PASS 26 and all checks true on 2026-11-02",
+  "new_kuaishou_checks": 4,
+  "network_to_platforms": 0,
+  "live_messages": 0,
+  "note": "Synthetic DOM in Chromium; not an end-to-end live-platform acceptance."
+}

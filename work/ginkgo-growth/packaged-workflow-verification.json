@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "layouts": [
+    {
+      "layout": "overlay-preflight",
+      "passed": true,
+      "tests": 20
+    },
+    {
+      "layout": "installed-runtime",
+      "passed": true,
+      "tests": 20
+    }
+  ],
+  "tests": 40,
+  "production_writes": 0,
+  "paid_calls": 0,
+  "platform_messages_sent": 0
+}

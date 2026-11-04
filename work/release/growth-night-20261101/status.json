@@ -1,0 +1,91 @@
+{
+  "version": "growth-external-1.3.1",
+  "prepared_at": "2026-10-31T18:03:08.599126+00:00",
+  "backend_installed": true,
+  "server_staged": true,
+  "owner_install_pending": false,
+  "local_helper_files_updated": true,
+  "local_extension_reload_pending": false,
+  "production_leads_imported": 3,
+  "public_comments_published": 1,
+  "registrations_verified": 0,
+  "api_tests": 29,
+  "workflow_tests": 20,
+  "base_acquisition_tests": 48,
+  "helper_permission_bridge_tests": 9,
+  "capture_browser_tests": 10,
+  "batch_parser_tests": 8,
+  "final_package_layout_checks": 194,
+  "installer_rollback_checks": 8,
+  "batch_ui_flow": {
+    "invalid_json_blocked": true,
+    "source_review_required": true,
+    "import_succeeded_in_isolated_local_store": true,
+    "duplicate_not_added": true
+  },
+  "live_ai_calls_during_this_run": 2,
+  "wechat_ai_configuration_modified": false,
+  "platform_blockers": {
+    "xiaohongshu": "手机端本人核对没有看到价格回复；原因未明，未登记为已联系，也未重复发送。",
+    "kuaishou": "",
+    "channels": "暂无可用站内公开搜索接口；没有读取私信"
+  },
+  "workbench_blocker": "",
+  "automatic_platform_sending_connected": false,
+  "staged_payload_files": 4,
+  "existing_service_health": {
+    "/health": {
+      "status": 200
+    },
+    "/growth/external/health": {
+      "status": 200,
+      "version": "growth-external-1.3.1"
+    },
+    "/growth/channels/health": {
+      "status": 200,
+      "version": "growth-channels-1.0.0"
+    },
+    "/growth/api/external": {
+      "status": 401
+    }
+  },
+  "live_verified_at": "2026-11-01T10:48:21.491988+08:00",
+  "live_version": "growth-external-1.3.1",
+  "backup": "C:\\Services\\GinkgoTrainingAutoCancel\\GinkgoGrowth-1.3.1\\backups\\external-20261101-095528",
+  "production_contacts_recorded": 1,
+  "ai_prepared_replies_live_verified": 3,
+  "public_comment_attempts_unconfirmed": 1,
+  "kuaishou_content_login_verified": true,
+  "kuaishou_search_verified": true,
+  "kuaishou_public_comments_readable": true,
+  "kuaishou_new_qualified_leads_this_check": 0,
+  "last_operations_check_at": "2026-11-01T11:15:39.488188+08:00",
+  "status": "已暂停",
+  "active_round": null,
+  "consecutive_empty_rounds": 0,
+  "next_run_at": null,
+  "agent_automation_id": "agent",
+  "round_cooldown_minutes": 8,
+  "round_history": [
+    {
+      "round_id": "581191f178c94575bdff709a55882f73",
+      "started_at": "2026-11-01T04:31:06.382449+00:00",
+      "completed_at": "2026-11-01T04:36:30.173566+00:00",
+      "outcome": "用户中止",
+      "new_valid_leads": null,
+      "reason": "用户要求先停止旧轮次"
+    },
+    {
+      "round_id": "81cf7834b21f42b99a890782088f77fd",
+      "started_at": "2026-11-01T04:36:31.238129+00:00",
+      "completed_at": "2026-11-01T04:39:28.527193+00:00",
+      "outcome": "用户中止",
+      "new_valid_leads": null,
+      "reason": "用户已停止定时Agent；继续手动推进外部平台获客，不自动恢复定时循环"
+    }
+  ],
+  "pause_reason": "用户已停止定时Agent；继续手动推进外部平台获客，不自动恢复定时循环",
+  "resumed_at": "2026-11-01T04:36:30.693975+00:00",
+  "latest_product_handoff": "work/release/growth-collection-20261101/status.json",
+  "latest_owner_reported_product_version": "growth-external-1.4.0"
+}

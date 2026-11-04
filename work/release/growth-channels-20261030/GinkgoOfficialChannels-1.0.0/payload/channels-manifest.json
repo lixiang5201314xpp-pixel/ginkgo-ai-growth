@@ -1,0 +1,1441 @@
+{
+  "version": "growth-channels-1.0.0",
+  "baseline": {
+    "growth_acquisition.py": "3d9989cbdf988ff7fde7f603f3aacc91b46945b0e344cd9bbca13547fa75f0c4",
+    "growth-web/index.html": "0bc609406a0bf38010548b9f64f117cf10b8b431298c70703fd86810e06ab6de"
+  },
+  "files": [
+    {
+      "path": "growth_acquisition.py",
+      "sha256": "117876fe9220bc45a0b636593cf6579f278a9e84e7e85d412c58976a5fd15eec"
+    },
+    {
+      "path": "growth_channels.py",
+      "sha256": "897c020316691eaafd9ccbf9407d91c9b9ad8ac02913936c52159d14dcca0549"
+    },
+    {
+      "path": "growth-web/index.html",
+      "sha256": "82e7e816757dd8472a25e4eeb1cf3584fae0c1151c2bf156cdd3e0c8ea8b4f83"
+    },
+    {
+      "path": "growth-web/channels.js",
+      "sha256": "0462a270623568f82c395dda1cd35329dc7d9f423b2c748263d849a52efb52f8"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/py.typed",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/__init__.py",
+      "sha256": "c5378d6244f60ebdc6d2667c00daf461374aaec29fddda6ae1032f18c3840fae"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/__init__.pyi",
+      "sha256": "748d33339311187c619df8eaa40c8f1a8b4a4eb3e59de4cdd90fa30105cd8351"
+    },
+    {
+      "path": "channel-vendor/pycryptodomex-3.24.1.dist-info/AUTHORS.rst",
+      "sha256": "ac94de284f1522aee4f3e7e301e68af190786b4c8388d1a60cba4a3a1bbe3465"
+    },
+    {
+      "path": "channel-vendor/pycryptodomex-3.24.1.dist-info/INSTALLER",
+      "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508"
+    },
+    {
+      "path": "channel-vendor/pycryptodomex-3.24.1.dist-info/LICENSE.rst",
+      "sha256": "60b8958a9ef9b7ec512087b725555372175ed2b02b969f8725b8534fde48acdd"
+    },
+    {
+      "path": "channel-vendor/pycryptodomex-3.24.1.dist-info/METADATA",
+      "sha256": "e23b7012d6be70d623a1ebd73d716b618cda40662afc506fe3c9e32b05c25dbe"
+    },
+    {
+      "path": "channel-vendor/pycryptodomex-3.24.1.dist-info/RECORD",
+      "sha256": "a5a05cf59d424fb3000282e8578fac83f89dffe745a028b49f050a958e62b645"
+    },
+    {
+      "path": "channel-vendor/pycryptodomex-3.24.1.dist-info/REQUESTED",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "channel-vendor/pycryptodomex-3.24.1.dist-info/top_level.txt",
+      "sha256": "78753d6ac7ba8a7d5948112d4c3a65edfc083c838de369dba99d6e153c9c731b"
+    },
+    {
+      "path": "channel-vendor/pycryptodomex-3.24.1.dist-info/WHEEL",
+      "sha256": "daf7c2177bb571a95bc653eb6cebfc46c3b805949e625d12f781f73bade870fb"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Cipher/AES.py",
+      "sha256": "d2a4192cf60f569986d394010d2fdfd648143de06fc34c9f82324216b92f4368"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Cipher/AES.pyi",
+      "sha256": "80df19a540d99137f731c79ad0816f370e86c76900d7549d9d457ab19674bd06"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Cipher/ARC2.py",
+      "sha256": "57d9fce3483474dd53d13a6dcdd3e6993ea5b3dd7480b7bc85c6a8d4a6e1dd9f"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Cipher/ARC2.pyi",
+      "sha256": "c724c1eb1442caeee70643125d96de0a7793a2e8470775e5d1e7628fca67af82"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Cipher/ARC4.py",
+      "sha256": "0152a932bc4b0e5238af5c9c145ef25a69e66e395804a700d60fbcee80e5ec8c"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Cipher/ARC4.pyi",
+      "sha256": "28855bc2ff6531efd40c42075eb5e506ad8a5f8d98b8041fb218725c7c484054"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Cipher/Blowfish.py",
+      "sha256": "297d5a2e4eb626583edc3e8c39194770b27773a8df00c17d71ce0b7e6f5de00b"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Cipher/Blowfish.pyi",
+      "sha256": "a363ef5a112333f407470a884e23357f1c251fe733091b95dc8e86ae3ff73a6d"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Cipher/CAST.py",
+      "sha256": "e8ba9158aa0d7dc7a881cfd411602a4c626bb8ce6aafc222c089de5e6dfb9bc2"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Cipher/CAST.pyi",
+      "sha256": "1469d7505976c0a27f8b23f64e402be8a897b00898539b5bb6803792178dfe1d"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Cipher/ChaCha20.py",
+      "sha256": "5b1f7024418f5f04a28da414ae94f9853a3cb230983705c7807f36a1e27f4185"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Cipher/ChaCha20.pyi",
+      "sha256": "ce31a7182e4369dc8f65d929813ce67e7afa67eceed9821b124bbeab13d9e668"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Cipher/ChaCha20_Poly1305.py",
+      "sha256": "0a2c38cda9bf82a356f65d7f8340209868fcc72b91bca727dba32f712a789748"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Cipher/ChaCha20_Poly1305.pyi",
+      "sha256": "6d880a3628c47d9bce851019c82720d570f44699e1b453af432ae4a7b20a1273"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Cipher/DES.py",
+      "sha256": "41aef064734cf279388bcd875f0252d27fdfb3565904b7fa1935f63c82f7ef47"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Cipher/DES.pyi",
+      "sha256": "bfbaf8aec79dfc45cb8c26053797a43735a7aaca50aa5504fe080e900a6a38e6"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Cipher/DES3.py",
+      "sha256": "c35476642d7b26e9c71cf16f6fb0e4c44f9cc643a3bf11f1990e38ac07332eed"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Cipher/DES3.pyi",
+      "sha256": "3b868d2e9a2b41c27fcac90e4c0dbae1634f7198720805ff9f450c4c4d7cb57f"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Cipher/PKCS1_OAEP.py",
+      "sha256": "fb7506c0c3cf900be360732641e00dfbbdde6d6c5a231412ed39740e90f434a0"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Cipher/PKCS1_OAEP.pyi",
+      "sha256": "6a2570614ace35d86e25eab9f2aaafd351b6b7ff85a9893556fb1a47524e099f"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Cipher/PKCS1_v1_5.py",
+      "sha256": "28d6dbd60684f210a8cf662a7ac66bcb978e308b7e2f24f9b579c664c70df960"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Cipher/PKCS1_v1_5.pyi",
+      "sha256": "49dcc3570b0637bf76aff4bb389af7e1388aad93cbffbf9a1feb7a3c12186adf"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Cipher/Salsa20.py",
+      "sha256": "27402b67081e01512474926a3f1153c6fca1ae528038cf7e645c179bca5fca1d"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Cipher/Salsa20.pyi",
+      "sha256": "edcd33b9365ad546cf6b01c7fefc73f1e7558bb50bfdb47fef26212c2e027ae6"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Cipher/_ARC4.pyd",
+      "sha256": "dd3a9c4651fae8ba9f44937dc5c3afd6e443f0a622036e21180fdf558cf163f6"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Cipher/_chacha20.pyd",
+      "sha256": "a6ae1f2f1463e649660fb3f5585508b19944380d41371d43965645954b8a16db"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Cipher/_EKSBlowfish.py",
+      "sha256": "87d7cb3a47e3234519a1e01a2b0d007319264e2cb94e54a8864a22fd00165a36"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Cipher/_EKSBlowfish.pyi",
+      "sha256": "f2130e49c75b0660fcfd28d505bef95fa392cbc2ef636717f49f855546440706"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Cipher/_mode_cbc.py",
+      "sha256": "ac4572721d16342b0f4b4b81e06f1108dc391736f68b5f723c176f414002238c"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Cipher/_mode_cbc.pyi",
+      "sha256": "32c4737f3237691dac8534ea506cd139e17fa709139b07a3cdf3513ebc850dcc"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Cipher/_mode_ccm.py",
+      "sha256": "7c10cf1527b21202d23cdf182e04e37e3bb5124dd66d17120e0be68871188655"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Cipher/_mode_ccm.pyi",
+      "sha256": "0f134c396e824cbf0c5706faf704a9186ce9e2e01aff9eaef7f8dd5f3274d662"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Cipher/_mode_cfb.py",
+      "sha256": "56b7966054d1d7353546fa480bc0bb11a70e1bf01e909568cb00dc994ce30058"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Cipher/_mode_cfb.pyi",
+      "sha256": "15ee428028300fcb807af557db278f229c260ec98e8ae1971661b436cfe5c2a9"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Cipher/_mode_ctr.py",
+      "sha256": "9ca9b129a8d5ea8f08ae2cb0442ebc660c656ed2415b111037f241cdb2495abf"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Cipher/_mode_ctr.pyi",
+      "sha256": "ab8697e3cda28729d9cb6a6545ea1e3fcdc184c9e07bfb70d9faee38f27012ef"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Cipher/_mode_eax.py",
+      "sha256": "4f4f61208dab1a58ba3a03e70de3b9e31e5274d132bea3692faacb0e736404dc"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Cipher/_mode_eax.pyi",
+      "sha256": "c5246506d2ff0e2b13bae3a5d47467c47994932c24499fefcf32126c39bf9611"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Cipher/_mode_ecb.py",
+      "sha256": "d0a75e9cc56230e1c044411a1a6760ff7678d449e1263aeffef7e2752e360ff8"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Cipher/_mode_ecb.pyi",
+      "sha256": "8a8a5ed79efafc9cb7a3ad95bae1abcaa4e447776760778e91fdd6e510714352"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Cipher/_mode_gcm.py",
+      "sha256": "4443c5717af74dbd1531a6df05e5f5531a5262dae2636ed9e83f42ea7ed194f2"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Cipher/_mode_gcm.pyi",
+      "sha256": "49b6a847d2c71da556387d1987946edd0c259ccf3952c63c9d1061cb4eb731fe"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Cipher/_mode_kw.py",
+      "sha256": "4d09dbbb98de96c855e5338e748fcc88d788c4a702c767b2316b7f4094d4736c"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Cipher/_mode_kwp.py",
+      "sha256": "54e95bb968cacafbece6dcb2f15ef250f6da816781204021a26eca88950fc911"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Cipher/_mode_ocb.py",
+      "sha256": "3263550c7ade01e3088bc5773101c9d8f6b24628916ebc58ce763f3029d9d9fa"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Cipher/_mode_ocb.pyi",
+      "sha256": "e0c136e3762dd93c24793daf989d94061af30a300d7308bc8ad2ef69e73a92e5"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Cipher/_mode_ofb.py",
+      "sha256": "a86d0acfabadf852ef126484a267a6c3953af68fd17e6fce496c4d2dfc9bcfe7"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Cipher/_mode_ofb.pyi",
+      "sha256": "d1b1a685abe48604348da3ae3c54baf54ed0bd5cc9f0cb93867a82f8877f9ecf"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Cipher/_mode_openpgp.py",
+      "sha256": "46650bb1bb4a35ee304abac23817a48704babe4f93ecec4ce62ee97d49c44189"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Cipher/_mode_openpgp.pyi",
+      "sha256": "5e1521b1ea98d146374597a94ff5df82fbe49f7c3dc06f6db03379e1ea79d7e5"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Cipher/_mode_siv.py",
+      "sha256": "7610b08153895261645f469f4fb7d2d5211d86cbe7f46d27e49cbb1ba4ec5f94"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Cipher/_mode_siv.pyi",
+      "sha256": "80dae2a187b04f2e3729bcdf78de0db31e22ca0922ad420f65077c448f1538e5"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Cipher/_pkcs1_decode.pyd",
+      "sha256": "6a23a4639eb6fb17ba079ac66226e371ecd6226a37d48de37f920feb607020e1"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Cipher/_pkcs1_oaep_decode.py",
+      "sha256": "cd2d0a19763488d875f8f986a9711dd0eec9cfef663556a21f9393489ed4cc9c"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Cipher/_raw_aes.pyd",
+      "sha256": "c476ef00bde0e7c9d70e3928f4bfe04b5b8707d30c295751cc1a5a6e69247472"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Cipher/_raw_aesni.pyd",
+      "sha256": "4fb4db0f874d3c6c0f0b60bb054d1913106a8c155f33263ab43a28c6ada45f61"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Cipher/_raw_arc2.pyd",
+      "sha256": "624a1c62f94e2d97c98b1b9abe445b35f3738dc69f31db38ccb3d533212c0463"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Cipher/_raw_blowfish.pyd",
+      "sha256": "fdc14a5a9f4c977ebe5f6a1a83a6aee916a7be3fc138755458e1e900b37ebfeb"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Cipher/_raw_cast.pyd",
+      "sha256": "b908734eef3113437ae4f27c2f550a282e0a18de3619cd436370efcc165a0718"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Cipher/_raw_cbc.pyd",
+      "sha256": "054910d9f916df27e12a2af768953f5b2c399ed877042e81c29e7b550ac0acba"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Cipher/_raw_cfb.pyd",
+      "sha256": "d832ec85310cd7f9abb56544f7522d28c0e47dd87f92dba038cc7a5471de7bbf"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Cipher/_raw_ctr.pyd",
+      "sha256": "b51570afc00f4208d20b0a9fda23294fc90dd76d0c0d14e97f307654a30d9862"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Cipher/_raw_des.pyd",
+      "sha256": "c7f7b4ddffb27fdee044701db76cc655b2090baef170b3c8d875e69b2bf86242"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Cipher/_raw_des3.pyd",
+      "sha256": "30681a8e5d35c9afe6c910559df2719ed38d155d472af39f6d008ec21e88cc46"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Cipher/_raw_ecb.pyd",
+      "sha256": "3de1140d5bc0406009da25a7b512a0143b0538868a658faa3098f6934ab1337d"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Cipher/_raw_eksblowfish.pyd",
+      "sha256": "8fbab48bfbafcd89fe95208a2e0ae287d6efdf8afb34e91ae3de0bd034b0acc4"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Cipher/_raw_ocb.pyd",
+      "sha256": "8e52ed6946296e07f01d571937ba4b27878b8b44bc59e8fcfbc88bf37d6c28cd"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Cipher/_raw_ofb.pyd",
+      "sha256": "50888d7356b74637fbca7ae75fbaf3cb6a00233465dee5c8e0910b3fe21d35ca"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Cipher/_Salsa20.pyd",
+      "sha256": "cf27f0b954cb12880813b274c2a6afbde7b9f82f6f9767a0b3ad49af5c452425"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Cipher/__init__.py",
+      "sha256": "f78b5dd0f54af9d78107f27bb5d0e6605fc64bc21bb940cb52bb88ac335fb3f0"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Cipher/__init__.pyi",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Hash/BLAKE2b.py",
+      "sha256": "3609267696b509fbfbc95575aebf10eca15e6de01975b9bd08498149d997c020"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Hash/BLAKE2b.pyi",
+      "sha256": "2f79fa6d217978db2c5a7cf297e73e555c2100e86fa5b2cb4c1deffccae353df"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Hash/BLAKE2s.py",
+      "sha256": "d74f1ab750f01aa9226901b59ec16a5accf1c1f82deca62c84bd893f6dc0877e"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Hash/BLAKE2s.pyi",
+      "sha256": "25933f08745028c43450b44e6926a00942023e68bf934d2a4d032b8f9557c251"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Hash/CMAC.py",
+      "sha256": "4f7813ffc544ffaa03acf5611948bd992714461d7f9f527c289f8a1bf8bf7ac1"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Hash/CMAC.pyi",
+      "sha256": "8a9787a689f900e660207c419a0c2b66d3d40db46d09f4ea9c19543640d26f57"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Hash/cSHAKE128.py",
+      "sha256": "349cab0602ea40bcff277ffb4bdc28349eb5ba22abacaa2787c065be5e632fdb"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Hash/cSHAKE128.pyi",
+      "sha256": "996de23b6a41d7158b3c0dd8b3de5de532f6953706640866cbe19243a882f3a3"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Hash/cSHAKE256.py",
+      "sha256": "d7f74253988ad96510f53cebd756e94e4b1b45cc339b325349ee25d5b3b57458"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Hash/cSHAKE256.pyi",
+      "sha256": "5da57a092d8d896ce5d295d7dd69d56b6ef1e4aa38294346f7ea0a6fdc56aef2"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Hash/HMAC.py",
+      "sha256": "bd15c5f9573f25be1d886bca6d867d1727b9cc0d515dad6a3920663f0e308b5a"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Hash/HMAC.pyi",
+      "sha256": "c2c617969e9c441dcc4f844e9b8ba9767f49999272c239bde88d5f4faf6a672c"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Hash/KangarooTwelve.py",
+      "sha256": "196e3b4fe478b72e87e5909e04b7e074ecbc162a73a090ed894f3c88551b6074"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Hash/KangarooTwelve.pyi",
+      "sha256": "408945c89b54a2cc8eebf041dbd2f8db88adb46ce71f3eaaf7e091ac4baf597e"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Hash/keccak.py",
+      "sha256": "e8cabc02084e2f8ec46fbb3c03eba01230d70b8865a410e1b777dab1207d169b"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Hash/keccak.pyi",
+      "sha256": "3a1db3e7321efb30c4aaf0fad5728728c7aadcebbbe91e4272940db1f9a677f9"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Hash/KMAC128.py",
+      "sha256": "0d2f99d8a5420b8497bf7b3df0cf867960350e1c8df3d2b2c54b8efa3e79dc06"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Hash/KMAC128.pyi",
+      "sha256": "383b57b62578122cd924bfa4dcb324233ed0d7a847f89d16bdbd3ed8251240c2"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Hash/KMAC256.py",
+      "sha256": "cda06d88f0c0f2e04f94189b7534522326fc0161941b2bbd4e28d76ffb792d92"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Hash/KMAC256.pyi",
+      "sha256": "b220806e584ff8fa9c4a28733f1a096b631b700096020eadcf766b96f86a82e7"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Hash/MD2.py",
+      "sha256": "9601d8d74a4028c92fb70cfce74ba0d60452626fdee745449ca0422f673fddc5"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Hash/MD2.pyi",
+      "sha256": "3b3c9e78a4313ac9d7935d4ae92c650879be8f55007478154429919b4794bb42"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Hash/MD4.py",
+      "sha256": "ed0d926bd378a41527ca814a5dfb5cf6cfb98d3809103e2673f40bcb9b085477"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Hash/MD4.pyi",
+      "sha256": "0602da2a342d9ef1f7c015f953b2df27f51c25a5e99f89044e71579662eba5ff"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Hash/MD5.py",
+      "sha256": "1a2d335c1b8ff41727d9b6671d784f38a477c66fc8b7b8b73c666d1c11e9dc30"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Hash/MD5.pyi",
+      "sha256": "8a3e274302454bff4450c1df6da89a048f13eb048e64c6781408f18066f8430b"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Hash/Poly1305.py",
+      "sha256": "6294a5c148749ff8125fb3c487bdf6ec27b192a7c04260d8121df1424cb02e60"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Hash/Poly1305.pyi",
+      "sha256": "7da8b1db291f97f8751ebe26aafb6663571467c4a13827f8114895990e3dd81a"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Hash/RIPEMD.py",
+      "sha256": "eff0bb4c5f58362c0629da431fa0e104cc940afa056c10816fb09dd6fb4929a6"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Hash/RIPEMD.pyi",
+      "sha256": "385d71a0a5da965f3d2eb35f4b206f9451db73f4541342e095cc3d13cb0caffa"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Hash/RIPEMD160.py",
+      "sha256": "3e6529101d697fa20b8a312b179e3d246df35713bf5d89221e31d0151ceac2be"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Hash/RIPEMD160.pyi",
+      "sha256": "84f643a25df20e6a761ad4e1ecdc6f04493db5ccaf6108254b944a31662a00e7"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Hash/SHA.py",
+      "sha256": "3f9736a9577a2ecb370b3794d84371ad29a50c0a6bb96f33bfd3416f2c111b22"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Hash/SHA.pyi",
+      "sha256": "583bef611f4709956ae4271173e91f7dac236d9dfe8d357095653cd63b870a21"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Hash/SHA1.py",
+      "sha256": "0476ff36d5a6474745f8bc52abcb65f5644160d793e38eb4994578028156649d"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Hash/SHA1.pyi",
+      "sha256": "4fc9652243b1b4a443c08c6b22f5c5343c63453405a13fbe9cc9dd12de6951ea"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Hash/SHA224.py",
+      "sha256": "ecf616ecf66b9c468c7381d670bf1c51b1047a9a56ee8fcbd559f186ddcdc990"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Hash/SHA224.pyi",
+      "sha256": "a3fbcee498c3c4cadc8d5136aced4c69de9b941802aea4aef8c6b272df1e054a"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Hash/SHA256.py",
+      "sha256": "3a1c4d67ea737135a97b135016463ac3b970faea8ab5e3245759587393636e65"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Hash/SHA256.pyi",
+      "sha256": "07892d70c0fa32a19dda232203bd7ff0d25b19f30e599924836a8d4bb6161a71"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Hash/SHA384.py",
+      "sha256": "53e46c03bd71d4042c3815b139c5dcb7b3897959950a995083504fae94b6edd4"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Hash/SHA384.pyi",
+      "sha256": "102f8dcec4b3e3e3e019f6ce2b165c0fddc41b70eb2e3169270be35f227f2d5f"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Hash/SHA3_224.py",
+      "sha256": "28737bb6b59bbdffa0335d3e2115d134745cf175dd42723172b9a548bd804069"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Hash/SHA3_224.pyi",
+      "sha256": "ab9abf3623247f77fde55038c8531ff4c22e70532cdef140fa9f0b645a15ac36"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Hash/SHA3_256.py",
+      "sha256": "dd98eb04bb1de3445702412e886b4fd09cd369caa882dd0eba16bae9c78eff54"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Hash/SHA3_256.pyi",
+      "sha256": "7eef366e028519327074aadf07fef65fd87564deae82a1de1e03634a928047ab"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Hash/SHA3_384.py",
+      "sha256": "f7e48a1a8f4d94bb3467f8c3938e74e60b4f6599c317e1a76d97527f9a353fb0"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Hash/SHA3_384.pyi",
+      "sha256": "d328a5327c257aca3516c7c11b617d30d5e0c7c9915a32f4c6b3ddfe269dcf7f"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Hash/SHA3_512.py",
+      "sha256": "3c0e8daa31c75580e3906e09dd234af781bdfc75173e9577c59a43a2301098fd"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Hash/SHA3_512.pyi",
+      "sha256": "5699b054358a0c556096c132c09c8b3052e5efe815a26edabc5ad5e896bf8e9c"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Hash/SHA512.py",
+      "sha256": "d383ebf0f852240410b4d2a983d318a997e222fb47e6c9e3e74f5e5e3c30c6f4"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Hash/SHA512.pyi",
+      "sha256": "bb0e0df4f3fffb4a2b9efe5b674d7407bbd248678b0bf2a44ff0aa07d247dbda"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Hash/SHAKE128.py",
+      "sha256": "22248c62ff803acc69578982bcd96080bcaedab2062c032b35a3c064bae381b8"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Hash/SHAKE128.pyi",
+      "sha256": "00caa4065ad97561e5cd6f89916bdfdda4766aec85c462aba8b608a7fcd8a282"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Hash/SHAKE256.py",
+      "sha256": "6d17e4a23c9abe1ecc53428b6242384aa213c94f4611e0cf6a92fcad0f84ba12"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Hash/SHAKE256.pyi",
+      "sha256": "d96adc2383419787bf7af4fc5c0ea95b75592ab6832b4021c7ed96f3996d7504"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Hash/TupleHash128.py",
+      "sha256": "443d41ebc9f4384e370ac51be01c56913cbdbe1df4c93769b1e85220b505052c"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Hash/TupleHash128.pyi",
+      "sha256": "b5671e5e8fc4513c2e0c9f072c1a9c868656f0cd66783dc011fc4556c1bd2306"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Hash/TupleHash256.py",
+      "sha256": "96bb2970b54cc270de193fb71155affbf54f9acf21310ac4ad968893a478b3df"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Hash/TupleHash256.pyi",
+      "sha256": "0b014a808207e4c2a6375dfd6ade40c97b5802c8f9ea76748f333c1386c6704c"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Hash/TurboSHAKE128.py",
+      "sha256": "34eed4fe42ffa176d466f5b3e7c55071eae79ea5fce4ea31c38d1d5796d5ac9a"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Hash/TurboSHAKE128.pyi",
+      "sha256": "b7617049d0b2131180ea0b73ae8cac73839a27d394be6b4d9796f9d0198de6b7"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Hash/TurboSHAKE256.py",
+      "sha256": "ad79e152a2c83ee90ac61ff7245df570673fbe28720d9de8e07e2fddbf0e51db"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Hash/TurboSHAKE256.pyi",
+      "sha256": "86dea501f8ed56bae7652415243b38845ab1c94a1e4ad0e737a98a37a80235ea"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Hash/_BLAKE2b.pyd",
+      "sha256": "8ec098753c772b47230ba41e405913126dc05ab64b393333f36c318b51489590"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Hash/_BLAKE2s.pyd",
+      "sha256": "7c6049038561f0a5ced6e1e475f1efad7e40763987c4444979a5dedd613fc618"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Hash/_ghash_clmul.pyd",
+      "sha256": "255486a3f9c18a66e5cbe4e0b7c4c8df7bbe17801ac037664020fb1b7345a360"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Hash/_ghash_portable.pyd",
+      "sha256": "886853a7d66cc698f4056054cc39742d4e7496371b5dfeb4c780f60943d7adb8"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Hash/_keccak.pyd",
+      "sha256": "4731fcb3ba86ec62374e1f022a796cf951dabb2b2202b9e89004778061bffb4e"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Hash/_MD2.pyd",
+      "sha256": "b17c95abe715e67312a8ec4db515e5287ca5258158cf1a45905db08f49872731"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Hash/_MD4.pyd",
+      "sha256": "10a4d1768ad89cdf96cded5fbcdee7ed223599c10c01d8075b8153c8019406b4"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Hash/_MD5.pyd",
+      "sha256": "96381b3a405d1a5f4919500a25605a66aef21022f017a5ac6a62c639b79879ff"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Hash/_poly1305.pyd",
+      "sha256": "8a29d20bfc01ff7948e2e116aa88003f668cd7a69f5b9e51efa2a5c7c2518feb"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Hash/_RIPEMD160.pyd",
+      "sha256": "782ebe9212b6a2dd8fe7b5617e38e334d2028f0e76d101c93386ed0ccde3706c"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Hash/_SHA1.pyd",
+      "sha256": "95a407910688654832b9c234fd493339b8463ac5a0cc499bb8e871452059e5bd"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Hash/_SHA224.pyd",
+      "sha256": "528a3cca54cdefe104f378e6b6798d8796dba5a95eaf7d7bd0b1df489ca97f08"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Hash/_SHA256.pyd",
+      "sha256": "2faf8c0ba8b7dd04f53edde98a02f65654053184a95642bc42b0d9c100e09876"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Hash/_SHA384.pyd",
+      "sha256": "90128cdd9d178ad1cbfa8d5ee16f43d95fe02c63cd7fa9f77f74fe182698c335"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Hash/_SHA512.pyd",
+      "sha256": "1f9a2b97c3d9a8198b1bcd810e3c2ef628b4b072dee92ecb0921cb13733377ca"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Hash/__init__.py",
+      "sha256": "79aa947f1c29d838adf9fb696fe5efc169fa67c73ccee8abb89fd65985d6b440"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Hash/__init__.pyi",
+      "sha256": "b8a157c035f24a8e3c29e5ff77c39836c4fde12b7d6ebe30cb2207b565da2b5c"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/IO/PEM.py",
+      "sha256": "5fa5afddf9013c0325cbee30de98939d41e1147795618c957e66e02af8792eca"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/IO/PEM.pyi",
+      "sha256": "fd17de9b1d9eeb3950223be5e5b16a8ca3ee0a7e4822557f0b882bff3d67a1d0"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/IO/PKCS8.py",
+      "sha256": "80e7a78285d704570a75e1ee028f15f5473405160b38844062b1d8a7eadaaa6e"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/IO/PKCS8.pyi",
+      "sha256": "fad405161c2dc747135241b41988e65295d43b7f3f971fccfc8b76d634c7d144"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/IO/_PBES.py",
+      "sha256": "285606486f8e7779da33568ed3f5cc4351152729ddb19f03555c213e48209628"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/IO/_PBES.pyi",
+      "sha256": "47f4fd8c81c49bc886bcc7ceee74bb61d5d92b2962bd50a5137393be82874730"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/IO/__init__.py",
+      "sha256": "655dbe52f138022ccdaef6db28569eba1d513617d12ad88685d793e40c21f5fa"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Math/Numbers.py",
+      "sha256": "cd5927aa7d4b57e550abcc6d2a3290f6f165e51e583baad185ac4e10e32b373a"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Math/Numbers.pyi",
+      "sha256": "36e3014b15693406377c64fbc0e58407e6419a3ff10816f1fc5961da545ed142"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Math/Primality.py",
+      "sha256": "9e315f65030720826ee4a6596e7ec90315f02a9d090386d8c01abda23087b500"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Math/Primality.pyi",
+      "sha256": "f73daea86e4577fde3b6e314a1da38441a8f0ca8ac64a018821e10706b80c903"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Math/_IntegerBase.py",
+      "sha256": "b7b746cf7e40e3fb9001c82ece5981707db37a9d911bf48ac048c2a23e8afa28"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Math/_IntegerBase.pyi",
+      "sha256": "c8a26aff672f06b9c4d80286e0ef8dde8b2b41ff4c317ab75aca0fd0d01c751e"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Math/_IntegerCustom.py",
+      "sha256": "26ba8c29ba0b6cedb713c07bf55bbc616a967d0d6bfa5ff5d28d0f931541c5c8"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Math/_IntegerCustom.pyi",
+      "sha256": "baf20195fdb64efab526fe676151ce94716dce7ef897edfbf92bc744e53aecfd"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Math/_IntegerGMP.py",
+      "sha256": "76c11acf70b22b480a64d2f624f7d78b0f061dceddce2c9ac01667670e205f8c"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Math/_IntegerGMP.pyi",
+      "sha256": "32d4d0b0b2fd179f5dfd1a04c22a2d3fd4d178d5c7645ecf15754fc073c7e508"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Math/_IntegerNative.py",
+      "sha256": "1fe14a732f00f32402dc64b8ba413bcf8d3e413f0bd0788419622f4f16676e6a"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Math/_IntegerNative.pyi",
+      "sha256": "ca1dd04ecac1474b1fbdad15ab86881fb10e182a32c3aeb88c3f9f1b468e62e7"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Math/_modexp.pyd",
+      "sha256": "fec06d1ef2ba26f193d7117508dd2be88bb3536ac1ea9f9f8e0dcc86cb14e851"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Math/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Protocol/DH.py",
+      "sha256": "0e94b71f9c9a9c1947fa073afbbbd445e19af8b6660ad905274b60516c3b36ea"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Protocol/DH.pyi",
+      "sha256": "0165954822e201884855d758ecd526b2d53556065a67f40211b039d4d7761133"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Protocol/HPKE.py",
+      "sha256": "2fd5670abe4ea83d84426965d289e4a72f3e94432a887347f6cb1de5eabec24d"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Protocol/KDF.py",
+      "sha256": "35b294d8bbcac58c0a25a0218f755c0c8f2a175bf76520f2a5e8acdca9663e64"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Protocol/KDF.pyi",
+      "sha256": "2bb0a80795e8ab20b2078d7317dc0e76aa6cd7b6263fedc4d8f45b0c6b75b204"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Protocol/SecretSharing.py",
+      "sha256": "4b9c052857d34758d4baf7330bc1ff20ce1c891f91ed80320931715968f7c329"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Protocol/SecretSharing.pyi",
+      "sha256": "17bb4b071a5baab986780546a7b0f506f186a683cb2a2a9c9c3b727c3d9c0921"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Protocol/_scrypt.pyd",
+      "sha256": "d6004b77fa942ee830039a67ac34b2a244162a66db7218b45bf0d0cc366fac2d"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Protocol/__init__.py",
+      "sha256": "5e519ac6fbc45fdc85a460e0ddad070baf48bc16c1ba2906a67168f89e3f0899"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Protocol/__init__.pyi",
+      "sha256": "d17ff2840e82e8bdf3fc2378b27b824fe0c97506473295746c18253407fda61b"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/PublicKey/DSA.py",
+      "sha256": "5d782dd2936b5b2a224719e9b84e5b06db05382f0074fe78b4035c6590a50621"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/PublicKey/DSA.pyi",
+      "sha256": "7e2d92cc91313869ffb9acbde0f4628f6bb9995ff154bcc0e8c2f1f733e96c4f"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/PublicKey/ECC.py",
+      "sha256": "6994c232937958d86cb31d47bba084145d25869aaad18164af736518e45313ab"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/PublicKey/ECC.pyi",
+      "sha256": "3ae7c24acc1cf9f4aa774a706e63cc398c38d0fceea4a05d70956a7575fdcb3d"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/PublicKey/ElGamal.py",
+      "sha256": "3f4ef17d18bf3ed07e1e86975539a1d51e4f9c693b2b0bd5a58eb953b8cb6d5c"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/PublicKey/ElGamal.pyi",
+      "sha256": "701c7ca660a0ecbf8b633fbb1a080f447fc693e128965d369c6165f621cd80b6"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/PublicKey/RSA.py",
+      "sha256": "4a38379fdc81b54d4d3237fb212bf9ae514ce48ca109e4a995cfde2f460a0b3e"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/PublicKey/RSA.pyi",
+      "sha256": "fed5301843faddb9262e17df269746d55b9a594e26b736de9c493731aba319d5"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/PublicKey/_curve.py",
+      "sha256": "5ccc3bc94e70a3fcb0d5ed0ea47b1211d3bf4e4ee0286bb8d2c2078b60caa14a"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/PublicKey/_curve25519.pyd",
+      "sha256": "13ff69fbb08c90faad33dc2facb25f6fd188e5011623a60a20bfa8aa04102d5a"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/PublicKey/_curve448.pyd",
+      "sha256": "4f7b5d9bde1788081882bb18cd9dcac6fa48285ca06b836e1d6871d7611d82f6"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/PublicKey/_ec_ws.pyd",
+      "sha256": "a771ca51feb93b70532611c5fa3145ba3bd5019c412b365632df2058f3d42806"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/PublicKey/_ed25519.pyd",
+      "sha256": "af1ebd5f5290d376537ef2dd06acbd5ee1054b834fac3bd4f20a2b7461685d48"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/PublicKey/_ed448.pyd",
+      "sha256": "430c834c7ea0bd1dc413d6e711844ce2f879a5f517b8cb347610198becfa65ea"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/PublicKey/_edwards.py",
+      "sha256": "7a4b1978ba0509756db8f50369e9c08d9d73f9ccad42910ab2240788cca4c38e"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/PublicKey/_montgomery.py",
+      "sha256": "28fa6f7096a1ed303df98c840190ae0a7c8a34330d53899a64ca74e7cdc75c46"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/PublicKey/_nist_ecc.py",
+      "sha256": "6e4f16a6930871681261bdb94ad0254ade17ec0e8c1ba035fee46d692c391554"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/PublicKey/_openssh.py",
+      "sha256": "1770b5eb194c3f501755156016c72b7d53c3e9c30b9af483b1278496f711abb0"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/PublicKey/_openssh.pyi",
+      "sha256": "564c2b01dc5d096bf508761db881e201172e2d60e939ba2f78e20be46a74dda0"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/PublicKey/_point.py",
+      "sha256": "b5f502614d2e3329f30095e1af4b209208bea42e646f24f54437dbe06b37718d"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/PublicKey/_point.pyi",
+      "sha256": "444a7983a33256d6f929fe441e08730ec90ba9e072157623c31c5c710b649a7d"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/PublicKey/__init__.py",
+      "sha256": "ebe86d392cd784966390aa48e472ea116b944c9f1a2ac38fe088dfbe3776948e"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/PublicKey/__init__.pyi",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Random/random.py",
+      "sha256": "847d850d2878e5dddc5c984b08ecbce8a4b698d3890d9a71f20c5659424306f0"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Random/random.pyi",
+      "sha256": "043aeda2f263a42a0086fcbb0ca801ff1d9bf396ffcc966452ff25dd5030a013"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Random/__init__.py",
+      "sha256": "6970818adb817aa3021e624c7bfaeac0ebe70179f38d832ecb8fb82f77f9cf69"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Random/__init__.pyi",
+      "sha256": "3a9548ef07a83c2f2bf7db05edb776bd788b9d9c112ea8155333242839cc27d7"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/loader.py",
+      "sha256": "c66f48941234c4a4bde73f0adfbac0ee23a06ba95570e50c0ab26d1175f1f9bf"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/st_common.py",
+      "sha256": "e3c8c0c68add996cddd2652b0bd95cadd0a658822b592301283869707b75738a"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/__init__.py",
+      "sha256": "d7801594955dc3ea5724cbdb44f0f46f6cfa3b1f092f5f1b898a3e374827eb3a"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/__main__.py",
+      "sha256": "371f82a4438a90a0bb7ecd4cd5b10df6ba7a92e9659ed942da7f1431b12e7eae"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Signature/DSS.py",
+      "sha256": "e12160b0ce21353cfefd1c3f76c2e9dd72056f5b2e7ac6d71a48c254d9c76855"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Signature/DSS.pyi",
+      "sha256": "c3eb4f62111c8c8a72fa79ffadc95468dbaad42fcdaee982f056d40a9ad3d499"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Signature/eddsa.py",
+      "sha256": "c9ac188ec9a0038e02117ab07558d1d09ccc7355ba56b9ad37480a92a3f09e8c"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Signature/eddsa.pyi",
+      "sha256": "6d25f1d512e42b6e7329c8b26ae11daa330e0f12d5e79b5206634ffe609f8f9d"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Signature/pkcs1_15.py",
+      "sha256": "fe079e7777a6296a273901a9eb310600ed872e67d4944cb4a7692f2ab0e213ff"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Signature/pkcs1_15.pyi",
+      "sha256": "d9df93028c824c4d4d171611b6ec4d2fe4600f352dc10292d4eeaa60e0a9b7eb"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Signature/PKCS1_PSS.py",
+      "sha256": "f5b9708e62bdbabc879a2f221331e8d5e6624bfc5bb66a610a81b49d24300b41"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Signature/PKCS1_PSS.pyi",
+      "sha256": "3618d4e6762716a5ef09643d71106c232ccde052f393bd46dcb3bc02eed50a4a"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Signature/PKCS1_v1_5.py",
+      "sha256": "a2f5de0c27fd578c169730b5aadaa6c4d9eb212c69998b0e68854870fb4c5e1d"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Signature/PKCS1_v1_5.pyi",
+      "sha256": "8a76e96eb20b5f500db3f4366bdada47a2598cdbf9a617fcd589ebd6a6563b67"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Signature/pss.py",
+      "sha256": "9b686b9b931fbaffa121395eb256d8d50720ed075b24bd8763aa949044bb8876"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Signature/pss.pyi",
+      "sha256": "1b98011074b37e537e2a2b1d90d1bc4003e18db7f7b4eeb8816f2690491a912b"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Signature/__init__.py",
+      "sha256": "2567d9dade66c8ce9981c1b3856398708fff5037e6abbf4c0a9d60afbd1e8678"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Util/asn1.py",
+      "sha256": "302c42bb264a7e34f124435842f0ed731cfa1a199c122e261f5c730703f9eb3d"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Util/asn1.pyi",
+      "sha256": "4db889724654605ff759c5b7d754174d13f71b3b621792e48ad0f9be0cfccc57"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Util/Counter.py",
+      "sha256": "3bf557288883a4d778ad2156b5ad5f20f4e111aeae00d26b05b2676fa592e7df"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Util/Counter.pyi",
+      "sha256": "7a86661370c3b894aeb4edad8755466de52226588608a530f63f3e3379585ad0"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Util/number.py",
+      "sha256": "b8a08b1d91ad11c28f6b4580d0dead14d7cbc9ecd34a765dc09fbfee9add2d3f"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Util/number.pyi",
+      "sha256": "6bd67e3a908997245fb373bc1c4971bac0cfdd5fc17d4b7cdbd3f51ad6774af1"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Util/Padding.py",
+      "sha256": "4e7f6ef995c8d8174e18b468276b64a2d47e8349ab31aad702a8dce59a587e46"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Util/Padding.pyi",
+      "sha256": "ed464b7b39d2481d2c4de1ff908308adf7f035b21b3f7a242e469f1bd173def6"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Util/py3compat.py",
+      "sha256": "12db063125825cabea85697faa72bfd7ee5a5a36a5777eceff82713df67e6902"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Util/py3compat.pyi",
+      "sha256": "a1913976f178c28b8a7c117093233aac0d3e772c4876da9c084382bb95f2ac2d"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Util/RFC1751.py",
+      "sha256": "d602e2c3bc7a5eb7aa6955c64cfa7e90f6aed55bccaf8c3b197ca58f4eb1ef80"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Util/RFC1751.pyi",
+      "sha256": "76b2da534877f2226ea2d41ec36651ea9b0344f541b7b127dd6c51994f90f2c5"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Util/strxor.py",
+      "sha256": "23e79442b11d45c61cc4d2e047f7981e73d3b44b5697cc2fc2210da53c239604"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Util/strxor.pyi",
+      "sha256": "ca7d073c74998cffb501a2e6e1c99af62f49272a5fdfb3527769e2a632dfe1a0"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Util/_cpuid_c.pyd",
+      "sha256": "8b3df53a5e7b9ca0c20db71cac696a0473c297bbead93ef7ea3bddf6f74d6aef"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Util/_cpu_features.py",
+      "sha256": "4a489250ae5c59c2ba6ad9f0727e88b0ddfbbbc079d236fa342905f58f9981c4"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Util/_cpu_features.pyi",
+      "sha256": "72fd9c4bbff5954c58e3ae5c421334e7a570e5e8108dcb45499f8b497b359f5e"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Util/_file_system.py",
+      "sha256": "33a36137b3f9b3cf48eccd7012dae2ac898e593888b60206ba4c320b13c87573"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Util/_file_system.pyi",
+      "sha256": "2f8b0576992c17d8191119b78cf52f73540f11f2502360f71266f5ff848fb5b5"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Util/_raw_api.py",
+      "sha256": "54bb681d15d64b7f17cce32e27d53dd2102a7bcb5c7b59bd06a423a30abb2e50"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Util/_raw_api.pyi",
+      "sha256": "83c6b0310c82b4193830d59b3dabe23544acf53ff2b53e0f918f2e8db01f7485"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Util/_strxor.pyd",
+      "sha256": "c2045e1eda9b76a7855140229fca3f2600f1e822cb28f988608f831d033f4be9"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/Util/__init__.py",
+      "sha256": "089f8ec508f03dec008884e1824b9793f9f37a486aed7eafef943cc365f8fccd"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/Cipher/common.py",
+      "sha256": "15c9270c773fbf33890895429527f88dbfae79c7a0d9da3afffcda2ad4764371"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/Cipher/test_AES.py",
+      "sha256": "ee07f5393e0155111e8ddbe238154d6bf501b9e038890279154a90dec0ae3211"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/Cipher/test_ARC2.py",
+      "sha256": "5069a1bd0a5710482d4fb179c776b26c388a79a1764cf129d3c34b51867be9b3"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/Cipher/test_ARC4.py",
+      "sha256": "c27fe407553bdda4b317777ea16304119649f703fe7e394b72fb2c6952f116bf"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/Cipher/test_Blowfish.py",
+      "sha256": "1c0a6cd28c17e605b4b38859539915a48188b80c065d3e6105a75d18b2085d1f"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/Cipher/test_CAST.py",
+      "sha256": "d254ee98ae5448be3325495b760488584fd7aa01c84e7c37dc575c3b67c48353"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/Cipher/test_CBC.py",
+      "sha256": "c051240d42f4d787c4fcf8d9b93e7d57c6c06a9522ce6491560f5787fa720ebb"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/Cipher/test_CCM.py",
+      "sha256": "8b4edb93a8e72dd904e97c390ef544fe7b9e0a106c4bb39fd696ca29f7c4e0c7"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/Cipher/test_CFB.py",
+      "sha256": "8c8e7064d74d5febb6dda2d8f732b0fdc8b9dbd8c60628850b1a9edd0e928ec9"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/Cipher/test_ChaCha20.py",
+      "sha256": "38ab297958c0f5cae2740874b3a4fec39dae50544a0549afac27ac970bb79c4c"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/Cipher/test_ChaCha20_Poly1305.py",
+      "sha256": "5abaa42791eea74a443a8af27f6b30789ada4da25eafd3c27b55e6fd0a72b5bc"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/Cipher/test_CTR.py",
+      "sha256": "a0b3aa6e7c8eeff74262e46241fe243384f092fbf12739c37e220c103a8a670c"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/Cipher/test_DES.py",
+      "sha256": "c41578e0f083953cd2db20bca178ea025555bfff316226554660d9d022629d5a"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/Cipher/test_DES3.py",
+      "sha256": "3c3f70949ba35a7ad857f868a965cb3c60deccf647ad8f57d1376a927d4fe6b0"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/Cipher/test_EAX.py",
+      "sha256": "e88222f910617630cc5a787aa5cd9ed2aa7fe97e2afede81081a1a49563950da"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/Cipher/test_GCM.py",
+      "sha256": "4c74dac5a5c6c9c13bc13ef24b785da7a6a3152021170853b381cb01657d3be3"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/Cipher/test_KW.py",
+      "sha256": "9f09079569353dea1e6455eb4f348ba7afc3ca38df6a49a0f69dc7d195cd4886"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/Cipher/test_OCB.py",
+      "sha256": "2880ba6f625dea89877c48779f483200bf30cfc0ede1d6760544ef15fb157cdc"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/Cipher/test_OFB.py",
+      "sha256": "2e80b42d5b78fab6cefdfd3a0c673fe4b4c7acd980f0591ceb8273818a0e61a1"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/Cipher/test_OpenPGP.py",
+      "sha256": "8a26ffc64b50c468a32bb086525829707fdc65f944f49cd533741ffd755a7fed"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/Cipher/test_pkcs1_15.py",
+      "sha256": "f6246a4990bd7f2f862829af855a324b207ed435a3939a29be02d512306ab6ee"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/Cipher/test_pkcs1_oaep.py",
+      "sha256": "fffe36539a06b60d92d1e7030ba0ff72c87e28e9e583f7aa633310e897432a3c"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/Cipher/test_Salsa20.py",
+      "sha256": "7c46c82be5de22a6254199e3998a0d09b2a29489aca1a1b1dad66d2e9441a097"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/Cipher/test_SIV.py",
+      "sha256": "c3c3cea65eabd6573a1eaac18d39800fbc0327d89ed17705c1b7747d60e34dce"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/Cipher/__init__.py",
+      "sha256": "eed90c4704b6c5a076015b67c96e78c644024bb4b40e552808cbe33740c74b90"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/Hash/common.py",
+      "sha256": "0c56560d68a2b9f7442e0ba76e6fbcda2da6924eea8d7485e0f5dcf46c184f53"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/Hash/test_BLAKE2.py",
+      "sha256": "65852d9901d26e3829abe9ef0077ccea7adc4c2b884438d7befd122fafb931aa"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/Hash/test_CMAC.py",
+      "sha256": "e18d99f498286a1c516bb8beffdf078efd0d8a12e8112b0ff93713be7375a840"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/Hash/test_cSHAKE.py",
+      "sha256": "85785ef08b1bf94d3f68deb94d74e261b87005cdd49ba6f1dc6126f7f8f4eb55"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/Hash/test_HMAC.py",
+      "sha256": "8e3927366532393ea4f31c27897554deef7464e53c2fd01c91b4dc117cfcc237"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/Hash/test_KangarooTwelve.py",
+      "sha256": "9949cc916a894269ae3ac4723cb8cd90caea1fa273235784b419f7cf3e37d07e"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/Hash/test_keccak.py",
+      "sha256": "0fc4806701bd580c32aa321cd78a6d1270bf95b27f6ffbc703257d1105ee7c15"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/Hash/test_KMAC.py",
+      "sha256": "5f6f4ceb9ab1413ab60f86e0d30e051cd3633bfbeac0950574dea47246118e5b"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/Hash/test_MD2.py",
+      "sha256": "ea04cba208fca5181913674787512a7cfab1636222f02c456e9bdb756298d4f5"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/Hash/test_MD4.py",
+      "sha256": "b508b4b2b329f22d9b30b9aa9058411eea42452322b70211421b874740474112"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/Hash/test_MD5.py",
+      "sha256": "50b3666e4d8bfdf0b2064a97b11887cccded151b4106b03fb4b06ab336517995"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/Hash/test_Poly1305.py",
+      "sha256": "9f2140617b0dac2112b567e81b81ea215852f13a035654726ad9c0cb8a3dc4c0"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/Hash/test_RIPEMD160.py",
+      "sha256": "ab262d4592b76e2531eef56fe38239ff0e630b51eaeec2adc8420b3524c9782e"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/Hash/test_SHA1.py",
+      "sha256": "1f5b9af1e96aabfab2ff173085b89f3170b57caa2e8fea086e802bf4e65cceef"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/Hash/test_SHA224.py",
+      "sha256": "b2d11b3990ae7b31e019fce45b92eb0686be016a01921393765c7be5eabbe45d"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/Hash/test_SHA256.py",
+      "sha256": "1f2ece73919964e7a78f57aa85fdd9a0ac1d8fa892451872a94212cbe0d627c6"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/Hash/test_SHA384.py",
+      "sha256": "f92bfdfc3723c4f4e6cc2c68533bcd0a6575b2b88454c260e9a3aea8fea24807"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/Hash/test_SHA3_224.py",
+      "sha256": "7cbddabfbce5983da07e9b9f89df0d74bddf0b19e86d601ded56eceaaf13c2b6"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/Hash/test_SHA3_256.py",
+      "sha256": "bb1f328e905caaa246f80b0717c33752b1bd76cd701b251115ddc8de46803dc3"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/Hash/test_SHA3_384.py",
+      "sha256": "2d0d15100dfb710824dd98254eada038e5e4f6d013343e6ab9211bbdde91c16f"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/Hash/test_SHA3_512.py",
+      "sha256": "8f70a96a6a296fce8dc35b6e9fa0b7165165db7c6cc19eaabfa35880041e6441"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/Hash/test_SHA512.py",
+      "sha256": "5e1635b3909ec13b64b52fe3de2403fded79e072abb7605626fd07f97d18d864"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/Hash/test_SHAKE.py",
+      "sha256": "fd6b462d6aead0d373b58ae317ca4158fa6c1a9a22535d5eb1cc3cdd5d9f4af9"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/Hash/test_TupleHash.py",
+      "sha256": "39607a6008c85d1757b07a685aeae41bb4f3448147bb9e665e55abbe7d28d96d"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/Hash/test_TurboSHAKE.py",
+      "sha256": "2fa6b5cd5ef1842e92c9662cea1b1d5090ab51e057260317cde09b2583199bfe"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/Hash/__init__.py",
+      "sha256": "114a5761ae6b99d817537aa5b474e0a085e1333d5d6b9f4d8b57d0e4be44a632"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/IO/test_PBES.py",
+      "sha256": "cb9925c506675cc57cf11d0a0cb41b3273586e29f6e1cd7922a3f0eb64bfc16b"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/IO/test_PKCS8.py",
+      "sha256": "a89da6f7538a6e1a9e1d602aff6056ce651989c6c0279ffa348bb36dba0d5aad"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/IO/__init__.py",
+      "sha256": "dff0c0d77894ea9767c1e7164bbe481377a8fd79602115c3e46236e9fdb5d77d"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/Math/test_modexp.py",
+      "sha256": "6f3f7a79f8a431047b05e3c6a70a6772c147a9c2ee8f7d855ce022b2995ba8e4"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/Math/test_modmult.py",
+      "sha256": "48a5d3899c5efce0f4c63131c3beb5239c204a52eacb53c05b71ecfa3f7fc25c"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/Math/test_Numbers.py",
+      "sha256": "ece6ccc7200be98838c5155f1fa1a55f38b476bdaa64b9992322ae70de9afe0f"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/Math/test_Primality.py",
+      "sha256": "7fdb4557551c95f2267d3cc010018955d18cbc07e5fc7b39486504d029b6b6ce"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/Math/__init__.py",
+      "sha256": "96655a808ee891d1861ecaa4058f51a5b134492d9e992aa6ed855472d6ae8fa8"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/Protocol/test_ecdh.py",
+      "sha256": "5c80462639fc882200556487d6de9245441ad31d6a5bacd7201016aabc930068"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/Protocol/test_HPKE.py",
+      "sha256": "377d4bf599f288816bc35849b2b47fee5eda25952a7cf90cc7f47f9b59a072ea"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/Protocol/test_KDF.py",
+      "sha256": "2752a17f62c54459d300680826300a308f6dc164168ce2023b90ea8680f5a927"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/Protocol/test_rfc1751.py",
+      "sha256": "24a724c38bde4f10188f2bb99391aa45ee6ffefdd0b014f5ff596754133cee84"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/Protocol/test_SecretSharing.py",
+      "sha256": "eeb9a9cb378a123701a307df1d919731278f13bad2080c330822f972adb84eb2"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/Protocol/__init__.py",
+      "sha256": "138cf10f3bb54e13b06f9cc4966c55a4548631c8bf85bd63dddba43955353f6b"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/PublicKey/test_DSA.py",
+      "sha256": "9df5dea71102e4ee6f0a657cc6d6ee8b955d2789d2470b871aa8a80ef3e795a3"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/PublicKey/test_ECC_Curve25519.py",
+      "sha256": "8447b2d7e1a8794235497d6eab3f3ceb4f51d7954525bae5f72f3cf9beb2b90f"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/PublicKey/test_ECC_Curve448.py",
+      "sha256": "672ca0c7cee8530723552d1c90c211eef7f996e0a7ef654e61f4e1144e938a46"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/PublicKey/test_ECC_Ed25519.py",
+      "sha256": "2ba61599653c470bc5fed0df164d696c4b362ab46f164bc1a5437cd8868ca058"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/PublicKey/test_ECC_Ed448.py",
+      "sha256": "640aaf9127669af76bb9ccbf6371af99ff7ee3c6f335953df14caa221a5c28ff"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/PublicKey/test_ECC_NIST.py",
+      "sha256": "32708a24002d6d5feeeb2cf23682659363c254492d2dbec20c861411db5e5a17"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/PublicKey/test_ElGamal.py",
+      "sha256": "4d60c3e9d374a4cf2b012c1b5cc5b51f7aa7d0b5b4a54ef7455f39593624f960"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/PublicKey/test_import_Curve25519.py",
+      "sha256": "4dafb5db4b63193d32599409a651ee233bcf59b0d65527f2b6e5bc68fdb14719"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/PublicKey/test_import_Curve448.py",
+      "sha256": "c23f1e383aa5f786d5cf9cbf4dcc1b873505923b3d44a9097ed9288c6a7ef495"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/PublicKey/test_import_DSA.py",
+      "sha256": "ec1261d609d8d8a7d4cdf9ad2fca2d1efd47b6ed5cfe6c606bc1f6764d23aabb"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/PublicKey/test_import_ECC.py",
+      "sha256": "db19efbd574200d680ace6f08bcdfdc1e0c31475f9da90db9f0f68f0ca7eccc5"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/PublicKey/test_import_RSA.py",
+      "sha256": "309ae3b0bff42c6f77ba3f89285fcfcf825e10300a4fd1c77c260fb812f93c59"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/PublicKey/test_RSA.py",
+      "sha256": "49ccda5101bfa3d2e7769decd6d6c4e7660aac61ed02cd380942e80407f6e4bf"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/PublicKey/__init__.py",
+      "sha256": "6520d5f34b8961fcc8ffa2eb99e16571497b9e5142791126a4c8c646c1683a30"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/Random/test_random.py",
+      "sha256": "84cec4047fd05e44bc93e612a74b9a72554b499297a64f0ca4e93738cea182ba"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/Random/__init__.py",
+      "sha256": "9c6d9f1bb2b129d937be32403efee8c48ce3a163d7091df48a032d3976d105d0"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/Signature/test_dss.py",
+      "sha256": "248d798ff749535095806ec9e19e0533cd54d6dee32b218f764690bbde4802d4"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/Signature/test_eddsa.py",
+      "sha256": "56ea04e4e4caa834cbf9941351cc417ff833246da5637fca24d462e417fcab3d"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/Signature/test_pkcs1_15.py",
+      "sha256": "374b05bbb8483d18953477106db16090b495bc18f014e69dbfe11f8f0c17fcff"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/Signature/test_pss.py",
+      "sha256": "98f05602150cf5a3351ebe3d53e1681a63d1a180e825dddcf2f6f70a465f128b"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/Signature/__init__.py",
+      "sha256": "ee9d77a0f03e91170605ee5bbc1fdd351030504b68840e5d1ac87c688b2bdaed"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/Util/test_asn1.py",
+      "sha256": "3662dd95061792f239d6e8dc41b6f2479443a038702e6e9ca489bb8dc5beb29f"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/Util/test_Counter.py",
+      "sha256": "02763deb01564fe43af6bdc7dc576d6b08f7a1ddde04b0dc6bfbba541cdf85d3"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/Util/test_number.py",
+      "sha256": "067df10041a13d4c622586aca5fe641cf9f539d72f028238aef2a8569d260027"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/Util/test_Padding.py",
+      "sha256": "b0fd374cc65649ce9ae54e7ef99e492f6206ec73fa960d302626b22abef84bef"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/Util/test_rfc1751.py",
+      "sha256": "2ffbd2ce2a6c2ca32880eda89cd6fa1ca360aca01dcb14040d22b72e1909681f"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/Util/test_strxor.py",
+      "sha256": "2d5816dc682f8906306355f4e1f699a5d6de5f87cfa85d4a9de0905d6ddef81a"
+    },
+    {
+      "path": "channel-vendor/Cryptodome/SelfTest/Util/__init__.py",
+      "sha256": "b0a12a8b242df32813f9e53643d3b1b15789f840b50b093b085cd52c0052a916"
+    }
+  ]
+}

@@ -1,0 +1,457 @@
+- button "开启读屏标签"
+- generic: 读屏标签已关闭
+- link:
+  - /url: //www.douyin.com/jingxuan
+- link "精选":
+  - /url: https://www.douyin.com/jingxuan?from_nav=1
+  - generic: 精选
+- link "推荐":
+  - /url: https://www.douyin.com/?recommend=1&from_nav=1
+  - generic: 推荐
+- link "AI抖音":
+  - /url: https://www.douyin.com/aisearch?from_nav=1
+  - generic: AI抖音
+- link "关注":
+  - /url: https://www.douyin.com/follow?from_nav=1
+  - generic: 关注
+- link "朋友":
+  - /url: https://www.douyin.com/friend?from_nav=1
+  - generic: 朋友
+- link "我的":
+  - /url: https://www.douyin.com/user/self?from_nav=1
+  - generic: 我的
+- link "影之刃零 影之刃零 影之刃零 影之刃零 影之刃零 影之刃零 影之刃零 影之刃零 影之刃零 影之刃零 影之刃零 影之刃零 影之刃零 影之刃零 影之刃零 影之刃零 影之刃零 影之刃零 影之刃零 影之刃零":
+  - /url: https://www.douyin.com/activity/2838598?from_nav=1
+  - img "影之刃零"
+  - img "影之刃零"
+  - img "影之刃零"
+  - img "影之刃零"
+  - img "影之刃零"
+  - img "影之刃零"
+  - img "影之刃零"
+  - img "影之刃零"
+  - img "影之刃零"
+  - img "影之刃零"
+  - img "影之刃零"
+  - img "影之刃零"
+  - img "影之刃零"
+  - img "影之刃零"
+  - img "影之刃零"
+  - img "影之刃零"
+  - img "影之刃零"
+  - img "影之刃零"
+  - img "影之刃零"
+  - img "影之刃零"
+- link "直播":
+  - /url: https://live.douyin.com/?from_nav=1
+  - generic: 直播
+- link "放映厅":
+  - /url: https://www.douyin.com/vs?from_nav=1
+  - generic: 放映厅
+- link "短剧":
+  - /url: https://www.douyin.com/series?from_nav=1
+  - generic: 短剧
+- link "小游戏":
+  - /url: https://www.douyin.com/microgame?from_nav=1
+  - generic: 小游戏
+- generic: 下载抖音精选
+- generic: 2026 © 抖音
+- link "京ICP备16016397号-3":
+  - /url: https://beian.miit.gov.cn/
+- contentinfo:
+  - link "icon京公网安备11010802050006号":
+    - /url: https://beian.mps.gov.cn/
+    - img "icon"
+    - text: 京公网安备11010802050006号
+  - link "icon电子营业执照":
+    - /url: https://zzlz.gsxt.gov.cn/businessCheck/verifKey.do
+    - img "icon"
+    - text: 电子营业执照
+  - generic: 信息网络传播视听节目许可证 0126733
+  - generic: 广播电视节目制作经营许可证 （京）字第11313号
+  - generic: 增值电信业务经营许可证 京B2-20170846
+  - generic: 网络文化经营许可证 京网文〔2025〕0181-061号
+  - generic: 互联网宗教信息服务许可证 京（2025）0000017
+  - generic: 药品医疗器械网络信息服务备案 （京）网药械信息备字（2023）第00570号
+  - generic: 互联网新闻信息服务许可证 11220230001
+  - link "（京）人服证字〔2026〕第0600005023号":
+    - /url: https://p-pc-weboff.byteimg.com/tos-cn-i-9r5gewecjs/d1cb34abe8ebb5600b51bac36ce3247f.jpg
+  - link "网络谣言曝光台":
+    - /url: https://www.piyao.org.cn/yybgt/index.htm
+  - link "网上有害信息举报":
+    - /url: https://www.12377.cn/
+  - generic: 违法和不良信息举报 400-140-2108 feedback@douyin.com
+  - generic: 算法推荐专项举报 sfjubao@bytedance.com
+  - generic: 体育饭圈专项举报 tyfq@bytedance.com
+  - link "广告投放":
+    - /url: https://www.oceanengine.com/resource/douyin
+  - link "用户服务协议":
+    - /url: https://www.douyin.com/agreements/?id=6773906068725565448
+  - link "隐私政策":
+    - /url: https://www.douyin.com/agreements/?id=6773901168964798477
+  - link "账号找回":
+    - /url: https://www.douyin.com/recovery_account/
+  - link "联系我们":
+    - /url: https://www.douyin.com/aboutus/
+  - link "加入我们":
+    - /url: https://www.douyin.com/aboutus/
+  - link "友情链接":
+    - /url: https://www.douyin.com/friend_links
+  - link "站点地图":
+    - /url: https://www.douyin.com/htmlmap/hotauthor_0_1
+  - link "下载抖音":
+    - /url: https://www.douyin.com/downloadpage/pc
+  - link "抖音电商":
+    - /url: https://mix.jinritemai.com/falcon/mix_page/index.html
+- banner:
+  - generic: 川大江安附近球友
+  - textbox
+  - button "搜索":
+    - generic: 搜索
+  - paragraph: 充钻石
+  - link "客户端":
+    - /url: https://www.douyin.com/download/pc/obj/douyin-pc-web/douyin-pc-client/7044145585217083655/releases/495279540/8.7.0/win32-ia32/douyin-downloader-v8.7.0-win32-ia32-douyincold.exe
+    - paragraph: 客户端
+  - generic: 壁纸
+  - list:
+    - paragraph: 通知
+  - list:
+    - paragraph: 消息
+    - generic: "96"
+  - paragraph: 投稿
+  - link:
+    - /url: //www.douyin.com/user/self
+- generic: 01:24
+- generic: /
+- generic: 02:18
+- generic: 因浏览器限制，当前为静音
+- button "打开声音":
+  - generic: 打开声音
+- generic: 倍速
+- generic: 智能
+- button
+- generic: 清屏
+- button
+- generic: 连播
+- 'heading "即决高下也决生死 川大江安附近有没有厉害的球搭子，约个决一生死的表演赛！#业余乒乓球对决 #挑战乒乓球业余高手" [level=1]':
+  - generic: 即决高下也决生死 川大江安附近有没有厉害的球搭子，约个决一生死的表演赛！
+  - link "#业余乒乓球对决":
+    - /url: //www.douyin.com/search/%E4%B8%9A%E4%BD%99%E4%B9%92%E4%B9%93%E7%90%83%E5%AF%B9%E5%86%B3?enter_from=video_detail&source=pc_click_hashtag_feed
+  - link "#挑战乒乓球业余高手":
+    - /url: //www.douyin.com/search/%E6%8C%91%E6%88%98%E4%B9%92%E4%B9%93%E7%90%83%E4%B8%9A%E4%BD%99%E9%AB%98%E6%89%8B?enter_from=video_detail&source=pc_click_hashtag_feed
+- generic: "5"
+- generic: "8"
+- generic: 收藏
+- generic: 分享
+- generic: 举报
+- generic: 发布时间：2026-10-27 23:38
+- generic: 全部评论
+- link "银杏乒乓球俱乐部头像":
+  - /url: //www.douyin.com/user/MS4wLjABAAAAOPsNPBBeON3ZtJ7CV3LCAM9duIDkh8szuqraoXCNNPa7PFmwOgiu0OjtN8SfLnOD
+  - img "银杏乒乓球俱乐部头像"
+- generic: 留下你的精彩评论吧
+- combobox
+- generic: 大家都在搜：
+- link "川大江安乒乓球搭子":
+  - /url: //www.douyin.com/search/%E5%B7%9D%E5%A4%A7%E6%B1%9F%E5%AE%89%E4%B9%92%E4%B9%93%E7%90%83%E6%90%AD%E5%AD%90?aweme_id=7701372394577607067&enter_from=video_detail&gid=7701372394577607067&source=comment_related_search
+  - generic: 川大江安乒乓球搭子
+- link "银杏乒乓球俱乐部头像":
+  - /url: //www.douyin.com/user/MS4wLjABAAAAOPsNPBBeON3ZtJ7CV3LCAM9duIDkh8szuqraoXCNNPa7PFmwOgiu0OjtN8SfLnOD
+  - img "银杏乒乓球俱乐部头像"
+- link "银杏乒乓球俱乐部":
+  - /url: //www.douyin.com/user/MS4wLjABAAAAOPsNPBBeON3ZtJ7CV3LCAM9duIDkh8szuqraoXCNNPa7PFmwOgiu0OjtN8SfLnOD
+  - generic: 银杏乒乓球俱乐部
+- generic: ...
+- generic: 你好，我们是银杏乒乓球俱乐部。看到你在江安附近找球搭子，我们在青羊区，距离会远一些。你也考虑周末参加分组比赛吗？可以先在抖音「银杏奖牌」小程序看看时间和分组，合适再报名。
+- generic: 刚刚
+- paragraph:
+  - generic: "0"
+- paragraph:
+- generic: 分享
+- generic: 回复
+- link "歆妹儿呀头像":
+  - /url: //www.douyin.com/user/MS4wLjABAAAAzb0wmx6wBgVk3tWlViyOlHjr4-S2I-KNbFhoTiiCyfc
+  - img "歆妹儿呀头像"
+- link "歆妹儿呀":
+  - /url: //www.douyin.com/user/MS4wLjABAAAAzb0wmx6wBgVk3tWlViyOlHjr4-S2I-KNbFhoTiiCyfc
+  - generic: 歆妹儿呀
+- generic: ...
+- generic: 赤膊上阵
+- generic: 3天前·四川
+- paragraph:
+  - generic: "0"
+- paragraph:
+- generic: 分享
+- generic: 回复
+- link "🌈Cuiyang888🌈头像":
+  - /url: //www.douyin.com/user/MS4wLjABAAAAp36ZwcUtWP4imlP1SnI-SfVQ9mZqjrBrapsqYElKLWI
+  - img "🌈Cuiyang888🌈头像"
+- link "🌈Cuiyang888🌈 作者":
+  - /url: //www.douyin.com/user/MS4wLjABAAAAp36ZwcUtWP4imlP1SnI-SfVQ9mZqjrBrapsqYElKLWI
+  - img "🌈"
+  - text: Cuiyang888
+  - img "🌈"
+  - generic: 作者
+- generic: ...
+- text: 这样就只洗澡不用洗衣服了
+- img "[呲牙]"
+- generic: 3天前·四川
+- paragraph:
+  - generic: "0"
+- paragraph:
+- generic: 分享
+- generic: 回复
+- button "展开2条回复":
+  - generic: 展开2条回复
+- link "Day day up":
+  - /url: //www.douyin.com/user/MS4wLjABAAAAPmk_em-PdwawU9tyB7oBiEls7t0k682CIHmOkOqrIn14LZLBdIKJ4YSsCXQIn1EA
+  - generic: Day day up
+- generic: ...
+- generic: 这么帅了吗已经
+- generic: 4天前·四川
+- paragraph:
+  - generic: "0"
+- paragraph:
+- generic: 分享
+- generic: 回复
+- link "歆妹儿呀":
+  - /url: //www.douyin.com/user/MS4wLjABAAAAzb0wmx6wBgVk3tWlViyOlHjr4-S2I-KNbFhoTiiCyfc
+  - generic: 歆妹儿呀
+- generic: ...
+- generic: 太帅了
+- generic: 3天前·四川
+- paragraph:
+  - generic: "0"
+- paragraph:
+- generic: 分享
+- generic: 回复
+- link "天明了":
+  - /url: //www.douyin.com/user/MS4wLjABAAAAo0iuIc0dTQsJdr62LpR-eNkVB3zPlDNivYgOY_EUyBatOqAGw_92O-1uSlTFBLII
+  - generic: 天明了
+- generic: ...
+- generic: 差距太大了
+- generic: 3天前·四川
+- paragraph:
+  - generic: "0"
+- paragraph:
+- generic: 分享
+- generic: 回复
+- generic: 暂时没有更多评论
+- link "🌈Cuiyang888🌈":
+  - /url: //www.douyin.com/user/MS4wLjABAAAAp36ZwcUtWP4imlP1SnI-SfVQ9mZqjrBrapsqYElKLWI
+  - img "🌈Cuiyang888🌈"
+- link "🌈Cuiyang888🌈":
+  - /url: //www.douyin.com/user/MS4wLjABAAAAp36ZwcUtWP4imlP1SnI-SfVQ9mZqjrBrapsqYElKLWI
+  - img "🌈"
+  - text: Cuiyang888
+  - img "🌈"
+- paragraph: 粉丝3000获赞8629
+- button "关注":
+  - generic: 关注
+- heading "推荐视频" [level=2]
+- list:
+  - 'link "#乒乓比赛现场 #乒乓球 00:13"':
+    - /url: //www.douyin.com/video/7697213447478664123
+    - 'img "#乒乓比赛现场 #乒乓球"'
+    - generic: 00:13
+  - 'heading "#乒乓比赛现场 #乒乓球" [level=3]':
+    - 'link "#乒乓比赛现场 #乒乓球"':
+      - /url: //www.douyin.com/video/7697213447478664123
+      - generic: "#乒乓比赛现场 #乒乓球"
+  - text: "4881"
+  - link "光哥yg":
+    - /url: //www.douyin.com/user/MS4wLjABAAAAWbaZlFXKvGY2rV1wmuNSb0S9OTRKfDurgS9vixlUqyz0a5vWIUkM_kXEimj-SC-v?author_id=82571051696&enter_from=video_detail&enter_method=video_cover_title&from_tab_name=main&group_id=7701372394577607067&log_pb=%7B%22impr_id%22%3A%22202611010126308D059B8A371B9F59CDAA%22%7D&relation=0
+    - generic: 光哥yg
+  - 'link "#真实生活分享计划 #日常乒乓球训练 #乒乓球女孩 不是将军拔剑，是小乒抽刀。#乒乓爱好者日常 00:21"':
+    - /url: //www.douyin.com/video/7683675615568605610
+    - 'img "#真实生活分享计划 #日常乒乓球训练 #乒乓球女孩 不是将军拔剑，是小乒抽刀。#乒乓爱好者日常"'
+    - generic: 00:21
+  - 'heading "#真实生活分享计划 #日常乒乓球训练 #乒乓球女孩 不是将军拔剑，是小乒抽刀。#乒乓爱好者日常" [level=3]':
+    - 'link "#真实生活分享计划 #日常乒乓球训练 #乒乓球女孩 不是将军拔剑，是小乒抽刀。#乒乓爱好者日常"':
+      - /url: //www.douyin.com/video/7683675615568605610
+      - generic: "#真实生活分享计划 #日常乒乓球训练 #乒乓球女孩 不是将军拔剑，是小乒抽刀。#乒乓爱好者日常"
+  - text: "1789"
+  - link "老王打球":
+    - /url: //www.douyin.com/user/MS4wLjABAAAAoRMziGHxhwMt8Ok0bTO3EfymjqsWsFh789ip7PV8N1-cc81BmKRV_yGk8X0PSIz2?author_id=82571051696&enter_from=video_detail&enter_method=video_cover_title&from_tab_name=main&group_id=7701372394577607067&log_pb=%7B%22impr_id%22%3A%22202611010126308D059B8A371B9F59CDAA%22%7D&relation=0
+    - generic: 老王打球
+  - link "2026‑09‑05 山东日照五莲市民体育中心，山东省城市乒乓球超级联赛暨乒乓文旅嘉年华（日照赛区）活动现场。奥运冠军陈梦与五征集团董事长姜卫东开球仪式#乒乓比赛现场 02:00":
+    - /url: //www.douyin.com/video/7681927726945023722
+    - img "2026‑09‑05 山东日照五莲市民体育中心，山东省城市乒乓球超级联赛暨乒乓文旅嘉年华（日照赛区）活动现场。奥运冠军陈梦与五征集团董事长姜卫东开球仪式#乒乓比赛现场"
+    - generic: 02:00
+  - heading "2026‑09‑05 山东日照五莲市民体育中心，山东省城市乒乓球超级联赛暨乒乓文旅嘉年华（日照赛区）活动现场。奥运冠军陈梦与五征集团董事长姜卫东开球仪式#乒乓比赛现场" [level=3]:
+    - link "2026‑09‑05 山东日照五莲市民体育中心，山东省城市乒乓球超级联赛暨乒乓文旅嘉年华（日照赛区）活动现场。奥运冠军陈梦与五征集团董事长姜卫东开球仪式#乒乓比赛现场":
+      - /url: //www.douyin.com/video/7681927726945023722
+      - generic: 2026‑09‑05 山东日照五莲市民体育中心，山东省城市乒乓球超级联赛暨乒乓文旅嘉年华（日照赛区）活动现场。奥运冠军陈梦与五征集团董事长姜卫东开球仪式#乒乓比赛现场
+  - text: "4041"
+  - link "小张不爱吃肉松":
+    - /url: //www.douyin.com/user/MS4wLjABAAAANFOfIQ6c-sckMr-WozfdvoCQpukZAEPSjL79cu0J_30?author_id=82571051696&enter_from=video_detail&enter_method=video_cover_title&from_tab_name=main&group_id=7701372394577607067&log_pb=%7B%22impr_id%22%3A%22202611010126308D059B8A371B9F59CDAA%22%7D&relation=0
+    - generic: 小张不爱吃肉松
+  - link "刘国梁遭48页匿名举报 全球群发，国际乒联正式受理，评论区一边倒 05:48":
+    - /url: //www.douyin.com/video/7698708261104586034
+    - img "刘国梁遭48页匿名举报 全球群发，国际乒联正式受理，评论区一边倒"
+    - generic: 05:48
+  - heading "刘国梁遭48页匿名举报 全球群发，国际乒联正式受理，评论区一边倒" [level=3]:
+    - link "刘国梁遭48页匿名举报 全球群发，国际乒联正式受理，评论区一边倒":
+      - /url: //www.douyin.com/video/7698708261104586034
+      - generic: 刘国梁遭48页匿名举报 全球群发，国际乒联正式受理，评论区一边倒
+  - text: 1.2万
+  - link "小漳聊聊":
+    - /url: //www.douyin.com/user/MS4wLjABAAAAYQnmWoVl_GLU_QgJ18WExn1CQl1EdIC7m_SIJ7yu-6ezTU0Qlh-wIGa5JpNlbT9r?author_id=82571051696&enter_from=video_detail&enter_method=video_cover_title&from_tab_name=main&group_id=7701372394577607067&log_pb=%7B%22impr_id%22%3A%22202611010126308D059B8A371B9F59CDAA%22%7D&relation=0
+    - generic: 小漳聊聊
+  - 'link "多少人梦寐以求的反手拉下旋声音🏓学习！ #乒乓球 #反手拉球 #樊振东 #乒乓球训练 #乒乓球的魅力 @抖音小助手 00:15"':
+    - /url: //www.douyin.com/video/7694509844888554865
+    - 'img "多少人梦寐以求的反手拉下旋声音🏓学习！ #乒乓球 #反手拉球 #樊振东 #乒乓球训练 #乒乓球的魅力 @抖音小助手"'
+    - generic: 00:15
+  - 'heading "多少人梦寐以求的反手拉下旋声音🏓学习！ #乒乓球 #反手拉球 #樊振东 #乒乓球训练 #乒乓球的魅力 @抖音小助手" [level=3]':
+    - 'link "多少人梦寐以求的反手拉下旋声音🏓学习！ #乒乓球 #反手拉球 #樊振东 #乒乓球训练 #乒乓球的魅力 @抖音小助手"':
+      - /url: //www.douyin.com/video/7694509844888554865
+      - text: 多少人梦寐以求的反手拉下旋声音
+      - img "🏓"
+      - text: "学习！ #乒乓球 #反手拉球 #樊振东 #乒乓球训练 #乒乓球的魅力 @抖音小助手"
+  - text: "9153"
+  - link "胖虎爱打乒乓":
+    - /url: //www.douyin.com/user/MS4wLjABAAAAx6Teivh4B06rN8Cm6R8chMR0R0dTGLZ-FcYZ4G1ZLwsFaeAkjPCira1e4EZlXVMt?author_id=82571051696&enter_from=video_detail&enter_method=video_cover_title&from_tab_name=main&group_id=7701372394577607067&log_pb=%7B%22impr_id%22%3A%22202611010126308D059B8A371B9F59CDAA%22%7D&relation=0
+    - generic: 胖虎爱打乒乓
+  - 'link "魔鬼式训练#激情乒乓 #乒乓球 00:30"':
+    - /url: //www.douyin.com/video/7690579607884465064
+    - 'img "魔鬼式训练#激情乒乓 #乒乓球"'
+    - generic: 00:30
+  - 'heading "魔鬼式训练#激情乒乓 #乒乓球" [level=3]':
+    - 'link "魔鬼式训练#激情乒乓 #乒乓球"':
+      - /url: //www.douyin.com/video/7690579607884465064
+      - generic: "魔鬼式训练#激情乒乓 #乒乓球"
+  - text: "6832"
+  - link "445传奇录":
+    - /url: //www.douyin.com/user/MS4wLjABAAAAYtYHTquBNDm_Vog8R-ruKl8ey-W6EF_HGT2v7Y_GxnAGGnlR4FQGZJO7aUJmXkyO?author_id=82571051696&enter_from=video_detail&enter_method=video_cover_title&from_tab_name=main&group_id=7701372394577607067&log_pb=%7B%22impr_id%22%3A%22202611010126308D059B8A371B9F59CDAA%22%7D&relation=0
+    - generic: 445传奇录
+  - 'link "可曾听闻“将军拔剑”？#将军拔剑 #梁炜杰 #嗙仓 @永帅乒乓 00:20"':
+    - /url: //www.douyin.com/video/7670122784676633786
+    - 'img "可曾听闻“将军拔剑”？#将军拔剑 #梁炜杰 #嗙仓 @永帅乒乓"'
+    - generic: 00:20
+  - 'heading "可曾听闻“将军拔剑”？#将军拔剑 #梁炜杰 #嗙仓 @永帅乒乓" [level=3]':
+    - 'link "可曾听闻“将军拔剑”？#将军拔剑 #梁炜杰 #嗙仓 @永帅乒乓"':
+      - /url: //www.douyin.com/video/7670122784676633786
+      - generic: "可曾听闻“将军拔剑”？#将军拔剑 #梁炜杰 #嗙仓 @永帅乒乓"
+  - text: "9638"
+  - link "梁炜杰🏓️":
+    - /url: //www.douyin.com/user/MS4wLjABAAAAGyrdVW8zv0C4-uUSxY8c4AuGbs8fCZS7iUihth1fn1IhK4aL-APXtKYcmH5l7PVp?author_id=82571051696&enter_from=video_detail&enter_method=video_cover_title&from_tab_name=main&group_id=7701372394577607067&log_pb=%7B%22impr_id%22%3A%22202611010126308D059B8A371B9F59CDAA%22%7D&relation=0
+    - text: 梁炜杰
+    - img "🏓"
+    - text: ️
+  - 'link "这个球 有几分？ #乒乓球 #飞身爆挑 #乒乓球比赛精彩视频 00:08"':
+    - /url: //www.douyin.com/video/7674272810319039796
+    - 'img "这个球 有几分？ #乒乓球 #飞身爆挑 #乒乓球比赛精彩视频"'
+    - generic: 00:08
+  - 'heading "这个球 有几分？ #乒乓球 #飞身爆挑 #乒乓球比赛精彩视频" [level=3]':
+    - 'link "这个球 有几分？ #乒乓球 #飞身爆挑 #乒乓球比赛精彩视频"':
+      - /url: //www.douyin.com/video/7674272810319039796
+      - generic: "这个球 有几分？ #乒乓球 #飞身爆挑 #乒乓球比赛精彩视频"
+  - text: 1.3万
+  - link "乒乓球🏓会飞身暴挑":
+    - /url: //www.douyin.com/user/MS4wLjABAAAASz6WRspwZKb7E8P1lm6IU2y8dA9W_OAZgryEmjPwYCzjHNDCKdeCVbf-zG5iXVkr?author_id=82571051696&enter_from=video_detail&enter_method=video_cover_title&from_tab_name=main&group_id=7701372394577607067&log_pb=%7B%22impr_id%22%3A%22202611010126308D059B8A371B9F59CDAA%22%7D&relation=0
+    - text: 乒乓球
+    - img "🏓"
+    - text: 会飞身暴挑
+  - 'link "新视频来啦！和庆哥花式乒乓表演～🏓#全民健身 #因为热爱所以坚持 #体育 #运动 #乒乓球 00:07"':
+    - /url: //www.douyin.com/video/7697428335332297201
+    - 'img "新视频来啦！和庆哥花式乒乓表演～🏓#全民健身 #因为热爱所以坚持 #体育 #运动 #乒乓球"'
+    - generic: 00:07
+  - 'heading "新视频来啦！和庆哥花式乒乓表演～🏓#全民健身 #因为热爱所以坚持 #体育 #运动 #乒乓球" [level=3]':
+    - 'link "新视频来啦！和庆哥花式乒乓表演～🏓#全民健身 #因为热爱所以坚持 #体育 #运动 #乒乓球"':
+      - /url: //www.douyin.com/video/7697428335332297201
+      - text: 新视频来啦！和庆哥花式乒乓表演～
+      - img "🏓"
+      - text: "#全民健身 #因为热爱所以坚持 #体育 #运动 #乒乓球"
+  - text: "5298"
+  - link "小T☕🍰":
+    - /url: //www.douyin.com/user/MS4wLjABAAAAPo3jE2jz032QtuGjiDTNPc9bnzGxevhAaESxLbMoy54WbVvtSqOubIBhQT0Bd23N?author_id=82571051696&enter_from=video_detail&enter_method=video_cover_title&from_tab_name=main&group_id=7701372394577607067&log_pb=%7B%22impr_id%22%3A%22202611010126308D059B8A371B9F59CDAA%22%7D&relation=0
+    - text: 小T
+    - img "☕"
+    - img "🍰"
+  - 'link "特别清脆的一声“yes”#乒乓球 #乒乓球基本功🏓 #樊振东 00:07"':
+    - /url: //www.douyin.com/video/7680752999703041011
+    - 'img "特别清脆的一声“yes”#乒乓球 #乒乓球基本功🏓 #樊振东"'
+    - generic: 00:07
+  - 'heading "特别清脆的一声“yes”#乒乓球 #乒乓球基本功🏓 #樊振东" [level=3]':
+    - 'link "特别清脆的一声“yes”#乒乓球 #乒乓球基本功🏓 #樊振东"':
+      - /url: //www.douyin.com/video/7680752999703041011
+      - text: "特别清脆的一声“yes”#乒乓球 #乒乓球基本功"
+      - img "🏓"
+      - text: "#樊振东"
+  - text: 2.6万
+  - link "rwxx.💙🐼.":
+    - /url: //www.douyin.com/user/MS4wLjABAAAAZQisk3Uv0nUXNAcL2AoEWZfjJV9Cb3De10Y7qQIk-BQ?author_id=82571051696&enter_from=video_detail&enter_method=video_cover_title&from_tab_name=main&group_id=7701372394577607067&log_pb=%7B%22impr_id%22%3A%22202611010126308D059B8A371B9F59CDAA%22%7D&relation=0
+    - text: rwxx.
+    - img "💙"
+    - img "🐼"
+    - text: .
+- contentinfo:
+  - link "广告投放":
+    - /url: https://www.oceanengine.com/resource/douyin
+  - link "用户服务协议":
+    - /url: https://www.douyin.com/agreements/?id=6773906068725565448
+  - link "隐私政策":
+    - /url: https://www.douyin.com/agreements/?id=6773901168964798477
+  - link "账号找回":
+    - /url: https://www.douyin.com/recovery_account/
+  - link "联系我们":
+    - /url: https://www.douyin.com/aboutus/
+  - link "加入我们":
+    - /url: https://www.douyin.com/aboutus/
+  - link "友情链接":
+    - /url: https://www.douyin.com/friend_links
+  - link "站点地图":
+    - /url: https://www.douyin.com/htmlmap/hotauthor_0_1
+  - link "下载抖音":
+    - /url: https://www.douyin.com/downloadpage/pc
+  - link "抖音电商":
+    - /url: https://mix.jinritemai.com/falcon/mix_page/index.html
+  - link "网络谣言曝光台 ｜":
+    - /url: https://www.piyao.org.cn/yybgt/index.htm
+  - link "网上有害信息举报":
+    - /url: https://www.12377.cn/
+  - generic: ｜ 违法和不良信息举报：400-140-2108 feedback@douyin.com ｜ 算法推荐专项举报：sfjubao@bytedance.com | 体育饭圈专项举报：tyfq@bytedance.com
+  - link "京ICP备16016397号-3":
+    - /url: https://beian.miit.gov.cn/
+  - generic: ｜ 信息网络传播视听节目许可证 0126733
+  - generic: ｜ 广播电视节目制作经营许可证 （京）字第11313号
+  - generic: ｜ 增值电信业务经营许可证 京B2-20170846
+  - generic: ｜ 网络文化经营许可证 京网文〔2025〕0181-061号 ｜
+  - img "icon"
+  - link "京公网安备11010802050006号":
+    - /url: https://beian.mps.gov.cn/
+  - generic: ｜ 互联网宗教信息服务许可证 京（2025）0000017 ｜
+  - img "icon"
+  - link "电子营业执照":
+    - /url: https://zzlz.gsxt.gov.cn/businessCheck/verifKey.do
+  - link "｜（京）人服证字〔2026〕第0600005023号":
+    - /url: https://p-pc-weboff.byteimg.com/tos-cn-i-9r5gewecjs/d1cb34abe8ebb5600b51bac36ce3247f.jpg
+  - generic: 热门：
+  - link "抖音体育":
+    - /url: https://www.douyin.com/jingxuan/sports
+  - link "抖音音乐":
+    - /url: https://www.douyin.com/jingxuan/music
+  - link "爱分享的小姑娘":
+    - /url: https://www.douyin.com/user/MS4wLjABAAAAJngKGQmwIngaYJjniB_N25T1dsWFrnM7G_7MqaR4nn8
+  - link "作业帮快解高考，用最简解法攻克高考重难点#高考#高中#提分":
+    - /url: https://www.douyin.com/video/7702842216682687770
+  - link "春招被录取了夏季还要报志愿吗":
+    - /url: https://www.douyin.com/topic/7509884434569807882
+  - link "高考试卷陈思远萧然颜若享太庙":
+    - /url: https://www.douyin.com/shipin/7509921143797778451
+  - link "河南考生位次排名查询":
+    - /url: https://www.douyin.com/search/%E6%B2%B3%E5%8D%97%E8%80%83%E7%94%9F%E4%BD%8D%E6%AC%A1%E6%8E%92%E5%90%8D%E6%9F%A5%E8%AF%A2
+  - link "蓝莓界的吃法天花板":
+    - /url: https://www.douyin.com/video/7616567492710453402?source=Baiduspider
+  - 'link "超清航拍 中国气都巴人故里 达州市 资源富市环境优美宜居宜游 #旅行推荐官 #宜居城市 #城市风光 #达州市"':
+    - /url: https://www.douyin.com/video/7284637746134617404?source=Baiduspider
+  - 'link "新手上路，雨天高速，保持车距，注意控制车速#汽车陪练 #新手练车 #高速开车 #新手上路 #杭州汽车陪练霍教练"':
+    - /url: https://www.douyin.com/video/7293189685256506675?source=Baiduspider
+  - link "5min超详细网感小猫眼线妆教程！ 视频长归长，但是真的能包新手画出扛得住原相机的上镜妆容#妆教#新手化妆教程#网感妆容":
+    - /url: https://www.douyin.com/video/7447475410742283558?source=Baiduspider-sdc
+  - 'link "@丹哥（7月9号10号周年庆） @无油哥 @黑黑本黑 #练背日 今天练背也做了递增组 作业也只剪了最大重量的一组 请老师们看看动作有没有做变形"':
+    - /url: https://www.douyin.com/video/7255165230580288828?source=Baiduspider
+  - link "对越自卫反击战中有一名香港籍战士参战，你们知道吗？":
+    - /url: https://www.douyin.com/video/7134917045094862087?source=Baiduspider
+  - 'link "苹果发布iOS18.4正式版，新增5GA等大量新功能！ #iOS18 #ios18新功能 #iPhone"':
+    - /url: https://www.douyin.com/video/7488188066729938188?source=Baiduspider-sdc

@@ -1,0 +1,55 @@
+{
+  "version": "1.4.7",
+  "prepared_at": "2026-11-01T21:41:27.156239+00:00",
+  "files": [
+    {
+      "path": "bridge.js",
+      "sha256": "691b86b40e224af2f3e02965ca1eedc44d1911ee25717ef177635e90a37ffc7f"
+    },
+    {
+      "path": "capture.js",
+      "sha256": "c8e18eb1ff155e70b3c2839c8b666290847c1d99a6afb5649628c772a374bb86"
+    },
+    {
+      "path": "continuous.js",
+      "sha256": "e6656512517fccf60418188030ef6d63c8ab1d58fb553aa6ead8a9301088a232"
+    },
+    {
+      "path": "manifest.json",
+      "sha256": "01d010856440f295373f7fad8bfdf97eb093aa79ed1650129fb531d0d6e97901"
+    },
+    {
+      "path": "popup.css",
+      "sha256": "f0a34a8c62039fbceb903a9c9774d76b47060db7c770c4179147ce023a7fefef"
+    },
+    {
+      "path": "popup.html",
+      "sha256": "d4e297305ce2d38f108bbbd9930d8fb6706f1a11271f065f00d0094c5096ed90"
+    },
+    {
+      "path": "popup.js",
+      "sha256": "f6eb4a11100689e02e500b8be0227acd6dba757ae9ce40664d9e408a31141b43"
+    },
+    {
+      "path": "README.txt",
+      "sha256": "b5a73ce683a32811f44501942db16e36a6522b6372f5b89a3890f742b31c3976"
+    }
+  ],
+  "permissions_unchanged": true,
+  "desktop_source_updated": true,
+  "extension_reload_pending": true,
+  "live_cycle_verified": false,
+  "server_code_changed": false,
+  "live_platform_messages_sent": 0,
+  "checks": {
+    "continuous-verification.json": 28,
+    "status-bridge-verification.json": 6,
+    "capture-browser-verification.json": 26,
+    "kuaishou-scope-verification.json": 10
+  },
+  "total_checks": 70,
+  "archive": "C:\\Users\\Administrator\\Documents\\Codex\\2026-09-15\\new-chat\\work\\release\\growth-dev-20261102\\银杏获客助手-1.4.7.zip",
+  "archive_sha256": "38f7a9846b1a9acf474b747a943eba254d9f56f2edc4707e675fd61363d29563",
+  "kuaishou_status": "Ambiguous or unverifiable source stops; full adapter remains unverified.",
+  "compatibility": "Server >=1.4.0; staged1.4.2 retains its frozen1.4.5 helper."
+}

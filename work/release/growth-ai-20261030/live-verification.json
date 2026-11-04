@@ -1,0 +1,71 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "path": "/health",
+      "status": 200
+    },
+    {
+      "path": "/team-formats",
+      "status": 200
+    },
+    {
+      "path": "/community/meta",
+      "status": 200
+    },
+    {
+      "path": "/community/portrait-meta",
+      "status": 200
+    },
+    {
+      "path": "/classic/meta",
+      "status": 200
+    },
+    {
+      "path": "/ball-war/meta",
+      "status": 200
+    },
+    {
+      "path": "/target-game/meta",
+      "status": 200
+    },
+    {
+      "path": "/rest-defense/meta",
+      "status": 200
+    },
+    {
+      "path": "/growth/health",
+      "status": 200,
+      "version": "ginkgo-growth-1.1.0"
+    },
+    {
+      "path": "/growth/",
+      "status": 200
+    },
+    {
+      "path": "/growth/assets/automation.js",
+      "status": 200
+    },
+    {
+      "path": "/growth/club/douyin-training",
+      "status": 200
+    },
+    {
+      "path": "/growth/public/campaign/kuaishou-training",
+      "status": 200
+    },
+    {
+      "path": "/growth/api/ai/settings",
+      "status": 401
+    },
+    {
+      "path": "/growth/api/automation",
+      "status": 401
+    },
+    {
+      "path": "/growth/api/leads",
+      "status": 401
+    }
+  ],
+  "platform_messages_sent": 0
+}

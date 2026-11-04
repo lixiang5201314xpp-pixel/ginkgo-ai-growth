@@ -1,0 +1,126 @@
+{
+  "version": "growth-workflow-1.2.0",
+  "backend_installed": true,
+  "server_staged": true,
+  "workflow_tests": 20,
+  "ai_tests": 41,
+  "existing_workbench_tests": 48,
+  "channel_tests": 38,
+  "installer_tests": 8,
+  "total_tests": 155,
+  "paid_api_calls_during_testing": 0,
+  "miniapp_modified": false,
+  "wechat_settings_changed": false,
+  "paused_connectors": [
+    "douyin",
+    "kuaishou",
+    "xiaohongshu"
+  ],
+  "archive": "C:\\Users\\Administrator\\Documents\\Codex\\2026-09-15\\new-chat\\work\\release\\growth-workflow-20261031\\GinkgoGrowth-1.2.0.zip",
+  "sha256": "63105044b600b9cc95d781b685694371f78492c226368de82407d0d8e35d1ec7",
+  "bytes": 44233,
+  "server_directory": "C:\\Services\\GinkgoTrainingAutoCancel\\GinkgoGrowth-1.2.0",
+  "staged_payload_hashes_verified": 6,
+  "ui_verified": true,
+  "awaiting": null,
+  "existing_service_checks": {
+    "/growth/health": {
+      "status": 200,
+      "version": "ginkgo-growth-1.1.0"
+    },
+    "/growth/channels/health": {
+      "status": 200,
+      "version": "growth-channels-1.0.0"
+    },
+    "/health": {
+      "status": 200,
+      "version": "batch36.8.1"
+    },
+    "sql_features": {
+      "show advanced options": 0,
+      "xp_cmdshell": 0
+    }
+  },
+  "installer_version": "1.2.1",
+  "previous_attempt": "Preflight rejected before service restart: playbook path resolved relative to overlay module.",
+  "fix": "Fingerprint reads the same installed playbook as AIService; final overlay and installed-layout suites passed.",
+  "packaged_layout_tests": 40,
+  "staged_installer_hash_verified": "61ed1db867dd509847c5caca813c6d62f93a9e3fe45023883653ec4a4c1edfc4",
+  "final_sql_features": {
+    "show advanced options": 0,
+    "xp_cmdshell": 0
+  },
+  "publicly_verified": true,
+  "installation_backup": "C:\\Services\\GinkgoTrainingAutoCancel\\GinkgoGrowth-1.2.0\\backups\\workflow-20261031-081725",
+  "service": "RUNNING",
+  "verified_at": "2026-10-31T08:18:55+08:00",
+  "deployed_ui_hash_matches": true,
+  "public_endpoint_checks": [
+    {
+      "path": "/health",
+      "status": 200,
+      "bytes": 701,
+      "version": "batch36.8.1"
+    },
+    {
+      "path": "/growth/health",
+      "status": 200,
+      "bytes": 66,
+      "version": "ginkgo-growth-1.1.0"
+    },
+    {
+      "path": "/growth/workflow/health",
+      "status": 200,
+      "bytes": 50,
+      "version": "growth-workflow-1.2.0"
+    },
+    {
+      "path": "/growth/channels/health",
+      "status": 200,
+      "bytes": 50,
+      "version": "growth-channels-1.0.0"
+    },
+    {
+      "path": "/growth/assets/workflow.js",
+      "status": 200,
+      "bytes": 7876
+    },
+    {
+      "path": "/growth/api/workflow",
+      "status": 401
+    },
+    {
+      "path": "/growth/api/workflow/plans",
+      "status": 401
+    },
+    {
+      "path": "/growth/api/workflow/content",
+      "status": 401
+    },
+    {
+      "path": "/growth/api/workflow/content/export",
+      "status": 401
+    }
+  ],
+  "daily_search_limit": 20,
+  "search_limit_change_verified": true,
+  "search_probe_result_count": 5,
+  "automatic_reported_enabled": true,
+  "search_probe_usage_after": [
+    {
+      "kind": "chat",
+      "status": "failed",
+      "n": 1
+    },
+    {
+      "kind": "chat",
+      "status": "ok",
+      "n": 4
+    },
+    {
+      "kind": "search",
+      "status": "ok",
+      "n": 9
+    }
+  ]
+}

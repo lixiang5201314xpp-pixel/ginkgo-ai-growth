@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "function_class_ast_unchanged": [
+    {
+      "module": "growth_acquisition.py",
+      "unchanged_top_level_functions_classes": 10
+    },
+    {
+      "module": "growth_collection.py",
+      "unchanged_top_level_functions_classes": 2
+    },
+    {
+      "module": "growth_external.py",
+      "unchanged_top_level_functions_classes": 3
+    }
+  ],
+  "collection_byte_unchanged": true,
+  "identity_module_in_payload": false,
+  "ai_channel_settings_modules_in_payload": false,
+  "business_data_modified": false
+}

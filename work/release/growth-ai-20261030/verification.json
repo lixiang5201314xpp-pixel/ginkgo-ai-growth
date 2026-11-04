@@ -1,0 +1,39 @@
+{
+  "version": "ginkgo-growth-1.1.0",
+  "tests": {
+    "existing": 48,
+    "ai": 35,
+    "installer_rollback": 12,
+    "total": 95
+  },
+  "browser_flows": "passed with synthetic fixture and mocked AI; desktop/mobile screenshots reviewed",
+  "paid_calls_in_local_tests": 0,
+  "production_messages_sent": 0,
+  "public_health_before_install": [
+    {
+      "path": "/api/match-center/health",
+      "status": 200,
+      "version": "batch36.8.1"
+    },
+    {
+      "path": "/api/match-center/growth/health",
+      "status": 200,
+      "version": "ginkgo-growth-1.0.0"
+    },
+    {
+      "path": "/api/match-center/growth/api/leads",
+      "status": 401
+    }
+  ],
+  "server_package": "C:\\Services\\GinkgoTrainingAutoCancel\\GinkgoGrowth-1.1.0",
+  "package_hash": "55199ee8829b5083d62e7f128ed7d4207464a547c0be2ceb999223464056feca",
+  "installation": "owner confirmed success; verified by 16 live checks and one live synthetic reply",
+  "key_setup": "owner confirmed encrypted storage and model access; key never read by assistant",
+  "installer_version": "1.1.2",
+  "key_permissions": "owner verified repaired and decryptable",
+  "ai_tests": 41,
+  "installer_tests": 15,
+  "native_permission_tests": 4,
+  "latest_archive_sha256": "5c5822fae031d8470d278471e7817b1b1730931ce61481c01a3b738b496d7d84",
+  "platform_connections": "not connected; correct XHS account visible to owner but Edge UI control stopped by URL safety check"
+}

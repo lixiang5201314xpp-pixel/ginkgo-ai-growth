@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "files": [
+    {
+      "path": "growth_acquisition.py",
+      "all_prior_function_and_class_names_retained": true,
+      "old_sha256": "722c65d307bf04ca24862d08438963f2f956b545b3f2952f681b065d84d99ffd",
+      "new_sha256": "483d76c3adcaf8fd81ef2edb3a6664b4f20429e238ccbe1bb7327b010b8086f9"
+    },
+    {
+      "path": "growth_collection.py",
+      "all_prior_function_and_class_names_retained": true,
+      "old_sha256": "eeb716e8d10d9e0857e63e2cdda33594d324dc54017396ef416d7b1a56397dcc",
+      "new_sha256": "893ad4ee166175d764426d4f922c46507e301de3cf8e112d71f8d4bd5080e8ee"
+    },
+    {
+      "path": "growth_external.py",
+      "all_prior_function_and_class_names_retained": true,
+      "old_sha256": "23e2833aeb55a273cb1814c0f31f04b6a49f15e7d654a442bd515dfb89539dfe",
+      "new_sha256": "f7f24c91217b428ddfcd3c6a1dbdcfe792d5114aa7f2f12b6aa33e86f550d7c9"
+    }
+  ],
+  "note": "AST declaration retention is supplementary; behavioral checks are recorded separately. No runtime source or private configuration was read."
+}

@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "installer_checks": 8,
+  "layouts": [
+    {
+      "mode": "overlay-preflight",
+      "passed": true
+    },
+    {
+      "mode": "installed-runtime",
+      "passed": true
+    }
+  ],
+  "live_api_calls": 0,
+  "customer_messages": 0
+}

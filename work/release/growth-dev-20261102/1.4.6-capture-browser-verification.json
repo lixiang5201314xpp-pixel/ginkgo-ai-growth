@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "tests": 22,
+  "browser": "IAB real Chromium",
+  "url": "http://127.0.0.1:8796/capture-test",
+  "evidence": "CUA #report rendered DOM read on 2026-11-02, all 22 checks true",
+  "new_sort_filter_checks": 6,
+  "network_to_platforms": 0,
+  "live_messages": 0,
+  "note": "Synthetic DOM in a real browser; not a live extension-cycle acceptance."
+}

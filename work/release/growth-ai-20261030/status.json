@@ -1,0 +1,22 @@
+{
+  "version": "ginkgo-growth-1.1.0",
+  "backend_installed": true,
+  "archive": "C:\\Users\\Administrator\\Documents\\Codex\\2026-09-15\\new-chat\\work\\release\\growth-ai-20261030\\GinkgoGrowth-1.1.0.zip",
+  "sha256": "5c5822fae031d8470d278471e7817b1b1730931ce61481c01a3b738b496d7d84",
+  "bytes": 78250,
+  "platform_messages_sent": 0,
+  "paid_calls_during_local_tests": 0,
+  "miniapp_modified": false,
+  "owner_reported_success": true,
+  "verified_at": "2026-10-30T11:59:39.335337+08:00",
+  "live_checks_passed": 16,
+  "live_synthetic_reply_passed": true,
+  "platform_message_connectors_installed": false,
+  "browser_application_status": "Edge page opened and correct account confirmed by owner; page automation unavailable, no permissions submitted",
+  "installation_evidence": [
+    "owner reported installer success",
+    "live-verification.json",
+    "live-synthetic-reply.json"
+  ],
+  "old_log_note": "latest-install-result.json is an earlier rollback report, not used as final installation evidence"
+}

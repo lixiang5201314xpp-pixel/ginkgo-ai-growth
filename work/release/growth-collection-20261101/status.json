@@ -1,0 +1,134 @@
+{
+  "version": "growth-external-1.4.0",
+  "recorded_at": "2026-11-01T14:00:25.023649+08:00",
+  "server_staged_and_payload_hashes_verified": true,
+  "owner_reported_install_success": true,
+  "owner_install_backup": "C:\\Services\\GinkgoTrainingAutoCancel\\GinkgoGrowth-1.4.0\\backups\\external-20261101-135835",
+  "service_owner_reported": "KaiqiuMatchCenter RUNNING",
+  "local_helper_files_updated_and_verified": true,
+  "local_helper_version": "1.4.3",
+  "local_extension_reload_pending": true,
+  "automatic_intake_enabled_live_verified": true,
+  "continuous_browser_round_live_verified": true,
+  "external_automatic_sending_connected": false,
+  "channels_browser_collection_connected": false,
+  "production_leads_last_ui_verified": 5,
+  "production_contacts_last_ui_verified": 1,
+  "production_bookings_last_ui_verified": 0,
+  "new_xhs_training_lead": {
+    "source": "https://www.xiaohongshu.com/explore/6ae233c7000000003501eedb",
+    "original_ui_date": "3天前 四川",
+    "source_and_image_reviewed": true,
+    "ai_draft_prepared_live_verified": true,
+    "contacted": false
+  },
+  "codex_recurring_agent_status": "PAUSED",
+  "browser_blocker": "Chrome website control connected; browser URL policy prohibits opening extension management. Owner must reload the pre-existing helper.",
+  "next": [
+    "Owner installs staged server patch 1.4.1 from its new fixed directory.",
+    "Owner reloads local helper 1.4.3 once and starts on the public search results.",
+    "Verify one actual complete round and its automatic cooldown without relying only on a started label."
+  ],
+  "verification_files": [
+    "work/ginkgo-growth-autocollect/capture-browser-verification.json",
+    "work/ginkgo-growth-autocollect/continuous-verification.json",
+    "work/ginkgo-growth-autocollect/collection-package-verification.json"
+  ],
+  "live_browser": "Chrome profile 您的 Chrome; connected browser id 3",
+  "first_automatic_round": {
+    "platform": "douyin",
+    "receipt_times_cst": [
+      "2026-11-01 14:12:56",
+      "2026-11-01 14:13:57",
+      "2026-11-01 14:14:58",
+      "2026-11-01 14:15:59",
+      "2026-11-01 14:18:35"
+    ],
+    "receipts": 5,
+    "added_valid": 0,
+    "pending_review_added": 2,
+    "sent": 0,
+    "bookings": 0,
+    "review_outcome": "Both pending records were older content, reviewed and recoverably archived. No new qualified customer was found in this round."
+  },
+  "human_review": [
+    {
+      "source": "https://www.douyin.com/video/7679679918087250107",
+      "published_original_ui_cst": "2026-08-30 12:40",
+      "stage_ui_verified": "archived",
+      "reason": "Older third-party request; not a recent customer request."
+    },
+    {
+      "source": "https://www.douyin.com/video/7539834374747032889",
+      "published_original_ui_cst": "2025-08-18 16:08",
+      "stage_ui_verified": "archived",
+      "reason": "Older instructional discussion; not an expressed current personal need."
+    }
+  ],
+  "production_leads_eligible_or_contacted": 3,
+  "production_leads_archived": 2,
+  "helper_fix": "Open the actual canonical Douyin detail page before intake, retain the parent search when starting inside a modal, and refresh phase/count/next-run status while popup remains open.",
+  "helper_fix_tests": "10 isolated scheduler/state-flow checks passed, including two-title canonical navigation. Existing capture logic unchanged.",
+  "helper_1_4_1_live_cycle_verified": false,
+  "proof": "work/release/growth-collection-20261101/live-five-capture-receipts.png",
+  "helper_1_4_1_owner_started": true,
+  "helper_1_4_1_observed_pause_reason": "搜索结果未能打开，停止本轮",
+  "helper_1_4_2_live_cycle_verified": false,
+  "click_fix": {
+    "real_ui_check": "The exact search title opened modal_id=7630255064422560869 after a short page transition. No platform message was sent.",
+    "behavior": "Return a scheduled-click acknowledgement before the click can change its document; verify the actual detail URL on the next step. Missing return is not classified as failure, and no double click is performed.",
+    "read_only_monitor": "Shows helper version, phase, pause reason, completed and empty rounds, added-valid count, and next-run time in the existing workbench.",
+    "permissions_changed": false,
+    "server_restart_required": false,
+    "tests": {
+      "scheduler_state_flow": 12,
+      "browser_capture": 16,
+      "read_only_status_bridge": 5
+    }
+  },
+  "helper_1_4_2_owner_restarted_from_search": true,
+  "helper_1_4_2_last_observed_pause": {
+    "observed_cst": "2026-11-01 18:18:33",
+    "reason": "原帖未能打开，已停止本轮，避免把搜索页当原文",
+    "rounds_completed_this_attempt": 0,
+    "new_valid_leads": 0
+  },
+  "navigation_evidence": {
+    "tab_metadata_url": "https://www.douyin.com/search/成都 乒乓球 找教练",
+    "actual_document_url": "https://www.douyin.com/video/7669322400018301029",
+    "actual_document_h1": "怎么才能找到适合自己的乒乓球教练？",
+    "fix": "Use actual inspected document URL; canonicalize displayed modal links before navigation; wait up to three inspections for transitional documents; never double click or count partial navigation as a completed empty round."
+  },
+  "helper_1_4_3_live_cycle_verified": false,
+  "helper_1_4_3_tests": {
+    "state_flow": 18,
+    "browser_capture": 16,
+    "read_only_status_bridge": 5
+  },
+  "server_patch_version": "growth-external-1.4.1",
+  "server_patch_staged_hashes_verified": true,
+  "server_patch_owner_install_pending": true,
+  "server_patch_archive_sha256": "09b1cc74738bb18224d5d51b2f3a90bebc18397bf89a17ab82d6e1b0238eb8ce",
+  "server_patch_scope": "Four acquisition files only. Skip known older-than-30-day sources, normalize formatting-only post titles on the same original URL, show skipped counts, update helper download. No schema changes or existing-record repair.",
+  "server_patch_tests": {
+    "collection_suite_including_inherited_checks": 44,
+    "installer_rollback": 8,
+    "frozen_layouts": 2
+  },
+  "last_helper_status_ui_verified": {
+    "version": "1.4.2",
+    "status": "paused",
+    "completed_rounds": 1,
+    "empty_rounds": 1,
+    "new_valid_leads": 0,
+    "observed_cst": "2026-11-01 18:21:14",
+    "reason": "当前原帖采集完成；请从搜索结果页启动以连续扫描新作品"
+  },
+  "latest_owner_action_pending": {
+    "server": "C:\\Services\\GinkgoTrainingAutoCancel\\GinkgoGrowth-1.4.1\\Install-Growth-External.cmd",
+    "server_archive_sha256": "09b1cc74738bb18224d5d51b2f3a90bebc18397bf89a17ab82d6e1b0238eb8ce",
+    "local_helper_files_version": "1.4.3",
+    "extension_reload_required": true,
+    "start_from": "Logged-in public search results, not a single canonical video or the recommendation homepage."
+  }
+}

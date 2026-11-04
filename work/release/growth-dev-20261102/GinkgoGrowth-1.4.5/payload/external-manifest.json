@@ -1,0 +1,42 @@
+{
+  "version": "growth-external-1.4.5",
+  "installer_version": "1.4.5",
+  "baseline": {
+    "growth_acquisition.py": [
+      "0e9fb459de9ddab2fea31327d49ae4acbab18b97f73b7a307146c5f1c52aa91c",
+      "722c65d307bf04ca24862d08438963f2f956b545b3f2952f681b065d84d99ffd"
+    ],
+    "growth_collection.py": [
+      "a47484e672d21a493f9f70aa5460932a070a92dd684e6eeda0918b243b7a1a4b",
+      "eeb716e8d10d9e0857e63e2cdda33594d324dc54017396ef416d7b1a56397dcc"
+    ],
+    "growth_external.py": [
+      "b17349c8adfdf3e7c69aceaa3dc5dd8268ef463074b8105e624d3558e014d835",
+      "0b1b9c6c3cd209c616fa82883f97f8113065d36de87bf1f038f68e1b33e07023",
+      "23e2833aeb55a273cb1814c0f31f04b6a49f15e7d654a442bd515dfb89539dfe"
+    ],
+    "growth-web/browser-helper.zip": [
+      "212a00b90d87e6182a626d79d85abecc102035df7ae2c6173c7ca430023f31c2",
+      "983489376935cb412f2034c9a7ac1af8c006f065ed770bea32c84e421816f260",
+      "38f7a9846b1a9acf474b747a943eba254d9f56f2edc4707e675fd61363d29563"
+    ]
+  },
+  "files": [
+    {
+      "path": "growth_acquisition.py",
+      "sha256": "483d76c3adcaf8fd81ef2edb3a6664b4f20429e238ccbe1bb7327b010b8086f9"
+    },
+    {
+      "path": "growth_collection.py",
+      "sha256": "893ad4ee166175d764426d4f922c46507e301de3cf8e112d71f8d4bd5080e8ee"
+    },
+    {
+      "path": "growth_external.py",
+      "sha256": "f7f24c91217b428ddfcd3c6a1dbdcfe792d5114aa7f2f12b6aa33e86f550d7c9"
+    },
+    {
+      "path": "growth-web/browser-helper.zip",
+      "sha256": "e19c304ffe0ca931dbc6d55ab8b101d4286f78c2e121c1080b81381dccfc8851"
+    }
+  ]
+}

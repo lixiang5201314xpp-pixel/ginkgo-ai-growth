@@ -1,0 +1,40 @@
+{
+  "version": "growth-ai-access-1.0.0",
+  "elevated": true,
+  "checks": [
+    {
+      "name": "Runtime acquisition code read",
+      "ok": true
+    },
+    {
+      "name": "Existing AI settings read-only",
+      "ok": true
+    },
+    {
+      "name": "Encrypted key file read (contents never displayed)",
+      "ok": false,
+      "error_type": "PermissionError",
+      "winerror": null,
+      "errno": 13,
+      "path": "C:\\Services\\KaiqiuMatch_20260915\\growth-data\\secrets\\deepseek.dpapi"
+    },
+    {
+      "name": "Staged AI module import",
+      "ok": true
+    },
+    {
+      "name": "Local-machine DPAPI key access (boolean result only)",
+      "ok": false,
+      "error_type": "PermissionError",
+      "winerror": null,
+      "errno": 13,
+      "path": "C:\\Services\\KaiqiuMatch_20260915\\growth-data\\secrets\\deepseek.dpapi"
+    }
+  ],
+  "service_restarted": false,
+  "api_calls": 0,
+  "business_data_changed": false,
+  "configuration_present": true,
+  "provider": "deepseek",
+  "enabled": true
+}

@@ -1,0 +1,70 @@
+{
+  "passed": true,
+  "installer_checks": 8,
+  "layouts": [
+    {
+      "layout": "overlay-preflight",
+      "suite": "test_external.py",
+      "tests": 30,
+      "passed": true
+    },
+    {
+      "layout": "overlay-preflight",
+      "suite": "test_workflow.py",
+      "tests": 20,
+      "passed": true
+    },
+    {
+      "layout": "overlay-preflight",
+      "suite": "test_growth.py",
+      "tests": 48,
+      "passed": true
+    },
+    {
+      "layout": "overlay-preflight",
+      "suite": "test_delivery.py",
+      "tests": 27,
+      "passed": true
+    },
+    {
+      "layout": "overlay-preflight",
+      "suite": "test_collection.py",
+      "tests": 77,
+      "passed": true
+    },
+    {
+      "layout": "installed-runtime",
+      "suite": "test_external.py",
+      "tests": 30,
+      "passed": true
+    },
+    {
+      "layout": "installed-runtime",
+      "suite": "test_workflow.py",
+      "tests": 20,
+      "passed": true
+    },
+    {
+      "layout": "installed-runtime",
+      "suite": "test_growth.py",
+      "tests": 48,
+      "passed": true
+    },
+    {
+      "layout": "installed-runtime",
+      "suite": "test_delivery.py",
+      "tests": 27,
+      "passed": true
+    },
+    {
+      "layout": "installed-runtime",
+      "suite": "test_collection.py",
+      "tests": 77,
+      "passed": true
+    }
+  ],
+  "live_api_calls": 0,
+  "customer_messages": 0,
+  "business_database_writes": 0,
+  "live_deployment": false
+}

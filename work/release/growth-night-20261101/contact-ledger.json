@@ -1,0 +1,43 @@
+{
+  "verified_contacts": [
+    {
+      "platform": "douyin",
+      "source_url": "https://www.douyin.com/video/7701372394577607067",
+      "public_author": "🌈Cuiyang888🌈",
+      "published_at": "2026-10-27T23:38:00+08:00",
+      "source_kind": "post",
+      "need": "川大江安附近找有水平的球搭子，约表演赛",
+      "reply": "你好，我们是银杏乒乓球俱乐部。看到你在江安附近找球搭子，我们在青羊区，距离会远一些。你也考虑周末参加分组比赛吗？可以先在抖音「银杏奖牌」小程序看看时间和分组，合适再报名。",
+      "sent_by": "银杏乒乓球俱乐部",
+      "delivery": "public_comment",
+      "published_ui_verified": true,
+      "proof_file": "douyin-reply-published.png",
+      "backend_imported": true,
+      "registration_verified": false,
+      "followup": "真实需求已导入生产工作台，实际回复已登记；页面已禁止重复联系，等待对方自愿回复。",
+      "backend_contact_recorded": true,
+      "duplicate_contact_block_visible": true
+    }
+  ],
+  "verified_registrations": 0,
+  "unconfirmed_attempts": [
+    {
+      "platform": "xiaohongshu",
+      "source_url": "https://www.xiaohongshu.com/explore/6ad1e6c5000000001400c800?xsec_token=ABSPcJfZUkSRoqUidfYLw2fyrfhY_2eaBaXydBQgphdwU=&xsec_source=pc_search&source=web_search_result_notes",
+      "source_title": "成都小孩乒乓球培训，大概需要多少费用",
+      "original_date_label": "10-16 四川（原帖仅显示日期）",
+      "sent_by": "银杏乒乓",
+      "delivery": "public_comment",
+      "reply": "我们是成都青羊区的银杏乒乓球俱乐部。儿童课有2400元25次的方案，每次90分钟，来一次核销一次，折合96元/次；也有月卡和年卡可选。建议先看上课时段是否方便，再选方案。具体课表、名额和报名可在本平台“银杏奖牌”小程序的“训练”里查看。",
+      "send_attempted": true,
+      "published_ui_verified": false,
+      "backend_imported": true,
+      "ai_prepared": true,
+      "backend_contact_recorded": false,
+      "registration_verified": false,
+      "followup": "浏览器只点击发送一次，手机端本人确认未看到该回复。发布原因未明，不登记为已联系，不重复发送。",
+      "phone_check_result": "用户本人确认：没有看到这条回复。",
+      "phone_check_recorded_at": "2026-11-01T11:15:39.488188+08:00"
+    }
+  ]
+}

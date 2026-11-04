@@ -1,0 +1,70 @@
+{
+  "version": "growth-external-1.4.0",
+  "installer_version": "1.4.0",
+  "baseline": {
+    "growth_acquisition.py": [
+      "e48f1dcdf72b59a8240d1ed47708e17f6ac1b3814f1aeeb2fe87d0c7a3e65ffc",
+      "6e0467b99a758f36fc6c142368122eb58e2994ef2667b737a7f3d09de3ca6881"
+    ],
+    "growth_automation.py": [
+      "31f1aff4ab67626d69199fcfcc3201c5f77b81c3481ffcaeb48ab12fc89c3bbc",
+      "ec6b9cf45f4e0217ea2d9849a245a643d0e98ed0f98fb625d2e16d1d62fcc35b"
+    ],
+    "growth_external.py": [
+      "23c19f16ab3faa03dc53d9694e61bba72ce33f69b948db6dd778a1961b70cc3e",
+      "e354258295d4f040948a25898b6cb3bf8a1ee87d4520c569419feb59066e692c"
+    ],
+    "growth-web/app.js": [
+      "76f79488edde18c11e7b4b24cbe568599918ac87d01525872c672906d750f7d6",
+      "f06badcd067c635bb44f7fdb12c554fd80b3913d626c65f7dd0a7db522ac190b"
+    ],
+    "growth-web/external.js": [
+      "a12a4e0626fbbf757d0dfceda540d2b32ae8f834db192ca94938ce28af03eebc",
+      "e209fb732319b3a125dcd57689d5085e2a48da815cb33544aecc3b6739983ca8"
+    ],
+    "growth-web/index.html": [
+      "86d69b8333c1ae1695b41dda7c222ba6428f4019e162987a61717e5259fc935d"
+    ],
+    "growth-web/browser-helper.zip": [
+      "2d6e42b788e20b13dcb142d1ceb38c4acc4d5dfa1acc6891b3b3813ee167533b"
+    ]
+  },
+  "files": [
+    {
+      "path": "growth_acquisition.py",
+      "sha256": "0e9fb459de9ddab2fea31327d49ae4acbab18b97f73b7a307146c5f1c52aa91c"
+    },
+    {
+      "path": "growth_automation.py",
+      "sha256": "ec6b9cf45f4e0217ea2d9849a245a643d0e98ed0f98fb625d2e16d1d62fcc35b"
+    },
+    {
+      "path": "growth_external.py",
+      "sha256": "a639e3293a6a25d0e89d1a026384d5979ad68bb98f6860e01feb8d1bc0ab4f7a"
+    },
+    {
+      "path": "growth_collection.py",
+      "sha256": "24dd64f68c6efe5741b6dbd466a78bc0ace6581fd65566aaa001a5cc87a7b00d"
+    },
+    {
+      "path": "growth-web/app.js",
+      "sha256": "f06badcd067c635bb44f7fdb12c554fd80b3913d626c65f7dd0a7db522ac190b"
+    },
+    {
+      "path": "growth-web/external.js",
+      "sha256": "e209fb732319b3a125dcd57689d5085e2a48da815cb33544aecc3b6739983ca8"
+    },
+    {
+      "path": "growth-web/collection.js",
+      "sha256": "e6f7e70433cd01f0bbead79f39854521594a66ba98ae61e5b646d3d0ba589871"
+    },
+    {
+      "path": "growth-web/index.html",
+      "sha256": "893c88493e499cdc91370a5204942062239748feabb4632c06a8e2184db2da8b"
+    },
+    {
+      "path": "growth-web/browser-helper.zip",
+      "sha256": "fb30b47d12321dcf2577da934106f753c6cd2c871963f869a4151d980b2fc726"
+    }
+  ]
+}
