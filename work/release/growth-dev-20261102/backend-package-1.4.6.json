@@ -1,0 +1,28 @@
+{
+  "archive": "/workspace/work/release/growth-dev-20261102/GinkgoGrowth-1.4.6.zip",
+  "sha256": "f88d15f180d777b639a949401b1d30c5d04f2817075cc40718cff2a8795da539",
+  "bytes": 85037,
+  "payload_files": [
+    "growth_acquisition.py",
+    "growth_collection.py",
+    "growth_external.py",
+    "growth-web/browser-helper.zip"
+  ],
+  "payload_sha256": {
+    "growth_acquisition.py": "3afbc73ed2357204bc4cb8ed1e673851bf40655ce3753b06929d71de5e732c81",
+    "growth_collection.py": "893ad4ee166175d764426d4f922c46507e301de3cf8e112d71f8d4bd5080e8ee",
+    "growth_external.py": "a67de83c385987bb977b6d5b3de942278b3a980d323b50cf2a4b8990f5178063",
+    "growth-web/browser-helper.zip": "e19c304ffe0ca931dbc6d55ab8b101d4286f78c2e121c1080b81381dccfc8851"
+  },
+  "compatible_baselines": [
+    "1.4.1",
+    "1.4.2",
+    "1.4.3",
+    "1.4.5",
+    "growth-external-1.4.1-live"
+  ],
+  "helper_version": "1.4.9",
+  "frozen_1.4.5_zip_unchanged": "948e30c1825f7dba3fac13159947ccdd3b90488b31333e9c1fb7652e15a05777",
+  "live_deployment": false,
+  "platform_auto_sending_connected": false
+}

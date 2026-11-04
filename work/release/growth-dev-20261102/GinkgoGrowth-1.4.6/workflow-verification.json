@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "tests": 20,
+  "failures": 0,
+  "errors": 0,
+  "paid_calls": 0,
+  "business_sql_writes": 0,
+  "platform_messages_sent": 0
+}

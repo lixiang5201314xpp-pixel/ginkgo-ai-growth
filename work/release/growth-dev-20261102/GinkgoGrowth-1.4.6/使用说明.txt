@@ -1,0 +1,8 @@
+银杏获客后台 1.4.6，可从正式 1.4.1 或已暂存 1.4.5 直接升级；不要改写冻结 1.4.5 ZIP。
+合并 round-010 公开原帖回执绑定与来源去重修复（含 test_delivery_source / test_source_dedup 预检）。
+命中旧线索时保留 stopped 与 contact_count，不重置联系状态。
+只更换 4 个获客文件；identity.py、miniapp-update1.4.0 核心、微信客服 growth_ai/channels/playbook、20/30 限额与业务数据均保留。
+管理员在 C:/Services/GinkgoTrainingAutoCancel/GinkgoGrowth-1.4.6 运行 Install-Growth-External.cmd；先预检、备份、短暂停服，失败自动回滚。
+Chrome 需本人刷新既有银杏助手 1.4.9；下载包升级不等于浏览器已加载。
+抖音原帖 7702708741762243570 已人工回复可见，部署后只补登记回执与时间 2026-10-31 14:03:54，禁止重发。
+外部自动发送及全平台闭环仍未接通，不是最终交付完成声明。
