@@ -1,7 +1,7 @@
 # 银杏AI获客平台进度
 
 - 记录时间：2026-11-04（PR #1 合入 main 后）；**1.4.6 不可变包** 2026-11-04 UTC（Cursor Cloud Agent）
-- Git 仓：`lixiang5201314xpp-pixel/ginkgo-ai-growth`（main 含 autocollect 去重+回执修复）
+- Git 仓：`lixiang5201314xpp-pixel/ginkgo-ai-growth`；1.4.6 发布 PR [#2](https://github.com/lixiang5201314xpp-pixel/ginkgo-ai-growth/pull/2)
 - **未宣称**全平台真实搜索/发布/报名已跑通；**未在用户服务器执行安装器**。
 
 ## 版本现状
