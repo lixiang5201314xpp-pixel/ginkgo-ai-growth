@@ -1,0 +1,33 @@
+{
+  "recorded_at": "2026-11-03T16:18:37.864268+00:00",
+  "local_source": {
+    "growth_acquisition.py": "3e3f9d61273f231823b29798fa26d1380df130e026d4f007196a8d13bfd85582",
+    "growth_ai.py": "26705798430fb47a2a864340d8d289dda266b90838788229919981034591fade",
+    "growth_automation.py": "ec6b9cf45f4e0217ea2d9849a245a643d0e98ed0f98fb625d2e16d1d62fcc35b",
+    "growth_channels.py": "3ef7007c38bbf14b3c3afb4d8f1a090311d78f961e1a173e6d635b76db1d9a8b",
+    "growth_collection.py": "893ad4ee166175d764426d4f922c46507e301de3cf8e112d71f8d4bd5080e8ee",
+    "growth_external.py": "23e2833aeb55a273cb1814c0f31f04b6a49f15e7d654a442bd515dfb89539dfe",
+    "growth_permissions.py": "5008f341ac6bb839ab8f5b780668e0f1d2427f37099337c9448ece375b4614d0",
+    "growth_playbook.json": "3b0305be9101115de11d951df9ae756f8530b0f76ed914e4192404e87b812081",
+    "growth_workflow.py": "363dcf4f4a211e154bfc1796aa1a76434895f0fe4421dd868d4583d7a2d285a6",
+    "test_source_dedup.py": "e6de54bf582997db090e8e86a90e209d157a26c40e7ec7708c3f4f8206b91b53"
+  },
+  "desktop_helper": {
+    "path": "C:\\Users\\Administrator\\Desktop\\银杏外部平台获客助手-1.3.0",
+    "exists": false,
+    "note": "Directory name is historical; inspect manifest version and actual browser extension reload separately."
+  },
+  "known_installed_retained_hashes": {
+    "identity.py": "a9c924c81686b12cbd01e2c5e311f2ac725a728cc934a9c3608bd855f5421295",
+    "organizer_grants.py": "60ec047cec782e1de12f229185ead8f681b72ff9b006eaa5ee92c4add4a19e50",
+    "growth_ai.py": "26705798430fb47a2a864340d8d289dda266b90838788229919981034591fade",
+    "growth_channels.py": "3ef7007c38bbf14b3c3afb4d8f1a090311d78f961e1a173e6d635b76db1d9a8b",
+    "growth_playbook.json": "3b0305be9101115de11d951df9ae756f8530b0f76ed914e4192404e87b812081",
+    "growth_acquisition.py": "0e9fb459de9ddab2fea31327d49ae4acbab18b97f73b7a307146c5f1c52aa91c",
+    "growth_collection.py": "a47484e672d21a493f9f70aa5460932a070a92dd684e6eeda0918b243b7a1a4b",
+    "growth_external.py": "b17349c8adfdf3e7c69aceaa3dc5dd8268ef463074b8105e624d3558e014d835",
+    "growth_automation.py": "ec6b9cf45f4e0217ea2d9849a245a643d0e98ed0f98fb625d2e16d1d62fcc35b",
+    "knockout_progress.py": "1e2141a01454f639658eb9a9e3b500a4a5672299b3ea02736d3a34be7fa7e735"
+  },
+  "latest_owner_service_backup": "C:\\Services\\GinkgoTrainingAutoCancel\\GinkgoMiniapp-36.17.0\\backups\\miniapp-20261103-235504"
+}

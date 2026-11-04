@@ -1,0 +1,47 @@
+{
+  "passed": true,
+  "tests": 10,
+  "results": [
+    {
+      "name": "搜索弹窗只读取当前作品与当前评论",
+      "passed": true
+    },
+    {
+      "name": "详情页新评论布局",
+      "passed": true
+    },
+    {
+      "name": "弹窗评论布局",
+      "passed": true
+    },
+    {
+      "name": "父评论不冒领嵌套回复",
+      "passed": true
+    },
+    {
+      "name": "屏幕外预加载内容排除",
+      "passed": true
+    },
+    {
+      "name": "未知当前作品停止读取",
+      "passed": true
+    },
+    {
+      "name": "作品求助保留原发布时间",
+      "passed": true
+    },
+    {
+      "name": "作品无日期不借用评论时间",
+      "passed": true
+    },
+    {
+      "name": "不同明确作品日期不擅自选择",
+      "passed": true
+    },
+    {
+      "name": "普通夸赞和俱乐部回复排除",
+      "passed": true
+    }
+  ],
+  "live_messages": 0
+}

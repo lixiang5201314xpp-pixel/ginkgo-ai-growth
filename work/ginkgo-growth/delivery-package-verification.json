@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "installer_checks": 8,
+  "layouts": [
+    {
+      "mode": "overlay-preflight",
+      "passed": true,
+      "suites": [
+        "external",
+        "workflow",
+        "growth",
+        "delivery"
+      ]
+    },
+    {
+      "mode": "installed-runtime",
+      "passed": true,
+      "suites": [
+        "external",
+        "workflow",
+        "growth",
+        "delivery"
+      ]
+    }
+  ],
+  "live_api_calls": 0,
+  "live_messages": 0,
+  "business_sql_changes": 0
+}

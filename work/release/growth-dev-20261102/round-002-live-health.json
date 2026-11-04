@@ -1,0 +1,12 @@
+{
+  "checked_at": "2026-11-01T20:10:51.950266+00:00",
+  "read_only": true,
+  "endpoints": {
+    "external/health": {
+      "error_type": "URLError"
+    },
+    "channels/health": {
+      "error_type": "URLError"
+    }
+  }
+}

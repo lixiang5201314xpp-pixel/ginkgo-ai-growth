@@ -1,0 +1,36 @@
+{
+  "version": "growth-workflow-1.2.0",
+  "baseline": {
+    "growth_automation.py": "36901de592d63079b5de4c36d48d98dd43ecf6719a43aef7d7a7571be1fc4f9e",
+    "growth-web/index.html": "82e7e816757dd8472a25e4eeb1cf3584fae0c1151c2bf156cdd3e0c8ea8b4f83",
+    "growth-web/automation.js": "acc95e396130f44f5a206490c1b86171e4860742839904a20cb61ccd75805d2c",
+    "growth-web/app.css": "bc7b8a704f95c2c0d279dae5c243ec7fd12a254c6d920cc25d83106d444be0f2"
+  },
+  "files": [
+    {
+      "path": "growth_automation.py",
+      "sha256": "27ee19ecc9867d8c3fc310cfc7cdc058835865c9a7d05859360ce62575ae29d8"
+    },
+    {
+      "path": "growth_workflow.py",
+      "sha256": "363dcf4f4a211e154bfc1796aa1a76434895f0fe4421dd868d4583d7a2d285a6"
+    },
+    {
+      "path": "growth-web/index.html",
+      "sha256": "8f5c01f3fc0a300cb3c29dd97678d4f438fd11fcfc65a76a17cd7b4e6775d410"
+    },
+    {
+      "path": "growth-web/automation.js",
+      "sha256": "ca0f242fd9c40b93f549b7230c8cc90b3ad717144792605d272ff12f23503225"
+    },
+    {
+      "path": "growth-web/workflow.js",
+      "sha256": "4511adb8eff5af41b2c4cf26490c4b57cff28199b5e7ee681c97b9c65c1be7e0"
+    },
+    {
+      "path": "growth-web/app.css",
+      "sha256": "d995bdd0012f132a5ac900560e316817ea17b847518c8739999aa8b752e43e4a"
+    }
+  ],
+  "installer_version": "1.2.1"
+}

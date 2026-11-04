@@ -1,0 +1,35 @@
+{
+  "version": "growth-external-1.3.0",
+  "installer_version": "1.3.0",
+  "baseline": {
+    "growth_automation.py": "27ee19ecc9867d8c3fc310cfc7cdc058835865c9a7d05859360ce62575ae29d8",
+    "growth-web/index.html": "8f5c01f3fc0a300cb3c29dd97678d4f438fd11fcfc65a76a17cd7b4e6775d410",
+    "growth-web/app.css": "d995bdd0012f132a5ac900560e316817ea17b847518c8739999aa8b752e43e4a"
+  },
+  "files": [
+    {
+      "path": "growth_automation.py",
+      "sha256": "31f1aff4ab67626d69199fcfcc3201c5f77b81c3481ffcaeb48ab12fc89c3bbc"
+    },
+    {
+      "path": "growth_external.py",
+      "sha256": "25ccfb0629c1f816837a27eb83f7d738708ae303fcc19d27397930ccb8d3785f"
+    },
+    {
+      "path": "growth-web/index.html",
+      "sha256": "86d69b8333c1ae1695b41dda7c222ba6428f4019e162987a61717e5259fc935d"
+    },
+    {
+      "path": "growth-web/external.js",
+      "sha256": "fbd16fabbc7a2c886586e8d8ce06e55b6187c873fc48e82b322aa39ed6c82c5e"
+    },
+    {
+      "path": "growth-web/app.css",
+      "sha256": "781279942c5c0c5692cd93865aa87e4fc8e3430d83ab25eb1cc0803a713c593d"
+    },
+    {
+      "path": "growth-web/browser-helper.zip",
+      "sha256": "3b6ef61888517f73ac23e0d7531c23e2d9ee58508b1d20ae8c381e7722c13cec"
+    }
+  ]
+}

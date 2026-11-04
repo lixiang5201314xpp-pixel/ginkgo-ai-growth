@@ -1,0 +1,34 @@
+{
+  "version": "ginkgo-growth-1.0.0",
+  "match_center_baseline_sha256": "5c2e50adb609c239c187da3b8294d0a766141034896ea297aedb129a499aaad9",
+  "files": [
+    {
+      "path": "growth_acquisition.py",
+      "sha256": "f34c3c2fa21911cd8263a64d6f47aa6115971a91d1f371092f60791fcac4ab6d"
+    },
+    {
+      "path": "growth-web/index.html",
+      "sha256": "e61b6b012aad9b87b2d2df093a6403bdbf1cec1620178bffe832a4199bea8bb1"
+    },
+    {
+      "path": "growth-web/app.css",
+      "sha256": "47a3df7587939e66a1c265b7e4570938adfa2e89210d23acdb38fe1ddf121994"
+    },
+    {
+      "path": "growth-web/app.js",
+      "sha256": "5703f82ee533c62053c76b7c0c638a4786022a81a053a370c3b776ec3b0791f8"
+    },
+    {
+      "path": "growth-web/club.html",
+      "sha256": "a57fd0a49e527a3e2300c3d3bfb8a61210ff6cc435712128d197550acef977bf"
+    },
+    {
+      "path": "growth-web/club.js",
+      "sha256": "9af23cdc1836356ef31c7c7b14938e6f1bac4201e628e75ad43b511d50938f92"
+    },
+    {
+      "path": "growth-web/favicon.svg",
+      "sha256": "65cdd4d4c0aafdbe17ae5a18c3dfa49f527e51b9d9697f98d19c9bdfffd2b47e"
+    }
+  ]
+}

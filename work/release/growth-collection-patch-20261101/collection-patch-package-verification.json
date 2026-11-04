@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "installer_checks": 8,
+  "layouts": [
+    {
+      "mode": "overlay-preflight",
+      "passed": true
+    },
+    {
+      "mode": "installed-runtime",
+      "passed": true
+    }
+  ],
+  "live_ai_calls": 0,
+  "customer_messages": 0,
+  "business_database_writes": 0
+}

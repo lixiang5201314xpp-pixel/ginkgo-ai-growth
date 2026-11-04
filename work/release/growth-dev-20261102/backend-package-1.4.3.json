@@ -1,0 +1,20 @@
+{
+  "archive": "C:\\Users\\Administrator\\Documents\\Codex\\2026-09-15\\new-chat\\work\\release\\growth-dev-20261102\\GinkgoGrowth-1.4.3.zip",
+  "sha256": "9ee571543046ee884275fd2ef27f4f1d68d257610b9e147d382684f193b4707c",
+  "bytes": 76495,
+  "payload_files": [
+    "growth_acquisition.py",
+    "growth_collection.py",
+    "growth_external.py",
+    "growth-web/browser-helper.zip"
+  ],
+  "compatible_baselines": [
+    "1.4.1",
+    "1.4.2"
+  ],
+  "helper_version": "1.4.7",
+  "live_deployment": false,
+  "staged_on_server": true,
+  "staging_directory": "C:\\Services\\GinkgoTrainingAutoCancel\\GinkgoGrowth-1.4.3",
+  "installer_executed": false
+}

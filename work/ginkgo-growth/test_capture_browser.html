@@ -1,0 +1,27 @@
+<!doctype html><meta charset="utf-8"><title>获客采集回归检查</title>
+<style>body{font:16px sans-serif;margin:28px}iframe{width:720px;height:420px;border:1px solid #ddd}.ok{color:#176147}.bad{color:#b11}#frames{position:relative}</style>
+<h1>公开原文采集回归检查</h1><p>模拟页面，无平台登录、网络请求或客户消息。</p><ol id="results"></ol><div id="frames"></div>
+<script src="browser-helper/capture.js"></script>
+<script>
+(async()=>{
+ const results=[];const source='https://www.douyin.com/search/test?modal_id=7701372394577607067';
+ const ask='成都哪里能找乒乓球教练，请问周末可以学吗？';
+ function check(ok,msg){if(!ok)throw Error(msg)}
+ async function fixture(html){const f=document.createElement('iframe');document.querySelector('#frames').append(f);await new Promise(resolve=>{f.onload=resolve;f.srcdoc='<style>body{margin:8px}h1{font-size:18px}div,span,time{min-height:18px}</style>'+html});return f}
+ async function test(name,html,fn){let f;try{f=await fixture(html);await fn(f.contentDocument);results.push({name,passed:true})}catch(e){results.push({name,passed:false,error:e.message})}finally{if(f)f.remove()}const li=document.createElement('li');li.textContent=name+'：'+(results.at(-1).passed?'通过':'失败 '+results.at(-1).error);li.className=results.at(-1).passed?'ok':'bad';document.querySelector('#results').append(li)}
+ function read(doc,mode='visible',url=source){return GinkgoCapture.collect({document:doc,source_url:url,mode,captured_at:'2026-11-01T01:30:00+08:00'})}
+ const row=(body,cls='FduGc_lz',date='3天前·四川')=>'<div data-e2e="comment-item"><div class="'+cls+'">'+body+'</div><div class="VAQA49VP"><span>'+date+'</span></div></div>';
+ await test('搜索弹窗只读取当前作品与当前评论','<div data-e2e="video-desc">成都相邻旧视频</div><div data-e2e="feed-active-video"><div data-e2e="video-desc">当前作品，没有城市</div>'+row(ask)+'</div><div>'+row('成都求乒乓球教练，相邻视频评论')+'</div>',doc=>{const b=read(doc);check(b.items.length===1,'混入相邻评论');check(b.items[0].source_context==='当前作品，没有城市','混入相邻标题');check(b.items[0].source_url==='https://www.douyin.com/video/7701372394577607067','未规范化链接');check(b.items[0].posted_text==='3天前·四川','丢失原日期')});
+ await test('详情页新评论布局','<h1>当前作品</h1>'+row(ask),doc=>{check(read(doc,'visible','https://www.douyin.com/video/7701372394577607067').items.length===1,'详情评论漏收')});
+ await test('弹窗评论布局','<div data-e2e="feed-active-video"><div data-e2e="video-desc">当前作品</div>'+row(ask,'sU2yAQQU')+'</div>',doc=>{check(read(doc).items.length===1,'弹窗评论漏收')});
+ await test('父评论不冒领嵌套回复','<div data-e2e="feed-active-video"><div data-e2e="video-desc">当前作品</div><div data-e2e="comment-item"><div>普通夸赞</div>'+row(ask)+'</div></div>',doc=>{check(read(doc).items.length===1,'嵌套回复重复或串作者')});
+ await test('屏幕外预加载内容排除','<div data-e2e="feed-active-video"><div data-e2e="video-desc">当前作品</div><div style="position:absolute;top:900px">'+row(ask)+'</div></div>',doc=>{check(read(doc).items.length===0,'读到屏幕外评论')});
+ await test('未知当前作品停止读取','<div data-e2e="video-desc">相邻视频</div>'+row(ask),doc=>{let failed=false;try{read(doc)}catch{failed=true}check(failed,'未确定作品却读取')});
+ await test('作品求助保留原发布时间','<h1>'+ask+'</h1><span>发布时间：2026-10-27 23:38</span>'+row('好看好看'),doc=>{const b=read(doc,'post','https://www.douyin.com/video/7701372394577607067');check(b.items[0].source_kind==='post','作品类型错误');check(b.items[0].posted_text==='2026-10-27 23:38','时间取错')});
+ await test('作品无日期不借用评论时间','<h1>'+ask+'</h1>'+row(ask),doc=>{check(read(doc,'post','https://www.douyin.com/video/7701372394577607067').items[0].posted_text==='','冒用评论日期')});
+ await test('不同明确作品日期不擅自选择','<h1>'+ask+'</h1><span>发布时间：2026-10-27 23:38</span><span>发布时间：2026-10-28 23:38</span>',doc=>{check(read(doc,'post','https://www.douyin.com/video/7701372394577607067').items[0].posted_text==='','擅自选择日期')});
+ await test('普通夸赞和俱乐部回复排除','<div data-e2e="feed-active-video"><div data-e2e="video-desc">当前作品</div>'+row('打得真好，太帅了')+row('你好，我们是银杏乒乓球俱乐部，欢迎报名比赛')+'</div>',doc=>{check(read(doc).items.length===0,'把宣传回复当新需求')});
+ document.title=results.every(x=>x.passed)?'PASS '+results.length+' 采集检查':'FAIL 采集检查';
+ const out=document.createElement('pre');out.id='report';out.textContent=JSON.stringify({passed:results.every(x=>x.passed),tests:results.length,results,live_messages:0},null,2);document.body.append(out);
+})();
+</script>

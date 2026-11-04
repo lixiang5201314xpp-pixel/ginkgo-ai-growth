@@ -1,0 +1,83 @@
+"""Record the verified combined release; never mark unfinished live acceptance complete."""
+from pathlib import Path
+from datetime import datetime, timedelta, timezone
+import json
+
+ROOT=Path(__file__).resolve().parents[2]
+R=ROOT/'work/release/growth-dev-20261102'
+state=json.loads((R/'status.json').read_text('utf-8'))
+assert state['active_run']['id']=='round-008-combined-release'
+backend=json.loads((R/'backend-1.4.5-verification.json').read_text('utf-8'))
+package=json.loads((R/'backend-package-1.4.5.json').read_text('utf-8'))
+helper=json.loads((R/'helper-package-1.4.9.json').read_text('utf-8'))
+assert backend['passed'] and package['staged_on_server'] and not package['installer_executed']
+assert backend['total_test_executions']==1648 and helper['total_checks']==85
+now=datetime.now(timezone.utc)
+report='''# 第八轮：图文原帖读取、同源去重与合并安装包
+
+本轮目标：完成助手与后台的合并发布验证，并复核第七轮已发布的真实回复。不是全功能交付。
+
+## 真实发现和修复
+
+重新正常打开既有抖音原帖7702708741762243570，平台将/video/地址转到/note/。此图文布局把相关推荐和评论放在feed-active-video内，正文另在唯一note-detail主区域。旧适配器可能选中推荐面板而漏读正文；图文和视频路径也可能生成两条身份。
+
+助手1.4.9优先限定唯一图文主体和正文，歧义即停；同数字ID的图文/视频统一稳定来源身份。后台同样规范化，兼容旧note路径记录，不迁移已有记录、联系次数或停止状态。不同ID以及同帖的不同评论仍独立。并保留1.4.8已核对身份的弹层就地读取、原帖/评论独立时间、排序和有界失败恢复，以及真实练单球措辞分类和工作人员回复排除。
+
+## 验证和发布物
+
+- helper-1.4.9：38项实际Chromium模拟DOM、31项连续调度、6项只读桥接、10项快手范围保护，共85项；5个JS语法检查通过。桌面现有助手文件更新，Chrome实际重载仍待本人操作。没有新增权限或自动发送。
+- GinkgoGrowth-1.4.5：8个隔离套件273项，在1.4.1/1.4.2/1.4.3基线的安装前覆盖与安装后运行共6种布局重复执行，另10项安装/回滚，共1648次测试执行。数字是跨布局执行次数，不是1648个独立功能。全部临时SQLite/模拟传输，无真实AI调用、客户发送或业务SQL。
+- 只替换growth_acquisition.py、growth_collection.py、growth_external.py、growth-web/browser-helper.zip。identity.py新手机号关联修复和既有AI/渠道/任务/话术文件的保留哈希在隔离布局验证通过；安装器会再次核对未修改文件。
+- 包SHA256：948e30c1825f7dba3fac13159947ccdd3b90488b31333e9c1fb7652e15a05777。
+- 已传到服务器C:/Services/GinkgoTrainingAutoCancel/GinkgoGrowth-1.4.5并核对ZIP和4个payload。未执行安装器；正式仍growth-external-1.4.1，WeChat channels1.0.0与赛事健康接口均ok。未读私有配置，未改20/30限额。
+- 1.4.3旧暂存包和1.4.4未分发冻结包不用安装。直接安装1.4.5。
+
+## 真实发布复核
+
+原帖作者薯条与番茄酱，正文“成华区有人一起练单球吗，本人萌新”，图文显示绝对发布时间2026-10-31 14:03:54。第七轮相对时间人工转录的近似日期需要在工作台修正为此实际显示值。
+
+新开原帖并展开公开评论后，“银杏乒乓球俱乐部”的完整既有回复仍在，显示53分钟前；已保存round-008-douyin-reloaded.png及round-008-publication-proof.json。本轮未重发，没有新AI调用。没有客户回复或真实报名证据，不能标记成交。
+
+旧工作台tab14控制失效；正常新开的tab24显示登录表单。没有提取旧会话凭据。回执补录和日期纠正需本人登录可控工作台后进行；正式旧分类器仍拦回执，应先部署新包，之后只登记既有发布，禁止再发一遍。
+
+## 剩余动作和继续开发
+
+1. 服务器管理员在GinkgoGrowth-1.4.5运行Install-Growth-External.cmd；运行目录ACL不允许当前文件通道替换代码，未绕过。它会预检、备份、短暂重启，失败还原。无需重填密钥或上传小程序。
+2. Chrome现有银杏助手卡片点刷新，确认1.4.9；工作台刷新并保持一个已登录页，在正确抖音公开搜索页本人点击启动。真实连续整轮仍未验收。
+3. 新IAB工作台tab24需要本人登录；部署后补登记已发评论并纠正原帖日期，不重发。原帖tab22保留用于复核。
+4. 独立开发可继续快手公开分享链接/唯一作品范围的普通UI核对；不读React/Vue私有状态或猜作品ID。小红书设备登录限制需本人恢复，视频号采集和外部自动发送未接通。
+5. 继续逐平台验证真实发布、各自银杏奖牌入口和结果留证。没有真实报名不能把模拟报名算获客。只在全部清单通过且部署对应时交付。
+
+证据：backend-1.4.5-verification.json、backend-1.4.5-source-retention.json、backend-1.4.5-staging.txt、helper-package-1.4.9.json、round-008-live-health-final.json、round-008-publication-proof.json。
+'''
+(R/'round-008.md').write_text(report,encoding='utf-8')
+acceptance=json.loads((R/'acceptance.json').read_text('utf-8'))
+updates={
+ 'collector_recovery':('助手1.4.9的弹层就地读取、唯一图文主体和同ID来源规范化通过85项；Chrome重载和实际整轮仍待验收','helper-package-1.4.9.json'),
+ 'intake_dedup':('后台1.4.5兼容旧note路径去重、保留联系和停止状态；1648次基线/布局及回滚验证通过，已暂存未安装','backend-1.4.5-verification.json'),
+ 'ai_playbook':('真实练单球措辞识别、求职和工作人员回复排除已合并1.4.5；正式未部署，本轮无真实AI调用','backend-1.4.5-verification.json'),
+ 'external_sending':('自动发送仍未接通；既有人工回复经新开原帖刷新复核确认仍可见，未重发；正式回执待部署和登录后补录','round-008-publication-proof.json'),
+ 'deployment_and_recovery':('1.4.5已暂存并逐文件核对，含助手1.4.9；未安装。正式1.4.1和微信渠道1.0.0健康，保留已部署手机号关联修复','backend-package-1.4.5.json')
+}
+for item in acceptance['items']:
+ if item['id'] in updates:
+  item['status'],evidence=updates[item['id']]
+  item['evidence']='work/release/growth-dev-20261102/'+evidence
+acceptance.update(completed=False,status='未完成',last_report='work/release/growth-dev-20261102/round-008.md')
+(R/'acceptance.json').write_text(json.dumps(acceptance,ensure_ascii=False,indent=2),encoding='utf-8')
+state.update(status='运行中',active_run=None,next_run_at=(now+timedelta(minutes=8)).isoformat(),
+ last_completed_at=now.isoformat(),last_report='work/release/growth-dev-20261102/round-008.md',
+ completed_development_rounds=8,checks_passed_this_round=1733,
+ final_backend_test_executions=1648,final_helper_checks=85,
+ blocking_conditions=[
+  '合并后台1.4.5已暂存并校验，需管理员安装；不用安装旧1.4.3/1.4.4，正式仍1.4.1',
+  '桌面助手1.4.9已冻结更新，Chrome实际刷新与完整连续轮次待本人启动后验收',
+  '旧工作台页控制失效；新IAB tab24为登录表单，需要本人登录后补录既有发布回执和实际日期，禁止重发',
+  '小红书原帖设备登录超限，需本人恢复内容账号登录',
+  '快手唯一公开原帖/评论范围保护通过，真实公开分享链接和整轮采集仍未验收',
+  '外部自动发送、视频号采集、各平台实际小程序跳转和真实报名结果仍未全部验收'])
+temporary=R/'status.tmp';temporary.write_text(json.dumps(state,ensure_ascii=False,indent=2),encoding='utf-8');temporary.replace(R/'status.json')
+handoff=ROOT/'work/growth-agent/DEVELOPMENT.md'
+with handoff.open('a',encoding='utf-8') as f:
+ f.write('\n第八轮（以本段为最新现状）：用户刚确认的手机号关联1.0.2已部署，获客包必须保留。新开抖音原帖发现/video/正常转/note/，已修唯一图文主体与同数字ID去重，合并后台1.4.5和助手1.4.9。85项助手检查、1648次后台基线/布局及回滚检查通过；1.4.5已在服务器同名目录暂存校验，未安装，旧1.4.3/1.4.4不要安装。正式仍1.4.1健康。桌面助手149待Chrome本人刷新。原帖已发回复刷新后可见，保存round-008-douyin-reloaded.png；实际原帖日期2026-10-31 14:03:54，部署后只补已有发布回执和纠正日期，禁止重发。旧tab14控制失效，新工作台tab24显示登录表单，需本人登录；原帖tab22保留。下一轮先核对是否已安装/重载/登录，未变不要重复失败操作，可继续快手普通公开分享链接适配的独立开发。详见round-008.md，未全功能完成。\n')
+print(json.dumps({'round':8,'active_run':None,'next_run_at':state['next_run_at'],'completed':False,'package_staged':True,'runtime_installed':False}))

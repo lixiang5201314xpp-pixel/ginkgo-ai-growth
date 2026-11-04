@@ -1,0 +1,50 @@
+{
+  "version": "1.4.5",
+  "prepared_at": "2026-11-01T20:10:25.454527+00:00",
+  "files": [
+    {
+      "path": "bridge.js",
+      "sha256": "61c83a3b49b588c14583109df76c5491670d8f72f96e87956345707334850422"
+    },
+    {
+      "path": "capture.js",
+      "sha256": "a20c1821366448bbdb20148fa50b497ee1238d508f3596327c0fdb5377def41d"
+    },
+    {
+      "path": "continuous.js",
+      "sha256": "a1f95aee9c2a9f65f4f1ae9d88db93d77ac762d45ab426fdfe501eb03ad93711"
+    },
+    {
+      "path": "manifest.json",
+      "sha256": "4c3a440545a4e8b96a5ea8603bbe6228e84970b891b2f46e370ebcd7a15a1eb8"
+    },
+    {
+      "path": "popup.css",
+      "sha256": "f0a34a8c62039fbceb903a9c9774d76b47060db7c770c4179147ce023a7fefef"
+    },
+    {
+      "path": "popup.html",
+      "sha256": "d4e297305ce2d38f108bbbd9930d8fb6706f1a11271f065f00d0094c5096ed90"
+    },
+    {
+      "path": "popup.js",
+      "sha256": "f6eb4a11100689e02e500b8be0227acd6dba757ae9ce40664d9e408a31141b43"
+    },
+    {
+      "path": "README.txt",
+      "sha256": "8046c0a973af78750b135eb582aa54c61a212a837386ee5f69fd94bb1d44792c"
+    }
+  ],
+  "permissions_unchanged": true,
+  "desktop_source_updated": true,
+  "extension_reload_pending": true,
+  "live_cycle_verified": false,
+  "server_code_changed": false,
+  "live_platform_messages_sent": 0,
+  "checks": {
+    "scheduler_recovery": 25,
+    "read_only_status_bridge": 6
+  },
+  "archive": "C:\\Users\\Administrator\\Documents\\Codex\\2026-09-15\\new-chat\\work\\release\\growth-dev-20261102\\银杏获客助手-1.4.5.zip",
+  "archive_sha256": "983489376935cb412f2034c9a7ac1af8c006f065ed770bea32c84e421816f260"
+}

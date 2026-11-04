@@ -1,0 +1,8 @@
+{
+  "manifest_version": 3,
+  "name": "银杏需求记录助手",
+  "version": "1.0.0",
+  "description": "主动选中一条公开求助，核对后记入自己的银杏获客工作台。无后台爬取与发信。",
+  "permissions": ["activeTab", "scripting", "storage"],
+  "action": {"default_popup": "popup.html", "default_title": "记录当前选中的需求"}
+}

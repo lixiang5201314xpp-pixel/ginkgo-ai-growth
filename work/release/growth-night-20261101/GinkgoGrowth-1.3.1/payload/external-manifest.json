@@ -1,0 +1,28 @@
+{
+  "version": "growth-external-1.3.1",
+  "installer_version": "1.3.1",
+  "baseline": {
+    "growth_acquisition.py": "117876fe9220bc45a0b636593cf6579f278a9e84e7e85d412c58976a5fd15eec",
+    "growth_external.py": "25ccfb0629c1f816837a27eb83f7d738708ae303fcc19d27397930ccb8d3785f",
+    "growth-web/external.js": "fbd16fabbc7a2c886586e8d8ce06e55b6187c873fc48e82b322aa39ed6c82c5e",
+    "growth-web/browser-helper.zip": "3b6ef61888517f73ac23e0d7531c23e2d9ee58508b1d20ae8c381e7722c13cec"
+  },
+  "files": [
+    {
+      "path": "growth_acquisition.py",
+      "sha256": "e48f1dcdf72b59a8240d1ed47708e17f6ac1b3814f1aeeb2fe87d0c7a3e65ffc"
+    },
+    {
+      "path": "growth_external.py",
+      "sha256": "23c19f16ab3faa03dc53d9694e61bba72ce33f69b948db6dd778a1961b70cc3e"
+    },
+    {
+      "path": "growth-web/external.js",
+      "sha256": "a12a4e0626fbbf757d0dfceda540d2b32ae8f834db192ca94938ce28af03eebc"
+    },
+    {
+      "path": "growth-web/browser-helper.zip",
+      "sha256": "2d6e42b788e20b13dcb142d1ceb38c4acc4d5dfa1acc6891b3b3813ee167533b"
+    }
+  ]
+}

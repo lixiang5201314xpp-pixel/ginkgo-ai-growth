@@ -1,0 +1,51 @@
+{
+  "search_limit_before": 8,
+  "daily_search_limit": 20,
+  "daily_ai_limit": 30,
+  "enabled": true,
+  "search_enabled": true,
+  "automatic": true,
+  "key_configured": true,
+  "service_restarted": false,
+  "social_messages_sent": 0,
+  "usage_reset": false,
+  "usage_before_probe": [
+    {
+      "kind": "chat",
+      "status": "failed",
+      "n": 1
+    },
+    {
+      "kind": "chat",
+      "status": "ok",
+      "n": 4
+    },
+    {
+      "kind": "search",
+      "status": "ok",
+      "n": 8
+    }
+  ],
+  "probe": {
+    "ok": true,
+    "result_count": 5,
+    "note": "Search API responded; result count is not customer count."
+  },
+  "usage_after_probe": [
+    {
+      "kind": "chat",
+      "status": "failed",
+      "n": 1
+    },
+    {
+      "kind": "chat",
+      "status": "ok",
+      "n": 4
+    },
+    {
+      "kind": "search",
+      "status": "ok",
+      "n": 9
+    }
+  ]
+}

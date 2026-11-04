@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "银杏外部平台获客助手",
+  "version": "1.4.8",
+  "description": "按用户启动的当前平台连续读取已展示公开原文，自动去重入库并准备AI回复。无私信读取、Cookie提取或自动发信。",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage",
+    "alarms"
+  ],
+  "host_permissions": [
+    "https://qiuchen.yinxingpingpang.com/*",
+    "http://127.0.0.1:8796/*"
+  ],
+  "background": {"service_worker":"continuous.js"},
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "读取当前公开评论需求"
+  }
+}

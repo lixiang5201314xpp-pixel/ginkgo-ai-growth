@@ -1,0 +1,29 @@
+{
+  "version": "growth-external-1.4.2",
+  "installer_version": "1.4.2",
+  "baseline": {
+    "growth_collection.py": [
+      "a47484e672d21a493f9f70aa5460932a070a92dd684e6eeda0918b243b7a1a4b"
+    ],
+    "growth_external.py": [
+      "b17349c8adfdf3e7c69aceaa3dc5dd8268ef463074b8105e624d3558e014d835"
+    ],
+    "growth-web/browser-helper.zip": [
+      "212a00b90d87e6182a626d79d85abecc102035df7ae2c6173c7ca430023f31c2"
+    ]
+  },
+  "files": [
+    {
+      "path": "growth_collection.py",
+      "sha256": "eeb716e8d10d9e0857e63e2cdda33594d324dc54017396ef416d7b1a56397dcc"
+    },
+    {
+      "path": "growth_external.py",
+      "sha256": "0b1b9c6c3cd209c616fa82883f97f8113065d36de87bf1f038f68e1b33e07023"
+    },
+    {
+      "path": "growth-web/browser-helper.zip",
+      "sha256": "983489376935cb412f2034c9a7ac1af8c006f065ed770bea32c84e421816f260"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+yinxing-dev/
+yinxing-handoff-utf8/
+__pycache__/
+*.pyc
+*.pyo
+.Python
+*.sqlite
+*.db

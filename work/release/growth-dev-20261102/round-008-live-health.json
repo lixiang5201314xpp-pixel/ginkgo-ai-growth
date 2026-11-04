@@ -1,0 +1,24 @@
+{
+  "checked_at": "2026-11-02T02:29:17.197576+00:00",
+  "checks": [
+    {
+      "path": "/health",
+      "status": 200,
+      "version": "batch36.8.1",
+      "health_status": "ok"
+    },
+    {
+      "path": "/growth/external/health",
+      "status": 200,
+      "version": "growth-external-1.4.1",
+      "health_status": "ok"
+    },
+    {
+      "path": "/growth/channels/health",
+      "status": 200,
+      "version": "growth-channels-1.0.0",
+      "health_status": "ok"
+    }
+  ],
+  "business_data_changed": false
+}

@@ -1,0 +1,145 @@
+{
+  "passed": true,
+  "checked_at": "2026-10-30T01:39:51.613118+00:00",
+  "checks": [
+    {
+      "path": "/health",
+      "status": 200,
+      "content_type": [
+        "application/json"
+      ],
+      "body": null
+    },
+    {
+      "path": "/growth/health",
+      "status": 200,
+      "content_type": [
+        "application/json"
+      ],
+      "body": "{\"auto_send\":false,\"status\":\"ok\",\"version\":\"ginkgo-growth-1.0.0\"}\n"
+    },
+    {
+      "path": "/growth/",
+      "status": 200,
+      "content_type": [
+        "text/html; charset=utf-8"
+      ],
+      "body": null
+    },
+    {
+      "path": "/growth/assets/app.js",
+      "status": 200,
+      "content_type": [
+        "text/javascript; charset=utf-8"
+      ],
+      "body": null
+    },
+    {
+      "path": "/growth/club/douyin-training",
+      "status": 200,
+      "content_type": [
+        "text/html; charset=utf-8"
+      ],
+      "body": null
+    },
+    {
+      "path": "/growth/public/campaign/douyin-training",
+      "status": 200,
+      "content_type": [
+        "application/json"
+      ],
+      "body": "{\"campaign\":{\"id\":\"douyin-training\",\"intent\":\"training\",\"name\":\"\\u6296\\u97f3\\u00b7\\u8bad\\u7ec3\\u54a8\\u8be2\",\"platform\":\"douyin\"},\"catalog\":{\"error\":\"\\u5c1a\\u672a\\u540c\\u6b65\",\"events\":[],\"training\":\"\\u8bad\\u7ec3\\u65f6\\u95f4\\u53ca\\u8d39\\u7528\\u8bf7\\u5728\\u5c0f\\u7a0b\\u5e8f\\u300c\\u8bad\\u7ec3\\u300d\\u67e5\\u770b\\uff0c\\u6216\\u54a8\\u8be2\\u4ff1\\u4e50\\u90e8\\u3002\",\"updated_at\":null},\"club\":\"\\u94f6\\u674f\\u4e52\\u4e53\\u7403\\u4ff1\\u4e50\\u90e8\",\"miniapp\":\"\\u94f6\\u674f\\u5956\\u724c\",\"privacy\":\"\\u4ec5\\u81ea\\u613f\\u63d0\\u4ea4\\u7684\\u4fe1\\u606f\\u7528\\u4e8e\\u672c\\u6b21\\u6bd4\\u8d5b/\\u8bad\\u7ec3\\u54a8\\u8be2\\u8ddf\\u8fdb\\uff0c\\u4e0d\\u7528\\u4e8e\\u7b2c\\u4e09\\u65b9\\u8425\\u9500\\u3002\"}\n"
+    },
+    {
+      "path": "/growth/api/meta",
+      "status": 401
+    },
+    {
+      "path": "/growth/api/leads",
+      "status": 401
+    },
+    {
+      "path": "/growth/api/overview",
+      "status": 401
+    },
+    {
+      "path": "/growth/api/inquiries",
+      "status": 401
+    },
+    {
+      "path": "/growth/api/export",
+      "status": 401
+    },
+    {
+      "path": "/team-formats",
+      "status": 200,
+      "content_type": [
+        "application/json"
+      ],
+      "body": null
+    },
+    {
+      "path": "/community/meta",
+      "status": 200,
+      "content_type": [
+        "application/json"
+      ],
+      "body": null
+    },
+    {
+      "path": "/community/portrait-meta",
+      "status": 200,
+      "content_type": [
+        "application/json"
+      ],
+      "body": null
+    },
+    {
+      "path": "/classic/meta",
+      "status": 200,
+      "content_type": [
+        "application/json"
+      ],
+      "body": null
+    },
+    {
+      "path": "/target-game/meta",
+      "status": 200,
+      "content_type": [
+        "application/json"
+      ],
+      "body": null
+    },
+    {
+      "path": "/ball-war/meta",
+      "status": 200,
+      "content_type": [
+        "application/json"
+      ],
+      "body": null
+    },
+    {
+      "path": "/rest-defense/meta",
+      "status": 200,
+      "content_type": [
+        "application/json"
+      ],
+      "body": null
+    },
+    {
+      "path": "/events?city=%E6%88%90%E9%83%BD&page=1",
+      "status": 200,
+      "content_type": [
+        "application/json"
+      ],
+      "body": null
+    },
+    {
+      "path": "/api/training-notify/health",
+      "status": 200
+    }
+  ],
+  "production_writes": false,
+  "platform_messages_sent": 0,
+  "admin_authenticated_browser_test": "not performed; requires owner login"
+}

@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "checked_at": "2026-11-02T04:02:37.499706+00:00",
+  "baseline": "frozen growth-external-1.4.5",
+  "baseline_reproduced_failures": 7,
+  "baseline_reproduction_cases": 12,
+  "checks": [
+    {
+      "suite": "test_delivery_source.py",
+      "tests": 12,
+      "passed": true
+    },
+    {
+      "suite": "test_delivery.py",
+      "tests": 28,
+      "passed": true
+    },
+    {
+      "suite": "test_growth.py",
+      "tests": 50,
+      "passed": true
+    },
+    {
+      "suite": "test_workflow.py",
+      "tests": 20,
+      "passed": true
+    }
+  ],
+  "candidate_checks": 110,
+  "candidate_source_sha256": "3e3f9d61273f231823b29798fa26d1380df130e026d4f007196a8d13bfd85582",
+  "frozen_1_4_5_unchanged": true,
+  "runtime_deployed": false,
+  "staged_package_updated": false,
+  "live_api_calls": 0,
+  "platform_messages": 0,
+  "production_data_changes": 0,
+  "note": "Only local candidate source and temporary SQLite tests; no real publication confirmation or booking is asserted."
+}

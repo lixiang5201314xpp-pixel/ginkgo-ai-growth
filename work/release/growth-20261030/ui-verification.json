@@ -1,0 +1,20 @@
+{
+  "desktop_and_mobile_navigation": [
+    "overview",
+    "discover",
+    "leads",
+    "content",
+    "campaigns",
+    "inquiries",
+    "connections"
+  ],
+  "visible_pages_verified": true,
+  "console_errors_after_reload": 0,
+  "lead_form_and_draft_verified_with_synthetic_temp_data": true,
+  "production_leads_created": 0,
+  "platform_messages_sent": 0,
+  "screenshots": [
+    "output/playwright/ginkgo-growth-desktop.png",
+    "output/playwright/ginkgo-growth-mobile.png"
+  ]
+}

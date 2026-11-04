@@ -1,0 +1,10 @@
+const fs=require('fs'),vm=require('vm'),assert=require('assert'),path=require('path');
+let tests=0;const test=fn=>{fn();tests++};
+const sandbox={navigate(){},overview(){},window:{addEventListener(){}},document:{addEventListener(){}}};
+vm.runInNewContext(fs.readFileSync(path.join(__dirname,'growth-web/external.js'),'utf8'),sandbox);
+test(()=>assert.equal(sandbox.parseExternalBundle(JSON.stringify({items:[{excerpt:'synthetic'}]})).items.length,1));
+test(()=>assert.throws(()=>sandbox.parseExternalBundle('{bad json')));
+for(const value of [null,{},[],{items:[]},{items:Array(21).fill({})}])test(()=>assert.throws(()=>sandbox.parseExternalBundle(JSON.stringify(value))));
+test(()=>assert.throws(()=>sandbox.parseExternalBundle('x'.repeat(120001))));
+fs.writeFileSync(path.join(__dirname,'external-batch-verification.json'),JSON.stringify({passed:true,tests,network_requests:0,production_writes:0},null,2));
+console.log('PASS: '+tests+' batch intake validation checks.');

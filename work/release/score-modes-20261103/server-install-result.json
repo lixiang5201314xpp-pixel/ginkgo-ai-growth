@@ -1,0 +1,33 @@
+{
+  "version": "miniapp-update-1.4.0",
+  "success": true,
+  "backup": "C:\\Services\\GinkgoTrainingAutoCancel\\GinkgoMiniapp-36.17.0\\backups\\miniapp-20261103-235504",
+  "business_data_modified": false,
+  "platform_messages_sent": 0,
+  "service": "RUNNING",
+  "installed_payload_sha256": {
+    "match_center.py": "9993166b7ef68cca43f8138875ce375e51bb0bc98e7f4017a0ac875c8769e6ff",
+    "batch_signup.py": "582b78ca2756f7ad52de84688f90092d23ca53595143529be056b9f8831f6e1f",
+    "batch_signup_identity.py": "7d21e25836614d0f405b9d012f45ab88a84fe338e2574cf1675fef4ccc8dd836",
+    "event_settings.py": "d80c02077da6dca719006736b07e21edf875c8715402ca3f15ff844a73e0013e",
+    "player_idcard.py": "1c760d22d948153a7782370b56e40bc70b3748ccb676f99694cdd5bd6174ef27",
+    "four_team.py": "69558b6b459005b3fc9c1e59bbd0f179299bf07554fca58842ec128f8d0f314f",
+    "team_singles_rating.py": "335f14ef74817ee3668821e01c1b347cf635fb59e25c1970f67da4e7250e8761",
+    "schedule_admin.py": "8d55ddb9036e998cc7f8b469620984a03fa9c88de8286e630f3cd74c91f1852a",
+    "rating_recalc.py": "b962896895cffc6ac14a4463b80f1c6438af78b1ed25a51327ca38d710d75129",
+    "roster_rating_replay.py": "567a2edadc1f14ef05e25d4b739ae50baac255d76b6165f1577ea53f5d5b07f9",
+    "team_member_identity.py": "c2c8fdb9c774a2e7a0d45bf40be1da0a2df19e9b20a312269fc2be8ffb6a3479"
+  },
+  "retained_file_sha256": {
+    "identity.py": "a9c924c81686b12cbd01e2c5e311f2ac725a728cc934a9c3608bd855f5421295",
+    "organizer_grants.py": "60ec047cec782e1de12f229185ead8f681b72ff9b006eaa5ee92c4add4a19e50",
+    "growth_ai.py": "26705798430fb47a2a864340d8d289dda266b90838788229919981034591fade",
+    "growth_channels.py": "3ef7007c38bbf14b3c3afb4d8f1a090311d78f961e1a173e6d635b76db1d9a8b",
+    "growth_playbook.json": "3b0305be9101115de11d951df9ae756f8530b0f76ed914e4192404e87b812081",
+    "growth_acquisition.py": "0e9fb459de9ddab2fea31327d49ae4acbab18b97f73b7a307146c5f1c52aa91c",
+    "growth_collection.py": "a47484e672d21a493f9f70aa5460932a070a92dd684e6eeda0918b243b7a1a4b",
+    "growth_external.py": "b17349c8adfdf3e7c69aceaa3dc5dd8268ef463074b8105e624d3558e014d835",
+    "growth_automation.py": "ec6b9cf45f4e0217ea2d9849a245a643d0e98ed0f98fb625d2e16d1d62fcc35b",
+    "knockout_progress.py": "1e2141a01454f639658eb9a9e3b500a4a5672299b3ea02736d3a34be7fa7e735"
+  }
+}

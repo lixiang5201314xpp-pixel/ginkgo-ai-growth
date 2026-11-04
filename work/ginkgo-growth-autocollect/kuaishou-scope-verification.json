@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "tests": 10,
+  "isolated_dom": true,
+  "real_browser": false,
+  "network_calls": 0,
+  "customer_messages": 0
+}

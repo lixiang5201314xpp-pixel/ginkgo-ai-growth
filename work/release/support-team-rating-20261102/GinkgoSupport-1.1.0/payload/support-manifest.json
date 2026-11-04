@@ -1,0 +1,28 @@
+{
+  "version": "ginkgo-support-1.1.0",
+  "files": [
+    {
+      "path": "growth_ai.py",
+      "sha256": "26705798430fb47a2a864340d8d289dda266b90838788229919981034591fade"
+    },
+    {
+      "path": "growth_channels.py",
+      "sha256": "3ef7007c38bbf14b3c3afb4d8f1a090311d78f961e1a173e6d635b76db1d9a8b"
+    },
+    {
+      "path": "growth_playbook.json",
+      "sha256": "3b0305be9101115de11d951df9ae756f8530b0f76ed914e4192404e87b812081"
+    }
+  ],
+  "baseline": {
+    "growth_ai.py": [
+      "04f198450db1cf8aeef7dac54a3b85c8c86aabeadfa0ac3d7a4d81a6a9fd38cf"
+    ],
+    "growth_channels.py": [
+      "897c020316691eaafd9ccbf9407d91c9b9ad8ac02913936c52159d14dcca0549"
+    ],
+    "growth_playbook.json": [
+      "e517f1d6878b13939a91d9ef5c74a876ea9f171fa69a128d9c83e9d53d3b15ec"
+    ]
+  }
+}

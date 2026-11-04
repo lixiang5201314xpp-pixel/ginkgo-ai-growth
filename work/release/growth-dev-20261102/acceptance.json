@@ -1,0 +1,124 @@
+{
+  "objective": "外部平台获客软件开发与完整验收",
+  "required_platforms": [
+    "douyin",
+    "kuaishou",
+    "xiaohongshu",
+    "channels"
+  ],
+  "stages": [
+    "search",
+    "public_source",
+    "evidence_review",
+    "deduplicated_intake",
+    "ai_reply",
+    "platform_delivery_receipt",
+    "miniapp_handoff",
+    "result_tracking"
+  ],
+  "status": "用户暂停，外部获客仍未完成",
+  "items": [
+    {
+      "id": "collector_recovery",
+      "status": "助手1.4.9的弹层就地读取、唯一图文主体和同ID来源规范化通过85项；Chrome重载和实际整轮仍待验收",
+      "problem": "助手1.4.3抖音规范详情页持续加载；尚无完整自动轮次验收证据",
+      "evidence": "work/release/growth-dev-20261102/helper-package-1.4.9.json"
+    },
+    {
+      "id": "external_platform_matrix",
+      "status": "快手分享链接及新版搜索尚未核对通过；旧版搜索仍回新版。Chrome存在连接但窗口URL安全检查中止，待本人恢复前台工作台；未产生新客户记录",
+      "requirement": "四个主平台按stages逐项记录证据；模拟与真实结果分开",
+      "evidence": "work/release/growth-dev-20261102/round-009.md"
+    },
+    {
+      "id": "intake_dedup",
+      "status": "后台1.4.5兼容旧note路径去重、保留联系和停止状态；1648次基线/布局及回滚验证通过，已暂存未安装",
+      "source": "work/ginkgo-growth-autocollect/test_collection.py",
+      "evidence": "work/release/growth-dev-20261102/backend-1.4.5-verification.json"
+    },
+    {
+      "id": "ai_playbook",
+      "status": "真实练单球措辞识别、求职和工作人员回复排除已合并1.4.5；正式未部署，本轮无真实AI调用",
+      "requirements": "真实课程与比赛信息、地域时效、拒绝联系、转人工、额度保护",
+      "evidence": "work/release/growth-dev-20261102/backend-1.4.5-verification.json"
+    },
+    {
+      "id": "external_sending",
+      "status": "自动发送仍未接通；已有人工发布刷新复核可见。回执允许错用同平台其他原帖的问题已在本机候选修复并通过110项，未部署；既有回执仍待补录，禁止重发",
+      "requirement": "每个平台取得实际可见发布或可靠回执，不把草稿算发送",
+      "evidence": "work/release/growth-dev-20261102/round-010-delivery-source-verification.json"
+    },
+    {
+      "id": "registration_handoff",
+      "status": "待验收",
+      "requirement": "各平台银杏奖牌报名入口可用；报名凭据与发布凭据分开"
+    },
+    {
+      "id": "wechat_ai_regression",
+      "status": "此前已真实验证，需保留",
+      "evidence": "用户2026-10-31已确认微信AI客服可用"
+    },
+    {
+      "id": "deployment_and_recovery",
+      "status": "1.4.5已暂存并逐文件核对，含助手1.4.9；未安装。正式1.4.1和微信渠道1.0.0健康，保留已部署手机号关联修复",
+      "requirement": "部署包、运行版本、备份、回滚和重启后状态恢复",
+      "evidence": "work/release/growth-dev-20261102/backend-package-1.4.5.json"
+    }
+  ],
+  "completed": false,
+  "last_report": "work/release/growth-dev-20261102/round-018.md",
+  "miniapp_change_gate": {
+    "ready_for_review": false,
+    "checked_at": "2026-11-02T17:50:21.358054+00:00",
+    "backend_deployed": false,
+    "frontend_uploaded": false,
+    "server_staged": true,
+    "pending_owner_install": true,
+    "version": "36.14.3",
+    "passed": {
+      "sql_http": 1905,
+      "manual_demographics_sql_http": 65,
+      "original_workbook_sql_http": 205,
+      "pure_data": 45,
+      "real_schema_migration": 11,
+      "installer_rollback": 8,
+      "frontend": 93,
+      "official_native": 5
+    },
+    "official_compilation": {
+      "pages": 65,
+      "components": 5,
+      "js": 124,
+      "main_bytes": 1305635,
+      "total_bytes": 1619674
+    },
+    "pending": [
+      "等待36.14.3安装结果；拉实际回执/hash/4新字段及batch1.2.0能力核对，再上传36.14.3开发版",
+      "本人体验手填生日或年龄、分组排序、复制姓名；原表资料和积分选择、真实名额由组织者确认"
+    ],
+    "evidence": "work/release/manual-demographics-20261103/deployment.json",
+    "original_file": "C:/Users/Administrator/Desktop/测试名单.xlsx",
+    "original_file_real_registrations": 0,
+    "source_people": 158,
+    "isolated_registered": 90,
+    "real_phone_authorizations": 0,
+    "real_data_fix": "work/release/miniapp-update-20261102/event-data-fix.json",
+    "last_install_failed": false,
+    "installer_version": "1.0.2",
+    "package_version": "miniapp-update-1.1.0",
+    "previous_install_rolled_back": true,
+    "remote_package": "C:\\Services\\GinkgoTrainingAutoCancel\\GinkgoMiniapp-36.14.3",
+    "backend_verification": "work/release/miniapp-update-20261102/deployed-acceptance.json",
+    "phone_acceptance": false,
+    "audit_submitted": false,
+    "published": false,
+    "preview_qr": "work/release/miniapp-update-20261102/wechat-preview-live.png",
+    "upload_evidence": "work/release/miniapp-update-20261102/frontend-upload.json",
+    "previous_backend_deployed": "miniapp-update-1.0.1",
+    "previous_frontend_uploaded": "36.14.2"
+  },
+  "latest_miniapp_handoff": "work/release/four-team-workflow-20261103/status.json",
+  "latest_miniapp_acceptance": "work/release/score-modes-20261103/acceptance.json",
+  "latest_miniapp_status": "36.17.0正式后台已核对，开发版已上传，待手机体验/提审；未发布",
+  "latest_miniapp_deployment": "work/release/score-modes-20261103/deployment.json"
+}

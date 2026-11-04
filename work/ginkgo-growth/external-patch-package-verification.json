@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "installer_checks": 8,
+  "layouts": [
+    {
+      "mode": "overlay-preflight",
+      "passed": true,
+      "suites": [
+        "external",
+        "workflow",
+        "growth"
+      ]
+    },
+    {
+      "mode": "installed-runtime",
+      "passed": true,
+      "suites": [
+        "external",
+        "workflow",
+        "growth"
+      ]
+    }
+  ],
+  "production_writes": 0,
+  "live_ai_calls": 0,
+  "live_messages": 0
+}

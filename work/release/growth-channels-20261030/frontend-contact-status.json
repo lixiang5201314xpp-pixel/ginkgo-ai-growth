@@ -1,0 +1,17 @@
+{
+  "source": "C:\\Users\\Administrator\\Documents\\Codex\\2026-09-15\\new-chat\\work\\source\\银杏乒乓_完整可运行_0824",
+  "files": [
+    {
+      "path": "pages/match-center/index.wxml",
+      "sha256": "e214e3a63938c723a10dab63b914db99f49bbaae6872ea358e4bc45036caad71"
+    },
+    {
+      "path": "pages/match-center/index.wxss",
+      "sha256": "3e928c6c85eb169e177b3f12d835aac31c114f1b2e22580986dd279bcb768841"
+    }
+  ],
+  "official_compilation_passed": true,
+  "uploaded": false,
+  "published": false,
+  "backend_installed": true
+}

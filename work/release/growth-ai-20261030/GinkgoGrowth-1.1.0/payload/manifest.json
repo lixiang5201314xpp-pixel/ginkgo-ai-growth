@@ -1,0 +1,58 @@
+{
+  "version": "ginkgo-growth-1.1.0",
+  "baseline_files": {
+    "growth_acquisition.py": "f34c3c2fa21911cd8263a64d6f47aa6115971a91d1f371092f60791fcac4ab6d",
+    "growth-web/index.html": "e61b6b012aad9b87b2d2df093a6403bdbf1cec1620178bffe832a4199bea8bb1",
+    "growth-web/app.css": "47a3df7587939e66a1c265b7e4570938adfa2e89210d23acdb38fe1ddf121994",
+    "growth-web/app.js": "5703f82ee533c62053c76b7c0c638a4786022a81a053a370c3b776ec3b0791f8",
+    "growth-web/club.html": "a57fd0a49e527a3e2300c3d3bfb8a61210ff6cc435712128d197550acef977bf",
+    "growth-web/club.js": "9af23cdc1836356ef31c7c7b14938e6f1bac4201e628e75ad43b511d50938f92",
+    "growth-web/favicon.svg": "65cdd4d4c0aafdbe17ae5a18c3dfa49f527e51b9d9697f98d19c9bdfffd2b47e"
+  },
+  "files": [
+    {
+      "path": "growth-web/app.css",
+      "sha256": "bc7b8a704f95c2c0d279dae5c243ec7fd12a254c6d920cc25d83106d444be0f2"
+    },
+    {
+      "path": "growth-web/app.js",
+      "sha256": "76f79488edde18c11e7b4b24cbe568599918ac87d01525872c672906d750f7d6"
+    },
+    {
+      "path": "growth-web/automation.js",
+      "sha256": "acc95e396130f44f5a206490c1b86171e4860742839904a20cb61ccd75805d2c"
+    },
+    {
+      "path": "growth-web/club.html",
+      "sha256": "fc94e133089ffd1e690d29699ffbc79169f041e008342f8372c1231b6f05fc79"
+    },
+    {
+      "path": "growth-web/club.js",
+      "sha256": "37971a25a4f4187b0bb87f7372d56923a5795d1701f18d5046b96ad0e0467cf4"
+    },
+    {
+      "path": "growth-web/favicon.svg",
+      "sha256": "65cdd4d4c0aafdbe17ae5a18c3dfa49f527e51b9d9697f98d19c9bdfffd2b47e"
+    },
+    {
+      "path": "growth-web/index.html",
+      "sha256": "0bc609406a0bf38010548b9f64f117cf10b8b431298c70703fd86810e06ab6de"
+    },
+    {
+      "path": "growth_acquisition.py",
+      "sha256": "3d9989cbdf988ff7fde7f603f3aacc91b46945b0e344cd9bbca13547fa75f0c4"
+    },
+    {
+      "path": "growth_ai.py",
+      "sha256": "04f198450db1cf8aeef7dac54a3b85c8c86aabeadfa0ac3d7a4d81a6a9fd38cf"
+    },
+    {
+      "path": "growth_automation.py",
+      "sha256": "36901de592d63079b5de4c36d48d98dd43ecf6719a43aef7d7a7571be1fc4f9e"
+    },
+    {
+      "path": "growth_playbook.json",
+      "sha256": "e517f1d6878b13939a91d9ef5c74a876ea9f171fa69a128d9c83e9d53d3b15ec"
+    }
+  ]
+}
